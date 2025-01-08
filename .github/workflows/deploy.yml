@@ -28,7 +28,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: src/.observablehq/cache
-          key: data-${{ hashFiles('docs/data/*') }}-${{ steps.date.outputs.date }}
+          key: data-${{ hashFiles('src/data/*') }}-${{ steps.date.outputs.date }}
       - run: yarn build
       - name: Deploy to Observable
         run: yarn deploy -m "$(git log -1 --pretty=%s)"
