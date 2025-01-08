@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.0">
+<title>Rhetoric, Composition &amp; TPC Job Dashboard | Rhetoric, Composition &amp;amp; TPC Job Dashboard</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight,wide.c63905c0.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight,wide.c63905c0.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="modulepreload" href="./_observablehq/client.4a1d842b.js">
+<link rel="modulepreload" href="./_observablehq/runtime.f168f711.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.1d18d6f6.js">
+<link rel="modulepreload" href="./_npm/deck.gl@9.0.38/dist.min.js.130a87fe.js">
+<link rel="modulepreload" href="./_import/components/lollipopChart.36e65132.js">
+<link rel="modulepreload" href="./_import/components/utils.1db860b9.js">
+<link rel="modulepreload" href="./_node/d3-time-format@4.1.0/index.f32a4c93.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/5eab23c6.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/063eb405.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.7b5fa90e.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.16/b46f1bd2.js">
+<link rel="modulepreload" href="./_npm/topojson-client@3.1.0/44d97fcb.js">
+<link rel="modulepreload" href="./_node/d3-dsv@3.0.1/index.48418e2e.js">
+<link rel="modulepreload" href="./_node/d3-fetch@3.0.1/index.202d0ad8.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/407f7a1f.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/c68fbd73.js">
+<link rel="modulepreload" href="./_node/d3-time@3.1.0/index.ae6ab93d.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/37839b6a.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/bd0afa17.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/6495590f.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/84d7b8e9.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/2c0cdfa2.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/d496a3b3.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/00c41b5d.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/b5f7cdc6.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/ef06b1ff.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/6f15f633.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/35880c2a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/60bb70b3.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/5851d7ef.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/5e427f4b.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/f1db2593.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/034b7bcb.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/4bb53638.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/bbafde58.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/aa5b35a8.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/32c7fec2.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/2d9e63f3.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/cf9b720b.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/a4e530fb.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/be692bd9.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/3a9ac1c1.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/28d1ef76.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/f31b5398.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/0c259fbf.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/da4a6ccc.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/a62ae5ce.js">
+<link rel="modulepreload" href="./_node/d3-array@3.2.4/index.b70e7922.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/5eed35fd.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/e67acb27.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/1ee6c50d.js">
+<link rel="modulepreload" href="./_node/internmap@2.0.3/index.4106013c.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/8ac9039b.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.4a1d842b.js";
+import {registerFile} from "./_observablehq/stdlib.1d18d6f6.js";
+
+registerFile("./data/jobsOG.csv", {"name":"./data/jobsOG.csv","mimeType":"text/csv","path":"./_file/data/jobsOG.c9ff33dd.csv","lastModified":1736368293985,"size":955731});
+registerFile("./data/ttdate.csv", {"name":"./data/ttdate.csv","mimeType":"text/csv","path":"./_file/data/ttdate.c9ff33dd.csv","lastModified":1736368294316,"size":955731});
+
+define({id: "19aa8a79", inputs: ["d3"], outputs: ["deck","LollipopChart","removeNulls","sortedAscListDates","sortedAscObjArrayDates","colorRange","colorLegend","lightingEffects","onlyUniqueItems","getTooltip","utcParse","DeckGL","AmbientLight","GeoJsonLayer","TextLayer","HexagonLayer","LightingEffect","PointLight","ScatterplotLayer","parseDate","formatDecimal","formatPercent"], body: async (d3) => {
+const [{default: deck}, {LollipopChart}, {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip}, {utcParse}] = await Promise.all([import("./_npm/deck.gl@9.0.38/dist.min.js.130a87fe.js"), import("./_import/components/lollipopChart.36e65132.js"), import("./_import/components/utils.1db860b9.js"), import("./_node/d3-time-format@4.1.0/index.f32a4c93.js")]);
+  // Import deck.gl components for interactive map
+        
+  const {DeckGL, AmbientLight, GeoJsonLayer, TextLayer, HexagonLayer, LightingEffect, PointLight, ScatterplotLayer} = deck;
+
+  const parseDate = utcParse("%m/%d/%Y")
+  const formatDecimal = d3.format(".2f")
+  const formatPercent = (value, format) => {
+    return value == null
+      ? "N/A"
+      : (value / 100).toLocaleString("en-US", {minimumFractionDigits: 2, style: "percent", ...format});
+  }
+return {deck,LollipopChart,removeNulls,sortedAscListDates,sortedAscObjArrayDates,colorRange,colorLegend,lightingEffects,onlyUniqueItems,getTooltip,utcParse,DeckGL,AmbientLight,GeoJsonLayer,TextLayer,HexagonLayer,LightingEffect,PointLight,ScatterplotLayer,parseDate,formatDecimal,formatPercent};
+}});
+
+define({id: "e7cb8a2a", inputs: ["topojson","d3","FileAttachment"], outputs: ["us","states","stateCentroid","jobsOG","ttdate"], body: async (topojson,d3,FileAttachment) => {
+  // County-level data for US
+  const us = await fetch(new URL("./_npm/us-atlas@3.0.1/counties-10m.json", location).href).then((r) => r.json())
+
+  // State polygons
+  const states = topojson.feature(us, us.objects.states)
+
+  // Find state centroids (for text label)
+  const stateCentroid = states.features.map(d => ({name: d.properties.name, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
+
+  // JOB DATA
+  const jobsOG = FileAttachment("./data/jobsOG.csv").csv({typed: true})
+
+  // Temporal
+  const ttdate = FileAttachment("./data/ttdate.csv").csv({typed: true})
+return {us,states,stateCentroid,jobsOG,ttdate};
+}});
+
+define({id: "b5ed7b6b", inputs: ["ttdate","removeNulls","onlyUniqueItems","sortedAscListDates","parseDate","sortedAscObjArrayDates","Mutable"], outputs: ["ttdateNoNulls","listDates","uListDates","uniqListDates","occurrences","jobTypes","jobs","tidy","tidyClean","tidyCleanSorted","defaultStartEnd","startEnd","setStartEnd","getStartEnd"], body: (ttdate,removeNulls,onlyUniqueItems,sortedAscListDates,parseDate,sortedAscObjArrayDates,Mutable) => {
+  const ttdateNoNulls = ttdate.filter(removeNulls)
+  const listDates = ttdateNoNulls.map((d) => (d.DateAdded))
+  const uListDates = listDates.filter(onlyUniqueItems)
+  const uniqListDates = sortedAscListDates(uListDates)
+  console.log(uniqListDates)
+
+  const occurrences = {}
+  for (let i = 0; i<=uniqListDates.length-1; i++) {
+    let targetDate = uniqListDates[i]
+    let startIndex = 0
+    occurrences[targetDate] = {TT:[], NTT:[], Unavailable:[]}
+    
+    // Get count of all occurrences on this date
+    ttdateNoNulls.forEach((d) => {
+      if (d.DateAdded == targetDate) {
+        if (d.TrackType == "TT") {
+          occurrences[targetDate].TT.push(parseDate(d.DateAdded))
+        }
+        else if (d.TrackType == "NTT") {
+          occurrences[targetDate].NTT.push(parseDate(d.DateAdded))
+        }
+        else if (d.TrackType == "Unavailable") {
+          occurrences[targetDate].Unavailable.push(parseDate(d.DateAdded))
+        }
+      }
+    })
+  }
+
+  const jobTypes = []
+  for (const keyDate in occurrences) {
+    jobTypes.push({
+      date: parseDate(keyDate),
+      TT: occurrences[keyDate].TT.length,
+      NTT: occurrences[keyDate].NTT.length,
+      Unavailable: occurrences[keyDate].Unavailable.length,
+    })
+  }
+  console.log(jobTypes)
+
+  const jobs = sortedAscObjArrayDates(jobTypes, "date")
+  console.log('SORTED:',jobs)
+
+  const tidy = jobs.flatMap(({date, TT, NTT, Unavailable}) => [
+    {date, posts: TT, type: "TT"},
+    {date, posts: NTT, type: "NTT"},
+    {date, posts: Unavailable, type: "Unavailable"},
+  ])
+
+  // Remove null dates
+  const tidyClean = []
+  tidy.forEach((d) => {
+    if (d.date instanceof Date && !isNaN(d.date)) {
+      tidyClean.push({
+        date: d.date,
+        posts: d.posts,
+        type: d.type
+      })
+    }
+    else {
+      // console.log(d)
+    }
+  })
+
+  const tidyCleanSorted = sortedAscObjArrayDates(tidyClean, "date")
+
+  const defaultStartEnd = [jobs.at(-52).date, jobs.at(-1).date]
+  const startEnd = Mutable(defaultStartEnd)
+  const setStartEnd = (se) => startEnd.value = (se ?? defaultStartEnd)
+  const getStartEnd = () => startEnd.value
+return {ttdateNoNulls,listDates,uListDates,uniqListDates,occurrences,jobTypes,jobs,tidy,tidyClean,tidyCleanSorted,defaultStartEnd,startEnd,setStartEnd,getStartEnd};
+}});
+
+define({id: "0b7da4a5", inputs: ["sortedAscObjArrayDates","jobsOG"], outputs: ["jobsOGSorted"], body: (sortedAscObjArrayDates,jobsOG) => {
+const jobsOGSorted = sortedAscObjArrayDates(jobsOG, "DateAdded")
+return {jobsOGSorted};
+}});
+
+define({id: "8e0106a5", mode: "inline", inputs: ["d3","jobsOGSorted","display"], body: async (d3,jobsOGSorted,display) => {
+display(await(
+d3.format(",")(jobsOGSorted.length)
+))
+}});
+
+define({id: "8df2aa00", mode: "inline", inputs: ["d3","jobsOGSorted","display"], body: async (d3,jobsOGSorted,display) => {
+display(await(
+d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "NTT").length)
+))
+}});
+
+define({id: "52854ea2", mode: "inline", inputs: ["d3","jobsOGSorted","display"], body: async (d3,jobsOGSorted,display) => {
+display(await(
+d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "TT").length)
+))
+}});
+
+define({id: "24975b02", mode: "inline", inputs: ["d3","jobsOGSorted","display"], body: async (d3,jobsOGSorted,display) => {
+display(await(
+d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "Unavailable").length)
+))
+}});
+
+define({id: "ab721527", mode: "inline", inputs: ["colorLegend","display"], body: async (colorLegend,display) => {
+display(await(
+colorLegend
+))
+}});
+
+define({id: "00192db2", mode: "inline", inputs: ["jobsOGSorted","display"], body: async (jobsOGSorted,display) => {
+display(await(
+jobsOGSorted.at(0).AY
+))
+}});
+
+define({id: "5e746065", mode: "inline", inputs: ["jobsOGSorted","display"], body: async (jobsOGSorted,display) => {
+display(await(
+jobsOGSorted.at(-1).AY
+))
+}});
+
+define({id: "8e0106a5-1", mode: "inline", inputs: ["d3","jobsOGSorted","display"], body: async (d3,jobsOGSorted,display) => {
+display(await(
+d3.format(",")(jobsOGSorted.length)
+))
+}});
+
+define({id: "f3418c3f", mode: "inline", inputs: ["resize","LollipopChart","jobsOGSorted","display"], body: async (resize,LollipopChart,jobsOGSorted,display) => {
+display(await(
+resize((width, height) => LollipopChart(width, height, jobsOGSorted))
+))
+}});
+
+define({id: "999e79b3", mode: "inline", inputs: ["resize","trackTypesGrid","display"], body: async (resize,trackTypesGrid,display) => {
+display(await(
+resize((width, height) => trackTypesGrid(width, height))
+))
+}});
+
+define({id: "2b2742ca", inputs: ["DeckGL","container","initialViewState","getTooltip","lightingEffects","invalidation"], outputs: ["deckInstance"], body: (DeckGL,container,initialViewState,getTooltip,lightingEffects,invalidation) => {
+  const deckInstance = new DeckGL({
+    container,
+    initialViewState,
+    controller: true,
+    getTooltip,
+    lightingEffects
+  });
+
+  // clean up if this code re-runs
+  invalidation.then(() => {
+    deckInstance.finalize();
+    container.innerHTML = "";
+  });
+return {deckInstance};
+}});
+
+define({id: "a4ed9439", outputs: ["initialViewState"], body: () => {
+  const initialViewState = {
+    longitude: -100,
+    latitude: 36,
+    zoom: 4.1,
+    minZoom: 3,
+    maxZoom: 7,
+    pitch: 45,
+    bearing: 20
+  };
+return {initialViewState};
+}});
+
+define({id: "190590df", inputs: ["deckInstance","GeoJsonLayer","states","HexagonLayer","jobsOGSorted","colorRange","TextLayer","stateCentroid"], body: (deckInstance,GeoJsonLayer,states,HexagonLayer,jobsOGSorted,colorRange,TextLayer,stateCentroid) => {
+deckInstance.setProps({
+  controller: true,
+  layers: [
+    new GeoJsonLayer({
+      id: "base-map",
+      data: states,
+      lineWidthMinPixels: 1.5,
+      getLineColor: [38, 38, 38],
+      getFillColor: [255,255,255, 100]
+    }),
+    new HexagonLayer({
+      // id: 'hexbin-plot',
+      id: 'heatmap',
+      data: jobsOGSorted,
+      coverage: 1,
+      radius: 6000,
+      upperPercentile: 100,
+      colorRange,
+      elevationScale: 100,
+      elevationRange: [50, 15000],
+      extruded: true,
+      getPosition: d => [d.Longitude, d.Latitude],
+      opacity: 1,
+      pickable: true,
+      material: {
+        // ambient: 1,
+        // specularColor: [51, 51, 51],
+        ambient: 0.64,
+        diffuse: 0.6,
+        shininess: 32,
+        specularColor: [51, 51, 51]
+      }
+    }),
+    new TextLayer({
+        id: "text-layer",
+        data: stateCentroid,
+        getPosition: d => [d.longitude, d.latitude],
+        getText: d => d.name,
+        fontFamily: 'Helvetica',
+        fontWeight: 400,
+        background: false,
+        fontSettings: ({
+          sdf: true,
+          }),
+        outlineWidth: 1,
+        getSize: 14,
+        getColor: [8,8,8, 255],
+        getTextAnchor: 'middle',
+        getAlignmentBaseline: 'center',
+        getPixelOffset: [0, -10]
+      })
+  ]
+});
+}});
+
+define({id: "44a32935", inputs: ["Plot","jobsOGSorted"], outputs: ["trackTypes","tracktypesColors","academicYears","trackTypesGrid"], body: (Plot,jobsOGSorted) => {
+  const trackTypes = [
+    "NTT",
+    "TT",
+    "Unavailable",
+  ]
+
+  const tracktypesColors = [
+    "#97bbf5",
+    "#efb118",
+    "#ff725c"
+  ]
+
+  const academicYears = [
+      "2012-2013",
+      "2013-2014",
+      "2014-2015",
+      "2015-2016",
+      "2016-2017",
+      "2017-2018",
+      "2018-2019",
+      "2019-2020",
+      "2020-2021",
+      "2021-2022",
+      "2022-2023",
+      "2023-2024",
+      "2024-2025",
+  ]
+
+  const trackTypesGrid = (width, height) => {
+    return  Plot.plot({
+      width,
+      height: height - 30,
+      marginLeft: 100,
+      marginBottom: 40,
+      marginTop: 0,
+      grid: true,
+      x: {domain: academicYears, label: "AY"},
+      y: {domain: trackTypes},
+      r: {range: [3, 25], label: "Number of postings"},
+      color: {
+        domain: trackTypes,
+        range: tracktypesColors,
+        // label: "Track Type"
+      },
+      marks: [
+        Plot.dot(jobsOGSorted, Plot.group(
+          {r: "count"}, 
+          {
+            x: "AY", 
+            y: "TrackType", 
+            fill: "TrackType", 
+            tip: true, 
+            stroke: "currentColor", 
+            strokeWidth: 0.5
+          }
+        ))
+      ]
+    });
+  }
+return {trackTypes,tracktypesColors,academicYears,trackTypesGrid};
+}});
+
+define({id: "23e07284", inputs: ["Plot"], outputs: ["color"], body: (Plot) => {
+const color = Plot.scale({color: {domain: ["TT", "NTT", "Unavailable"]}})
+return {color};
+}});
+
+define({id: "f6e166ac", inputs: ["d3","color","html","formatDecimal","resize","Plot"], outputs: ["frmCard"], body: (d3,color,html,formatDecimal,resize,Plot) => {
+const frmCard = (y, jobs, tidy) => {
+  // console.log(y, jobs.at(-1))
+  // console.log(y, jobs)
+  const key = `${y}`
+  const diff1 = jobs.at(-1)[key] - jobs.at(-2)[key]
+  const diffY = jobs.at(-1)[key] - jobs.at(-53)[key]
+  const range = d3.extent(jobs.slice(-52), (d) => d[key])
+  const stroke = color.apply(`${y}Y FRM`)
+
+  return html.fragment`
+    <h2 style="color: ${stroke}">${y} job posts</h2>
+    <p style="padding:0;margin:0;font-size:small;">Based on last recorded date: ${jobs.at(-1).date.toDateString()}</p>
+    <p style="width:100%;font-size:2rem;font-weight:600;margin:0;padding:0;">${jobs.at(-1)[key]}</p>
+
+    <table>
+      <tr>
+        <td>Last 4-week average</td>
+        <td align="right">${formatDecimal(d3.mean(jobs.slice(-4), (d) => d[key]))}</td>
+      </tr>
+      <tr>
+        <td>Last 52-week average</td>
+        <td align="right">${formatDecimal(d3.mean(jobs.slice(-52), (d) => d[key]))}</td>
+      </tr>
+      <tr>
+        <td>First 2-year average</td>
+        <td align="right">${formatDecimal( d3.mean(jobs.slice(0,104), (d) => d[key]) )}</td>
+      </tr>
+      <tr>
+        <td>Last 2-year average</td>
+        <td align="right">${formatDecimal(d3.mean(jobs.slice(-104), (d) => d[key]))}</td>
+      </tr>
+    </table>
+    ${resize((width) => 
+      Plot.plot({
+        width,
+        height: 70,
+        marks: [
+          Plot.tickX(
+            jobs.slice(-52), 
+            {
+              x: key,
+              stroke,
+              insetTop: 10,
+              insetBottom: 10,
+              strokeWidth: 2,
+              tip: {anchor: "bottom"},
+              title: (d) => `${d.date?.toLocaleDateString("en-us")}: ${d[key]} jobs`,
+            }
+          ),
+          Plot.crosshairX(
+            jobs.slice(-52),
+            {
+              x: key, 
+              color: "red", 
+              opacity: 1
+            }
+          )
+        ]
+      })
+    )}
+    <span class="small muted">Last 52-week range</span>
+  `;
+}
+return {frmCard};
+}});
+
+define({id: "093dc10e", mode: "inline", inputs: ["frmCard","jobs","display"], body: async (frmCard,jobs,display) => {
+display(await(
+frmCard("TT", jobs)
+))
+}});
+
+define({id: "651cae68", mode: "inline", inputs: ["frmCard","jobs","display"], body: async (frmCard,jobs,display) => {
+display(await(
+frmCard("NTT", jobs)
+))
+}});
+
+define({id: "dd72197d", mode: "inline", inputs: ["startEnd","defaultStartEnd","display"], body: async (startEnd,defaultStartEnd,display) => {
+display(await(
+startEnd === defaultStartEnd ? "over the past year" : startEnd.map((d) => d.toLocaleDateString("en-US")).join("–")
+))
+}});
+
+define({id: "dff434b8", mode: "inline", inputs: ["resize","Plot","color","tidyCleanSorted","startEnd","display"], body: async (resize,Plot,color,tidyCleanSorted,startEnd,display) => {
+display(await(
+resize((width, height) =>
+      Plot.plot({
+        width,
+        height,
+        y: {grid: true, label: "Posts"},
+        color,
+        marks: [
+          Plot.barY(
+            tidyCleanSorted.filter((d) => startEnd[0] <= d.date && d.date <= startEnd[1]), {x: "date", y: "posts", fill: "type", curve: "step", tip: true, markerEnd: true})
+        ]
+      })
+    )
+))
+}});
+
+define({id: "d9613032", mode: "inline", inputs: ["tidyCleanSorted","display"], body: async (tidyCleanSorted,display) => {
+display(await(
+tidyCleanSorted.at(0).date.getUTCFullYear()
+))
+}});
+
+define({id: "7b4c98d9", mode: "inline", inputs: ["tidy","display"], body: async (tidy,display) => {
+display(await(
+tidy.at(-1).date.getUTCFullYear()
+))
+}});
+
+define({id: "8fa0fe63", mode: "inline", inputs: ["resize","Plot","color","d3","tidyCleanSorted","setStartEnd","PointerEvent","getStartEnd","display"], body: async (resize,Plot,color,d3,tidyCleanSorted,setStartEnd,PointerEvent,getStartEnd,display) => {
+display(await(
+resize((width) =>
+      Plot.plot({
+        width,
+        x: {label: null, tickPadding: 6, tickSize: 0},
+        y: {grid: true, label: "Posts"},
+        color,
+        marks: [
+          Plot.ruleY([0, d3.max( tidyCleanSorted, (d) => d.posts )]),
+          Plot.lineY(
+            tidyCleanSorted,
+            {x: "date", y: "posts", stroke: "type", tip: true}
+          ),
+          (index, scales, channels, dimensions, context) => {
+            const x1 = dimensions.marginLeft;
+            const y1 = 0;
+            const x2 = dimensions.width - dimensions.marginRight;
+            const y2 = dimensions.height;
+            const brushed = (event) => {
+              if (!event.sourceEvent) return;
+              let {selection} = event;
+              if (!selection) {
+                const r = 10; // radius of point-based selection
+                let [px] = d3.pointer(event, context.ownerSVGElement);
+                px = Math.max(x1 + r, Math.min(x2 - r, px));
+                selection = [px - r, px + r];
+                g.call(brush.move, selection);
+              }
+              setStartEnd(selection.map(scales.x.invert));
+            };
+            const pointerdowned = (event) => {
+              const pointerleave = new PointerEvent("pointerleave", {bubbles: true, pointerType: "mouse"});
+              event.target.dispatchEvent(pointerleave);
+            };
+            const brush = d3.brushX().extent([[x1, y1], [x2, y2]]).on("brush end", brushed);
+            const g = d3.create("svg:g").call(brush);
+            g.call(brush.move, getStartEnd().map(scales.x));
+            g.on("pointerdown", pointerdowned);
+            return g.node();
+          }
+        ]
+      })
+    )
+))
+}});
+
+define({id: "ed5e6a5c", inputs: ["Inputs","jobsOGSorted","Generators"], outputs: ["searchUsJobs","searchUsJobsValue"], body: (Inputs,jobsOGSorted,Generators) => {
+  // For search with table
+  const searchUsJobs = Inputs.search(jobsOGSorted);
+  const searchUsJobsValue = Generators.input(searchUsJobs);
+return {searchUsJobs,searchUsJobsValue};
+}});
+
+define({id: "fff4dde0", mode: "inline", inputs: ["searchUsJobs","display"], body: async (searchUsJobs,display) => {
+display(await(
+searchUsJobs
+))
+}});
+
+define({id: "8ab6c36f", mode: "inline", inputs: ["Inputs","searchUsJobsValue","display"], body: async (Inputs,searchUsJobsValue,display) => {
+display(await(
+Inputs.table(searchUsJobsValue, {columns: ["AY", "City", "State", "Institution", "TrackType", "Position"], header: {AY: "AY", City: "City", State: "State", Institution: "Institution", TrackType: "TrackType", Position: "Position"}})
+))
+}});
+
+</script>
+</head>
+<body>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<h1 id="rhetoric-composition-and-tpc-job-dashboard" tabindex="-1"><a class="observablehq-header-anchor" href="#rhetoric-composition-and-tpc-job-dashboard">Rhetoric, Composition &amp; TPC Job Dashboard</a></h1>
+<p style="font-size:small;">
+  Original Data: Jim Ridolfo's <a href="http://rhetmap.org" target="_blank" rel="noreferrer noopenner">Rhetmap.org</a>
+  <br>
+  Dashboard Repo: Chris Lindgren's <a href="https://github.com/lingeringcode/rmdash" target="_blank" rel="noreferrer noopenner">rmdash</a>
+  <br>
+  <a href="https://docs.google.com/spreadsheets/d/1dTDzfJvlhwAWHQ2HWJpnZxByf0I06fXCV8ciQ8LxSZk/edit?usp=sharing" target="_blank" rel="noreferrer noopenner">Google Sheet version of the data</a>
+</p>
+<!-- IMPORTS -->
+<div class="observablehq observablehq--block"><!--:19aa8a79:--></div>
+<!-- GET DATA -->
+<div class="observablehq observablehq--block"><!--:e7cb8a2a:--></div>
+<!-- TIDY THE DATA -->
+<div class="observablehq observablehq--block"><!--:b5ed7b6b:--></div>
+<div class="observablehq observablehq--block"><!--:0b7da4a5:--></div>
+<!-- Text box with poor condition, high risk summary -->
+<p style="font-size: 1.5rem">
+  <span style="color: var(--theme-foreground-muted)">Of <span style="color: var(--theme-foreground-alt)"><observablehq-loading></observablehq-loading><!--:8e0106a5:--> academic jobs</span> included in the RhetMap data set,</span> <span style="color: var(--theme-foreground-alt)"><observablehq-loading></observablehq-loading><!--:8df2aa00:--> are listed as Non-Tenure Track (NTT)</span><span style="color: var(--theme-foreground-muted)">, <span style="color: var(--theme-foreground-alt)"><observablehq-loading></observablehq-loading><!--:52854ea2:--> are Tenure-Track (TT)</span><span style="color: var(--theme-foreground-muted)">, and <span style="color: var(--theme-foreground-alt)"><observablehq-loading></observablehq-loading><!--:24975b02:--> were unavailable to verify</span>.
+</span></span></p>
+<div class="grid grid-cols-3">
+  <div class="card grid-colspan-2" style="padding: 0px;">
+    <div style="padding: 1rem;">
+      <h2>Rhetoric, Composition &amp; TPC Job Locations</h2>
+      <h3>Zoom and scroll, or hold down Shift to rotate.</h3>
+      <div><observablehq-loading></observablehq-loading><!--:ab721527:--></div>
+    </div>
+  <div>
+    <figure style="max-width: none; position: relative;">
+      <div id="container" style="border-radius: 8px; overflow: hidden; height: 620px; margin: 0rem 0;">
+      </div>
+    </figure>
+  </div>
+</div>
+  <div class="card grid-colspan-1">
+    <h2>Job counts by state or territory</h2>
+    <h3>Total jobs listed between the academic years of <observablehq-loading></observablehq-loading><!--:00192db2:--> &amp; <observablehq-loading></observablehq-loading><!--:5e746065:-->: <observablehq-loading></observablehq-loading><!--:8e0106a5-1:--></h3>
+    <observablehq-loading></observablehq-loading><!--:f3418c3f:-->
+  </div>
+</div>
+<!-- Risk bubble chart and year completed histogram -->
+<div class="grid grid-cols-2 grid-rows-3" style="grid-auto-rows: 350px">
+ <div class="card grid-colspan-3 grid-rowspan-1">
+   <h2>Types of Positions Per Academic Year (AY)</h2>
+   <h3>Size indicates number of job postings during that academic year</h3>
+   <observablehq-loading></observablehq-loading><!--:999e79b3:-->
+ </div>
+</div>
+<!-- Create interactive map with deck.gl -->
+<div class="observablehq observablehq--block"><!--:2b2742ca:--></div>
+<div class="observablehq observablehq--block"><!--:a4ed9439:--></div>
+<div class="observablehq observablehq--block"><!--:190590df:--></div>
+<!-- Create bubble chart of job track type counts -->
+<div class="observablehq observablehq--block"><!--:44a32935:--></div>
+<div class="observablehq observablehq--block"><!--:23e07284:--></div>
+<div class="observablehq observablehq--block"><!--:f6e166ac:--></div>
+<style type="text/css">
+
+  @container (min-width: 560px) {
+    .grid-cols-2-3 {
+      grid-template-columns: 1fr 1fr;
+    }
+    .grid-cols-2-3 .grid-colspan-2 {
+      grid-column: span 2;
+    }
+  }
+
+  @container (min-width: 840px) {
+    .grid-cols-2-3 {
+      grid-template-columns: 1fr 2fr;
+      grid-auto-flow: column;
+    }
+  }
+
+</style>
+<div class="grid grid-cols-2-3" style="margin-top: 2rem;">
+  <div class="card"><observablehq-loading></observablehq-loading><!--:093dc10e:--></div>
+  <div class="card"><observablehq-loading></observablehq-loading><!--:651cae68:--></div>
+  <div class="card grid-colspan-2 grid-rowspan-2" style="display: flex; flex-direction: column;">
+    <h2>Job postings <observablehq-loading></observablehq-loading><!--:dd72197d:--></h2><br>
+    <span style="flex-grow: 1;"><observablehq-loading></observablehq-loading><!--:dff434b8:--></span>
+  </div>
+</div>
+<div class="grid">
+  <div class="card">
+    <h2>Job Posts Over Time (<observablehq-loading></observablehq-loading><!--:d9613032:--> - <observablehq-loading></observablehq-loading><!--:7b4c98d9:-->)</h2>
+    <h3>Click or drag to zoom</h3><br>
+    <observablehq-loading></observablehq-loading><!--:8fa0fe63:-->
+  </div>
+</div>
+<!-- Searchable table -->
+<div class="observablehq observablehq--block"><!--:ed5e6a5c:--></div>
+<!-- Searchable Table -->
+<div class="card grid-colspan-2 grid-rowspan-1" style="">
+  <h2>Search &amp; Review Job Data</h2>
+  <div style="padding: 1rem">
+    <observablehq-loading></observablehq-loading><!--:fff4dde0:-->
+    <observablehq-loading></observablehq-loading><!--:8ab6c36f:-->
+  </div>
+</div>
+</main>
+<footer id="observablehq-footer">
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2025-01-08T15:31:27">Jan 8, 2025</a>.</div>
+</footer>
+</div>
+</body>
+</html>
