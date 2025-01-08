@@ -17,6 +17,7 @@ jobs:
       packages: read
     steps:
       - uses: actions/checkout@v4
+      
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -24,6 +25,7 @@ jobs:
       - run: yarn --frozen-lockfile
       - id: date
         run: echo "date=$(TZ=America/Los_Angeles date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
       - id: cache-data
         uses: actions/cache@v4
         with:
