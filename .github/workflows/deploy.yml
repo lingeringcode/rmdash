@@ -30,7 +30,8 @@ jobs:
           path: src/.observablehq/cache
           key: data-${{ hashFiles('docs/data/*') }}-${{ steps.date.outputs.date }}
       - run: yarn build
-      - run: yarn src:build
-      - run: yarn src:deploy
+      - run: yarn deploy
+      # - run: yarn src:build
+      # - run: yarn src:deploy
         env:
           OBSERVABLE_TOKEN: ${{ secrets.OBSERVABLE_API_TOKEN }}
