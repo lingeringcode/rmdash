@@ -9,7 +9,6 @@ src/.observablehq
 
 # Other
 .vscode
-yarn.lock
 
 ## MAC OS ##
 # General
