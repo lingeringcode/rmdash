@@ -31,7 +31,5 @@ jobs:
           key: data-${{ hashFiles('docs/data/*') }}-${{ steps.date.outputs.date }}
       - run: yarn build
       - run: yarn deploy
-      # - run: yarn src:build
-      # - run: yarn src:deploy
         env:
-          OBSERVABLE_TOKEN: ${{ secrets.OBSERVABLE_API_TOKEN }}
+          OBSERVABLE_TOKEN: ${{ secrets.OBSERVABLE_TOKEN }}
