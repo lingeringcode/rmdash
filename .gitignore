@@ -5,7 +5,7 @@
 # Directories
 node_modules
 dist
-src/.observablehq
+# src/.observablehq
 
 # Other
 .vscode
