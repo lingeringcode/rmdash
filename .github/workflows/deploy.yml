@@ -21,17 +21,16 @@ jobs:
         with:
           node-version: 20
           cache: 'yarn'
-          
       - run: yarn --frozen-lockfile
       - id: date
         run: echo "date=$(TZ=America/Los_Angeles date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
-
       - id: cache-data
         uses: actions/cache@v4
         with:
           path: src/.observablehq/cache
           key: data-${{ hashFiles('src/data/*') }}-${{ steps.date.outputs.date }}
-      
+      - name: Build Observable Project
+        run: yarn build
       - run: yarn build
   
       - uses: actions/configure-pages@v3
@@ -42,3 +41,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+      - name: Deploy to Observable
+        run: yarn deploy -m "$(git log -1 --pretty=%s)"
+        env:
+          OBSERVABLE_TOKEN: ${{ secrets.OBSERVABLE_API_TOKEN }}
