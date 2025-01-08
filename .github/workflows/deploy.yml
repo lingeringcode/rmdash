@@ -30,6 +30,7 @@ jobs:
           path: src/.observablehq/cache
           key: data-${{ hashFiles('docs/data/*') }}-${{ steps.date.outputs.date }}
       - run: yarn build
-      - run: yarn deploy
+      - name: Deploy to Observable
+        run: yarn deploy -m "$(git log -1 --pretty=%s)"
         env:
           OBSERVABLE_TOKEN: ${{ secrets.OBSERVABLE_TOKEN }}
