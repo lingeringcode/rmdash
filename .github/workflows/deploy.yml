@@ -40,7 +40,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      # - name: Deploy to Observable
-      #   run: yarn deploy -m "$(git log -1 --pretty=%s)"
-      #   env:
-      #     OBSERVABLE_TOKEN: ${{ secrets.OBSERVABLE_TOKEN }}
