@@ -13,7 +13,7 @@
   // Import deck.gl components for interactive map
   import deck from "npm:deck.gl";
   import {LollipopChart} from "./components/lollipopChart.js";
-  import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip} from "./components/utils.js";
+  import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, getSearchKeyResults, download} from "./components/utils.js";
   import {utcParse} from "d3-time-format";
 
   const {DeckGL, AmbientLight, GeoJsonLayer, TextLayer, HexagonLayer, LightingEffect, PointLight, ScatterplotLayer} = deck;
@@ -51,7 +51,6 @@
   const listDates = ttdateNoNulls.map((d) => (d.DateAdded))
   const uListDates = listDates.filter(onlyUniqueItems)
   const uniqListDates = sortedAscListDates(uListDates)
-  console.log(uniqListDates)
 
   const occurrences = {}
   for (let i = 0; i<=uniqListDates.length-1; i++) {
@@ -84,10 +83,8 @@
       Unavailable: occurrences[keyDate].Unavailable.length,
     })
   }
-  console.log(jobTypes)
 
   const jobs = sortedAscObjArrayDates(jobTypes, "date")
-  console.log('SORTED:',jobs)
 
   const tidy = jobs.flatMap(({date, TT, NTT, Unavailable}) => [
     {date, posts: TT, type: "TT"},
@@ -311,8 +308,6 @@ const color = Plot.scale({color: {domain: ["TT", "NTT", "Unavailable"]}})
 
 ```js
 const frmCard = (y, jobs, tidy) => {
-  // console.log(y, jobs.at(-1))
-  // console.log(y, jobs)
   const key = `${y}`
   const diff1 = jobs.at(-1)[key] - jobs.at(-2)[key]
   const diffY = jobs.at(-1)[key] - jobs.at(-53)[key]
@@ -467,17 +462,98 @@ const frmCard = (y, jobs, tidy) => {
 
 
 <!-- Searchable table -->
+<header>
+  <h2>Search &amp; Review Job Data</h2>
+  <p>
+    Use the filters and search box below to search through the data.
+  </p>
+<header>
+
+```js
+  let uniqueAYS = [...new Set(jobsOGSorted.map(post => post.AY))]
+  let AYLast = uniqueAYS.slice(-1)[0]
+```
+
 ```js
   // For search with table
-  const searchUsJobs = Inputs.search(jobsOGSorted);
-  const searchUsJobsValue = Generators.input(searchUsJobs);
+  const columns = view(Inputs.select(
+    ["AY", "DateAdded", "City", "State", "Institution", "TrackType", "Position"],
+    {
+      multiple: false,
+      label: "Sort by Column",
+      value: "DateAdded"
+    })
+  )
+
+  const selectedTrackType = view(Inputs.select(
+    ["TT", "NTT", "Unavailable"],
+    {
+      multiple: false,
+      label: "Search by TrackType",
+      value: "TT"
+    })
+  )
+
+  const selectedAY = view(Inputs.select(
+    uniqueAYS,
+    {
+      multiple: false,
+      label: "Search by AY",
+      value: AYLast,
+    })
+  )
+```
+
+```js
+const jobsFiltered = jobsOGSorted
+           .filter((d) => selectedTrackType === null || d.TrackType === selectedTrackType)
+           .filter((d) => selectedAY === null || d.AY === selectedAY)
+```
+
+```js
+  const searchJobs = Inputs.search(jobsFiltered)
+  const searchJobsValue = Generators.input(searchJobs)
 ```
 
 <!-- Searchable Table -->
 <div class="card grid-colspan-2 grid-rowspan-1" style="">
-  <h2>Search &amp; Review Job Data</h2>
+  
   <div style="padding: 1rem">
-    ${searchUsJobs}
-    ${Inputs.table(searchUsJobsValue, {columns: ["AY", "City", "State", "Institution", "TrackType", "Position"], header: {AY: "AY", City: "City", State: "State", Institution: "Institution", TrackType: "TrackType", Position: "Position"}})}
+    ${searchJobs}
+    ${ Inputs.table(
+      searchJobsValue,
+      {
+        width: {
+          AY: 100,
+          Institution: 240,
+          City: 140,
+          State: 140,
+          DateAdded: 100,
+          TrackType: 50,
+        },
+        sort: columns,
+        rows: 20,
+        columns: ["AY", "DateAdded", "City", "State", "Institution", "TrackType", "Position"], 
+        header: {AY: "AY", DateAdded: "DateAdded", City: "City", State: "State", Institution: "Institution", TrackType: "TrackType", Position: "Position"}
+      }
+    )}
   </div>
+
 </div>
+
+<!-- DOWNLOAD TABLE DATA -->
+
+```js
+let todaysDate = new Date()
+const offsetDate = todaysDate.getTimezoneOffset()
+todaysDate = new Date(todaysDate.getTime() - (offsetDate*60*1000))
+todaysDate = todaysDate.toISOString().split('T')[0]
+const fileTableName = "rhetmap-"+todaysDate+".csv"
+```
+
+```js 
+view(download(async () => {
+  const csvString = d3.csvFormat(searchJobsValue);
+  return new Blob([csvString], { type: "text/csv" });
+}, fileTableName, "Save Filtered Table As CSV"));
+```
