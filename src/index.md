@@ -3,7 +3,9 @@
 <p style="font-size:small;">
   Original Data: Jim Ridolfo's <a href="http://rhetmap.org" target="_blank" rel="noreferrer noopenner">Rhetmap.org</a>
   <br/>
-  Dashboard Repo: Chris Lindgren's <a href="https://github.com/lingeringcode/rmdash" target="_blank" rel="noreferrer noopenner">rmdash</a>
+  Creator: <a href="https://clndgrn.com" target="_blank" rel="noreferrer noopenner">Chris Lindgren</a>
+  <br/>
+  Code Repo: <a href="https://github.com/lingeringcode/rmdash" target="_blank" rel="noreferrer noopenner">rmdash</a>
   <br/>
   <strong>Note</strong>: Map currently limited to displaying U.S. only. Full data still includes all available countries.
 </p>
