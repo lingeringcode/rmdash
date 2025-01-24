@@ -465,6 +465,9 @@ const frmCard = (y, jobs, tidy) => {
   <p>
     Use the filters and search box below to search through the data.
   </p>
+  <p>
+    Defaults to no selected filters, and you can select multiple options by clicking, dragging, etc. within each filter box.
+  </p>
 <header>
 
 ```js
@@ -486,7 +489,7 @@ const frmCard = (y, jobs, tidy) => {
   const selectedTrackType = view(Inputs.select(
     ["TT", "NTT", "Unavailable"],
     {
-      multiple: false,
+      multiple: true,
       label: "Search by TrackType",
       value: "TT"
     })
@@ -495,7 +498,7 @@ const frmCard = (y, jobs, tidy) => {
   const selectedAY = view(Inputs.select(
     uniqueAYS,
     {
-      multiple: false,
+      multiple: true,
       label: "Search by AY",
       value: AYLast,
     })
@@ -504,8 +507,8 @@ const frmCard = (y, jobs, tidy) => {
 
 ```js
 const jobsFiltered = jobsOGSorted
-           .filter((d) => selectedTrackType === null || d.TrackType === selectedTrackType)
-           .filter((d) => selectedAY === null || d.AY === selectedAY)
+          .filter(d => selectedTrackType.includes(d.TrackType))
+          .filter(d => selectedAY.includes(d.AY))
 ```
 
 ```js
