@@ -1,6 +1,8 @@
 # rmdash - RhetMap Dashboard
 
-Dashboard for Rhetmap.org job data. Designed to help folx, whether an individually or institutionally, better understand the academic job terrain.
+Repo for a data dashboard designed to help folx, whether an individually or institutionally, better understand the Rhetoric, Composition &amp; Technical Communication academic job terrain.
+
+Dashboard currently hosted by ObservableHQ: [https://lingeringcode.observablehq.cloud/rmdash/](https://lingeringcode.observablehq.cloud/rmdash/).
 
 ## Data Provenance
 
