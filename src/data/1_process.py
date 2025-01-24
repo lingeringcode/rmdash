@@ -29,7 +29,7 @@ def process_data(geodata, jdata):
     # Combine matched data
     for job in job_rows.to_dict('records'):
 
-      if (job['DateAdded'] != "Unavailable" and job['DateAdded'] != None and type(job['DateAdded']) != float):
+      if (job['DateAdded'] != "Unavailable" and job['DateAdded'] != None and type(job['DateAdded']) != float and job['DateAdded'] != '01/01/1900'):
         datetime_str = job['DateAdded']
         datetime_object = datetime.strptime((datetime_str), '%m/%d/%Y')
 
@@ -62,7 +62,7 @@ def process_data(geodata, jdata):
           'Link':job['Link'],
           'TrackType':job['TrackType'],
           'DateAdded':job['DateAdded'],
-          'DateTimeObj': datetime.strptime('09/01/2012', '%m/%d/%Y'),
+          'DateTimeObj': datetime.strptime('01/01/1900', '%m/%d/%Y'),
           'Latitude':row['lat'],
           'Longitude':row['lon'],
           'FormattedAddress':row['formatted'],

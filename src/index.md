@@ -516,8 +516,7 @@ const jobsFiltered = jobsOGSorted
 ```
 
 <!-- Searchable Table -->
-<div class="card grid-colspan-2 grid-rowspan-1" style="">
-  
+<section class="card grid-colspan-2 grid-rowspan-1" style="">
   <div style="padding: 1rem">
     ${searchJobs}
     ${ Inputs.table(
@@ -538,8 +537,7 @@ const jobsFiltered = jobsOGSorted
       }
     )}
   </div>
-
-</div>
+</section>
 
 <!-- DOWNLOAD TABLE DATA -->
 
