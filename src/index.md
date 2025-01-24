@@ -4,6 +4,8 @@
   Original Data: Jim Ridolfo's <a href="http://rhetmap.org" target="_blank" rel="noreferrer noopenner">Rhetmap.org</a>
   <br/>
   Dashboard Repo: Chris Lindgren's <a href="https://github.com/lingeringcode/rmdash" target="_blank" rel="noreferrer noopenner">rmdash</a>
+  <br/>
+  <strong>Note</strong>: Map currently limited to displaying U.S. only. Full data still includes all available countries.
 </p>
 
 <!-- IMPORTS -->
@@ -11,7 +13,7 @@
   // Import deck.gl components for interactive map
   import deck from "npm:deck.gl";
   import {LollipopChart} from "./components/lollipopChart.js";
-  import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, getSearchKeyResults, download} from "./components/utils.js";
+  import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, download} from "./components/utils.js";
   import {utcParse} from "d3-time-format";
 
   const {DeckGL, AmbientLight, GeoJsonLayer, TextLayer, HexagonLayer, LightingEffect, PointLight, ScatterplotLayer} = deck;
@@ -207,8 +209,6 @@ deckInstance.setProps({
       opacity: 1,
       pickable: true,
       material: {
-        // ambient: 1,
-        // specularColor: [51, 51, 51],
         ambient: 0.64,
         diffuse: 0.6,
         shininess: 32,
@@ -225,7 +225,7 @@ deckInstance.setProps({
         background: false,
         fontSettings: ({
           sdf: true,
-          }),
+        }),
         outlineWidth: 1,
         getSize: 14,
         getColor: [8,8,8, 255],
@@ -544,12 +544,24 @@ let todaysDate = new Date()
 const offsetDate = todaysDate.getTimezoneOffset()
 todaysDate = new Date(todaysDate.getTime() - (offsetDate*60*1000))
 todaysDate = todaysDate.toISOString().split('T')[0]
-const fileTableName = "rhetmap-"+todaysDate+".csv"
+const allFileTableName = "rhetmap-all-"+todaysDate+".csv"
+const filteredFileTableName = "rhetmap-filtered-"+todaysDate+".csv"
 ```
+
+<!-- Download Filtered CSV -->
 
 ```js 
 view(download(async () => {
   const csvString = d3.csvFormat(searchJobsValue);
   return new Blob([csvString], { type: "text/csv" });
-}, fileTableName, "Save Filtered Table As CSV"));
+}, filteredFileTableName, "Save Filtered Table As CSV"));
+```
+
+<!-- Download Filtered CSV -->
+
+```js 
+view(download(async () => {
+  const csvFullString = d3.csvFormat(jobsOGSorted);
+  return new Blob([csvFullString], { type: "text/csv" });
+}, allFileTableName, "Save Full Data Set As CSV"));
 ```

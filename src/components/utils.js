@@ -32,7 +32,7 @@ export const colorRange = [
   [33, 145, 140],
   [94, 201, 98],
   [253, 231, 37]
-];
+]
 
 export const colorLegend = Plot.plot({
   margin: 0,
@@ -47,7 +47,7 @@ export const colorLegend = Plot.plot({
     Plot.text(["Fewer jobs"], {frameAnchor: "top-left", dy: -12}),
     Plot.text(["More jobs"], {frameAnchor: "top-right", dy: -12})
   ]
-});
+})
 
 export const lightingEffects = [
   new LightingEffect({
@@ -130,14 +130,6 @@ export const getTooltip = ({object}) => {
   };
 
   return cityContent;
-}
-
-export const getSearchKeyResults = (data, selectedTrackType, selectedAY) => {
-  return data.filter((row) => {
-    if (row.TrackType.includes(selectedTrackType) && row.AY.includes(selectedAY)) {
-      return row
-    }
-  })
 }
 
 export const download = (value, name = "untitled", label = "Save") => {
