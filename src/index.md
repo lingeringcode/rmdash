@@ -464,9 +464,10 @@ const frmCard = (y, jobs, tidy) => {
   <h2>Search &amp; Review Job Data</h2>
   <p>
     Use the filters and search box below to search through the data.
-  </p>
-  <p>
+    <br>
     Defaults to no selected filters, and you can select multiple options by clicking, dragging, etc. within each filter box.
+    <br>
+    <strong>Note</strong>: Any date listed as 01/01/1900 demarcates any unknown date in the data.
   </p>
 <header>
 
@@ -560,7 +561,7 @@ view(download(async () => {
 }, filteredFileTableName, "Save Filtered Table As CSV"));
 ```
 
-<!-- Download Filtered CSV -->
+<!-- Download Full CSV -->
 
 ```js 
 view(download(async () => {
