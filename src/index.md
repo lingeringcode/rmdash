@@ -4,8 +4,6 @@
   Original Data: Jim Ridolfo's <a href="http://rhetmap.org" target="_blank" rel="noreferrer noopenner">Rhetmap.org</a>
   <br/>
   Dashboard Repo: Chris Lindgren's <a href="https://github.com/lingeringcode/rmdash" target="_blank" rel="noreferrer noopenner">rmdash</a>
-  <br/>
-  <a href="https://docs.google.com/spreadsheets/d/1dTDzfJvlhwAWHQ2HWJpnZxByf0I06fXCV8ciQ8LxSZk/edit?usp=sharing" target="_blank" rel="noreferrer noopenner">Google Sheet version of the data</a>
 </p>
 
 <!-- IMPORTS -->
@@ -29,7 +27,7 @@
 
 <!-- GET DATA -->
 ```js
-  // County-level data for US
+  // County-level shape data for US
   const us = await fetch(import.meta.resolve("npm:us-atlas/counties-10m.json")).then((r) => r.json())
 
   // State polygons
