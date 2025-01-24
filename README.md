@@ -8,8 +8,8 @@ Dashboard currently hosted by ObservableHQ: [https://lingeringcode.observablehq.
 
 - Original Data Source: Jim Ridolfo's <a href="http://rhetmap.org" target="_blank" rel="noreferrer noopenner">Rhetmap.org</a>
 - [all-jobs.csv](src/data/all-jobs.csv): CSV format of pre-processed data.
-- [lat-lon-references.csv](src/data/lat-lon-references.csv): Geocoded locations included in the data set for cross-referencing.
   - **Note**: Any date listed as `01/01/1900` demarcates any unknown date in the data.
+- [lat-lon-references.csv](src/data/lat-lon-references.csv): Geocoded locations included in the data set for cross-referencing.
 - [combined-jobs.csv](src/data/combined-jobs.csv): Combined geocode data with job data. Used to construct dashboard.
 - `npm:us-atlas/counties-10m.json`: County-level shapde data for US. Fetched and cached from NPM.
 
