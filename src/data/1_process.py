@@ -82,5 +82,8 @@ def process_data(geodata, jdata):
 
 
 df_combine_data = process_data(df_latlon, df_og)
-print(df_combine_data.head())
+print(df_combine_data.tail().values)
+print(
+  df_combine_data.info()
+)
 df_combine_data.to_csv('combined-jobs.csv', index=False)
