@@ -22,7 +22,7 @@ export const sortedAscObjArrayDates = (objArray, key) => {
 
 export const sortedAscListDates = (arr1) => {
   const sortedArray = arr1.sort(
-    (dateA, dateB) => Number(parseDate(dateA)) - Number(parseDate(dateB)),
+    (dateA, dateB) => Number((dateA)) - Number((dateB)),
   )
   return sortedArray
 }

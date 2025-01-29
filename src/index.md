@@ -41,77 +41,13 @@
   const stateCentroid = states.features.map(d => ({name: d.properties.name, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
 
   // JOB DATA
-  const jobsOG = FileAttachment("data/jobsOG.csv").csv({typed: true})
-
-  // Temporal
-  const ttdate = FileAttachment("data/ttdate.csv").csv({typed: true})
+  const jobsOG = FileAttachment("data/combined-jobs.csv").csv({typed: true})
+  const jobs = FileAttachment("data/tt-per-date.csv").csv({typed: true})
+  const tidyCleanSorted = FileAttachment("data/tt-per-date-flat.csv").csv({typed: true})
 ```
 
-<!-- TIDY THE DATA -->
 ```js
-  const ttdateNoNulls = ttdate.filter(removeNulls)
-  const listDates = ttdateNoNulls.map((d) => (d.DateAdded))
-  const uListDates = listDates.filter(onlyUniqueItems)
-  const uniqListDates = sortedAscListDates(uListDates)
-
-  const occurrences = {}
-  for (let i = 0; i<=uniqListDates.length-1; i++) {
-    let targetDate = uniqListDates[i]
-    let startIndex = 0
-    occurrences[targetDate] = {TT:[], NTT:[], Unavailable:[]}
-    
-    // Get count of all occurrences on this date
-    ttdateNoNulls.forEach((d) => {
-      if (d.DateAdded == targetDate) {
-        if (d.TrackType == "TT") {
-          occurrences[targetDate].TT.push(parseDate(d.DateAdded))
-        }
-        else if (d.TrackType == "NTT") {
-          occurrences[targetDate].NTT.push(parseDate(d.DateAdded))
-        }
-        else if (d.TrackType == "Unavailable") {
-          occurrences[targetDate].Unavailable.push(parseDate(d.DateAdded))
-        }
-      }
-    })
-  }
-
-  const jobTypes = []
-  for (const keyDate in occurrences) {
-    jobTypes.push({
-      date: parseDate(keyDate),
-      TT: occurrences[keyDate].TT.length,
-      NTT: occurrences[keyDate].NTT.length,
-      Unavailable: occurrences[keyDate].Unavailable.length,
-    })
-  }
-
-  const jobs = sortedAscObjArrayDates(jobTypes, "date")
-
-  const tidy = jobs.flatMap(({date, TT, NTT, Unavailable}) => [
-    {date, posts: TT, type: "TT"},
-    {date, posts: NTT, type: "NTT"},
-    {date, posts: Unavailable, type: "Unavailable"},
-  ])
-
-  // Remove null dates
-  const tidyClean = []
-  tidy.forEach((d) => {
-    if (d.date instanceof Date && !isNaN(d.date)) {
-      tidyClean.push({
-        date: d.date,
-        posts: d.posts,
-        type: d.type
-      })
-    }
-    else {
-      // console.log(d)
-    }
-  })
-
-  const tidyCleanSorted = sortedAscObjArrayDates(tidyClean, "date")
-
-  const defaultStartEnd = [jobs.at(-52).date, jobs.at(-1).date]
+  const defaultStartEnd = [jobs.at(-52).datetimeObj, jobs.at(-1).datetimeObj]
   const startEnd = Mutable(defaultStartEnd)
   const setStartEnd = (se) => startEnd.value = (se ?? defaultStartEnd)
   const getStartEnd = () => startEnd.value
@@ -119,6 +55,8 @@
 
 ```js
 const jobsOGSorted = sortedAscObjArrayDates(jobsOG, "DateAdded")
+let uniqueAYS = [...new Set(jobsOGSorted.map(post => post.AY))]
+let AYLast = uniqueAYS.slice(-1)[0]
 ```
 
 <!-- Text box with poor condition, high risk summary -->
@@ -253,22 +191,6 @@ deckInstance.setProps({
     "#ff725c"
   ]
 
-  const academicYears = [
-      "2012-2013",
-      "2013-2014",
-      "2014-2015",
-      "2015-2016",
-      "2016-2017",
-      "2017-2018",
-      "2018-2019",
-      "2019-2020",
-      "2020-2021",
-      "2021-2022",
-      "2022-2023",
-      "2023-2024",
-      "2024-2025",
-  ]
-
   const trackTypesGrid = (width, height) => {
     return  Plot.plot({
       width,
@@ -277,7 +199,7 @@ deckInstance.setProps({
       marginBottom: 40,
       marginTop: 0,
       grid: true,
-      x: {domain: academicYears, label: "AY"},
+      x: {domain: uniqueAYS, label: "AY"},
       y: {domain: trackTypes},
       r: {range: [3, 25], label: "Number of postings"},
       color: {
@@ -316,7 +238,7 @@ const frmCard = (y, jobs, tidy) => {
 
   return html.fragment`
     <h2 style="color: ${stroke}">${y} job posts</h2>
-    <p style="padding:0;margin:0;font-size:small;">Based on last recorded date: ${jobs.at(-1).date.toDateString()}</p>
+    <p style="padding:0;margin:0;font-size:small;">Based on last recorded date: ${jobs.at(-1).datetimeObj.toDateString()}</p>
     <p style="width:100%;font-size:2rem;font-weight:600;margin:0;padding:0;">${jobs.at(-1)[key]}</p>
 
     <table>
@@ -342,6 +264,7 @@ const frmCard = (y, jobs, tidy) => {
         width,
         height: 70,
         marks: [
+          
           Plot.tickX(
             jobs.slice(-52), 
             {
@@ -351,7 +274,7 @@ const frmCard = (y, jobs, tidy) => {
               insetBottom: 10,
               strokeWidth: 2,
               tip: {anchor: "bottom"},
-              title: (d) => `${d.date?.toLocaleDateString("en-us")}: ${d[key]} jobs`,
+              title: (d) => `${d.datetimeObj?.toLocaleDateString("en-us")}: ${d[key]} jobs`,
             }
           ),
           Plot.crosshairX(
@@ -404,7 +327,7 @@ const frmCard = (y, jobs, tidy) => {
         color,
         marks: [
           Plot.barY(
-            tidyCleanSorted.filter((d) => startEnd[0] <= d.date && d.date <= startEnd[1]), {x: "date", y: "posts", fill: "type", curve: "step", tip: true, markerEnd: true})
+            tidyCleanSorted.filter((d) => startEnd[0] <= d.datetimeObj && d.datetimeObj <= startEnd[1]), {x: "datetimeObj", y: "posts", fill: "type", curve: "step", tip: true, markerEnd: true})
         ]
       })
     )}</span>
@@ -413,7 +336,7 @@ const frmCard = (y, jobs, tidy) => {
 
 <div class="grid">
   <div class="card">
-    <h2>Job Posts Over Time (${tidyCleanSorted.at(0).date.getUTCFullYear()} - ${tidy.at(-1).date.getUTCFullYear()})</h2>
+    <h2>Job Posts Over Time (${tidyCleanSorted.at(0).datetimeObj.getUTCFullYear()} - ${tidyCleanSorted.at(-1).datetimeObj.getUTCFullYear()})</h2>
     <h3>Click or drag to zoom</h3><br>
     ${resize((width) =>
       Plot.plot({
@@ -425,7 +348,7 @@ const frmCard = (y, jobs, tidy) => {
           Plot.ruleY([0, d3.max( tidyCleanSorted, (d) => d.posts )]),
           Plot.lineY(
             tidyCleanSorted,
-            {x: "date", y: "posts", stroke: "type", tip: true}
+            {x: "datetimeObj", y: "posts", stroke: "type", tip: true}
           ),
           (index, scales, channels, dimensions, context) => {
             const x1 = dimensions.marginLeft;
@@ -474,8 +397,8 @@ const frmCard = (y, jobs, tidy) => {
 <header>
 
 ```js
-  let uniqueAYS = [...new Set(jobsOGSorted.map(post => post.AY))]
-  let AYLast = uniqueAYS.slice(-1)[0]
+  // let uniqueAYS = [...new Set(jobsOGSorted.map(post => post.AY))]
+  // let AYLast = uniqueAYS.slice(-1)[0]
 ```
 
 ```js
