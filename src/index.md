@@ -264,7 +264,7 @@ const frmCard = (y, jobs, tidy) => {
         width,
         height: 70,
         marks: [
-          
+
           Plot.tickX(
             jobs.slice(-52), 
             {
@@ -326,8 +326,16 @@ const frmCard = (y, jobs, tidy) => {
         y: {grid: true, label: "Posts"},
         color,
         marks: [
-          Plot.barY(
-            tidyCleanSorted.filter((d) => startEnd[0] <= d.datetimeObj && d.datetimeObj <= startEnd[1]), {x: "datetimeObj", y: "posts", fill: "type", curve: "step", tip: true, markerEnd: true})
+          Plot.lineY(
+            tidyCleanSorted.filter((d) => startEnd[0] <= d.datetimeObj && d.datetimeObj <= startEnd[1]),
+            {
+              x: "datetimeObj", 
+              y: "posts", 
+              stroke: "type",
+              tip: true, 
+              markerEnd: true
+            }
+          ),
         ]
       })
     )}</span>
@@ -376,7 +384,7 @@ const frmCard = (y, jobs, tidy) => {
             g.call(brush.move, getStartEnd().map(scales.x));
             g.on("pointerdown", pointerdowned);
             return g.node();
-          }
+          },
         ]
       })
     )}
