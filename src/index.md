@@ -186,9 +186,9 @@ deckInstance.setProps({
   ]
 
   const tracktypesColors = [
-    "var(--accent2Shade3)",
-    "var(--primaryShade3)",
-    "var(--accentShade5)"
+    "#648fff", //ultramarine40
+    "#dc267f", //magenta
+    "#ffb000", //Gold20
   ]
 
   const trackTypesGrid = (width, height) => {
