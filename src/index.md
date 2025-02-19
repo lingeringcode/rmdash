@@ -113,13 +113,13 @@ let AYLast = uniqueAYS.slice(-1)[0]
 
 ```js
   const initialViewState = {
-    longitude: -100,
-    latitude: 36,
-    zoom: 4.1,
-    minZoom: 3,
+    longitude: -93,
+    latitude: 38,
+    zoom: 3.25,
+    minZoom: 2,
     maxZoom: 7,
-    pitch: 45,
-    bearing: 20
+    pitch: 40,
+    bearing: 0
   };
 ```
 
