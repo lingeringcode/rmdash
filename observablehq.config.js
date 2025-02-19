@@ -1,8 +1,9 @@
 export default {
   root: "src",
   title: "Rhetoric, Composition &amp; TPC Job Dashboard",
-  theme: "wide",
+  theme: "light",
   sidebar: false,
   pager: false,
-  toc: false
+  toc: false,
+  style: "style.css",
 };

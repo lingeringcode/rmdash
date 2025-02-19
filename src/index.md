@@ -186,9 +186,9 @@ deckInstance.setProps({
   ]
 
   const tracktypesColors = [
-    "#97bbf5",
-    "#efb118",
-    "#ff725c"
+    "var(--accent2Shade3)",
+    "var(--primaryShade3)",
+    "var(--accentShade5)"
   ]
 
   const trackTypesGrid = (width, height) => {
@@ -225,7 +225,12 @@ deckInstance.setProps({
 ```
 
 ```js
-const color = Plot.scale({color: {domain: ["TT", "NTT", "Unavailable"]}})
+const color = Plot.scale({
+  color: {
+    domain: trackTypes,
+    range: tracktypesColors,
+  },
+})
 ```
 
 ```js
@@ -398,25 +403,20 @@ const frmCard = (y, jobs, tidy) => {
   <p>
     Use the filters and search box below to search through the data.
     <br>
-    Defaults to no selected filters, and you can select multiple options by clicking, dragging, etc. within each filter box.
+    Defaults to select all parameters. Select and deselect multiple options by clicking, dragging, etc. within each filter box.
     <br>
-    <strong>Note</strong>: Any date listed as 01/01/1900 demarcates any unknown date in the data.
+    <strong>Note</strong>: Any date listed as 01/01/1900 demarcates any unknown date in the data, but they are all from the initial AY of 2012-2013.
   </p>
 <header>
 
 ```js
-  // let uniqueAYS = [...new Set(jobsOGSorted.map(post => post.AY))]
-  // let AYLast = uniqueAYS.slice(-1)[0]
-```
-
-```js
   // For search with table
   const columns = view(Inputs.select(
-    ["AY", "DateAdded", "City", "State", "Institution", "TrackType", "Position"],
+    ["AY", "DateTimeObj", "City", "State", "Institution", "TrackType", "Position"],
     {
       multiple: false,
       label: "Sort by Column",
-      value: "DateAdded"
+      value: "DateTimeObj",
     })
   )
 
@@ -425,7 +425,7 @@ const frmCard = (y, jobs, tidy) => {
     {
       multiple: true,
       label: "Search by TrackType",
-      value: "TT"
+      value: ["TT", "NTT", "Unavailable"]
     })
   )
 
@@ -434,7 +434,7 @@ const frmCard = (y, jobs, tidy) => {
     {
       multiple: true,
       label: "Search by AY",
-      value: AYLast,
+      value: uniqueAYS,
     })
   )
 ```
@@ -452,6 +452,9 @@ const jobsFiltered = jobsOGSorted
 
 <!-- Searchable Table -->
 <section class="card grid-colspan-2 grid-rowspan-1" style="">
+  <p>
+    Use the search features above to filter the table below. Defaults to select all parameters. To select, click and drag or hold the <kbd>command</kbd> key and select multiple options one-by-one.
+  </p>
   <div style="padding: 1rem">
     ${searchJobs}
     ${ Inputs.table(
@@ -462,13 +465,14 @@ const jobsFiltered = jobsOGSorted
           Institution: 240,
           City: 140,
           State: 140,
-          DateAdded: 100,
+          DateTimeObj: 100,
           TrackType: 50,
         },
         sort: columns,
+        reverse: true,
         rows: 20,
-        columns: ["AY", "DateAdded", "City", "State", "Institution", "TrackType", "Position"], 
-        header: {AY: "AY", DateAdded: "DateAdded", City: "City", State: "State", Institution: "Institution", TrackType: "TrackType", Position: "Position"}
+        columns: ["AY", "DateTimeObj", "City", "State", "Institution", "TrackType", "Position"], 
+        header: {AY: "AY", DateTimeObj: "Date", City: "City", State: "State", Institution: "Institution", TrackType: "TrackType", Position: "Position"}
       }
     )}
   </div>
