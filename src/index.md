@@ -446,7 +446,12 @@ const jobsFiltered = jobsOGSorted
 ```
 
 ```js
-  const searchJobs = Inputs.search(jobsFiltered)
+  const searchJobs = Inputs.search(jobsFiltered,
+    {
+      placeholder: "Search City, State, Institution, Position columns ...",
+      columns: ["City", "State", "Institution", "Position"],
+    }
+  )
   const searchJobsValue = Generators.input(searchJobs)
 ```
 
