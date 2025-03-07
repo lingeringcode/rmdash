@@ -31,12 +31,14 @@
 
 <!-- GET DATA -->
 ```js
+  // Canada provinces
+  const canadaProvinces = FileAttachment("data/geo/canada_provinces.geojson").json({typed: true})
+  const mexico = FileAttachment("data/geo/mexico.json").json({typed: true})
+  
   // County-level shape data for US
   const us = await fetch(import.meta.resolve("npm:us-atlas/counties-10m.json")).then((r) => r.json())
-
   // State polygons
   const states = topojson.feature(us, us.objects.states)
-
   // Find state centroids (for text label)
   const stateCentroid = states.features.map(d => ({name: d.properties.name, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
 
@@ -44,6 +46,15 @@
   const jobsOG = FileAttachment("data/combined-jobs.csv").csv({typed: true})
   const jobs = FileAttachment("data/tt-per-date.csv").csv({typed: true})
   const tidyCleanSorted = FileAttachment("data/tt-per-date-flat.csv").csv({typed: true})
+```
+
+```js
+const caProvincesCentroid = canadaProvinces.features.map(d => ({name: d.properties.PRNAME, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
+const mexicoStates = topojson.feature(mexico, mexico.objects.states)
+const mexicoCentroid = mexicoStates.features.map(d => ({name: d.properties.state_name, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
+
+console.log(mexicoStates)
+console.log(mexicoCentroid)
 ```
 
 ```js
@@ -118,8 +129,8 @@ let AYLast = uniqueAYS.slice(-1)[0]
     zoom: 3.25,
     minZoom: 2,
     maxZoom: 7,
-    pitch: 40,
-    bearing: 0
+    pitch: 120,
+    bearing: -40
   };
 ```
 
@@ -130,6 +141,20 @@ deckInstance.setProps({
     new GeoJsonLayer({
       id: "base-map",
       data: states,
+      lineWidthMinPixels: 1.5,
+      getLineColor: [38, 38, 38],
+      getFillColor: [255,255,255, 100]
+    }),
+    new GeoJsonLayer({
+      id: "ca-map",
+      data: canadaProvinces,
+      lineWidthMinPixels: 1.5,
+      getLineColor: [38, 38, 38],
+      getFillColor: [255,255,255, 100]
+    }),
+    new GeoJsonLayer({
+      id: "mx-map",
+      data: mexicoStates,
       lineWidthMinPixels: 1.5,
       getLineColor: [38, 38, 38],
       getFillColor: [255,255,255, 100]
@@ -156,23 +181,59 @@ deckInstance.setProps({
       }
     }),
     new TextLayer({
-        id: "text-layer",
-        data: stateCentroid,
-        getPosition: d => [d.longitude, d.latitude],
-        getText: d => d.name,
-        fontFamily: 'Helvetica',
-        fontWeight: 400,
-        background: false,
-        fontSettings: ({
-          sdf: true,
-        }),
-        outlineWidth: 1,
-        getSize: 14,
-        getColor: [8,8,8, 255],
-        getTextAnchor: 'middle',
-        getAlignmentBaseline: 'center',
-        getPixelOffset: [0, -10]
-      })
+      id: "us-text-layer",
+      data: stateCentroid,
+      getPosition: d => [d.longitude, d.latitude],
+      getText: d => d.name,
+      fontFamily: 'Helvetica',
+      fontWeight: 200,
+      background: false,
+      fontSettings: ({
+        sdf: true,
+      }),
+      outlineWidth: 1,
+      getSize: 10,
+      getColor: [8,8,8, 155],
+      getTextAnchor: 'middle',
+      getAlignmentBaseline: 'center',
+      getPixelOffset: [0, -10]
+    }),
+    new TextLayer({
+      id: "ca-text-layer",
+      data: caProvincesCentroid,
+      getPosition: d => [d.longitude, d.latitude],
+      getText: d => d.name,
+      fontFamily: 'Helvetica',
+      fontWeight: 200,
+      background: false,
+      fontSettings: ({
+        sdf: true,
+      }),
+      outlineWidth: 1,
+      getSize: 10,
+      getColor: [8,8,8, 155],
+      getTextAnchor: 'middle',
+      getAlignmentBaseline: 'center',
+      getPixelOffset: [0, -10]
+    }),
+    new TextLayer({
+      id: "mx-text-layer",
+      data: mexicoCentroid,
+      getPosition: d => [d.longitude, d.latitude],
+      getText: d => d.name,
+      fontFamily: 'Helvetica',
+      fontWeight: 200,
+      background: false,
+      fontSettings: ({
+        sdf: true,
+      }),
+      outlineWidth: 1,
+      getSize: 10,
+      getColor: [8,8,8, 155],
+      getTextAnchor: 'middle',
+      getAlignmentBaseline: 'center',
+      getPixelOffset: [0, -10]
+    })
   ]
 });
 ```
