@@ -3,8 +3,8 @@
 :root {
   --headingFonts:"Bree Serif",serif;
   --serif:"Bree Serif",serif;
-  --copyFonts:"Poppins";
-  --sans-serif:"Poppins";
+  --copyFonts:"Inter";
+  --sans-serif:"Inter";
   --specialCaseFonts:"Lobster",cursive;
 
   --primaryColor: #3D2473;
@@ -167,12 +167,13 @@ h1 {
   & > a {
     background: unset !important;
     text-decoration: underline !important;
-    transition: 0.16;
+    transition: 0.16s;
 
-    &:hover {
+    &:hover, &:focus {
+      color: var(--accentShade5) !important;
       background: unset !important;
       text-decoration: none !important;
-      transition: 0.16;
+      transition: 0.16s;
     }
   }
 }
