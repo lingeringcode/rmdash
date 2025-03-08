@@ -33,8 +33,8 @@
 ```js
   // Canada provinces
   const canadaProvinces = FileAttachment("data/geo/canada_provinces.geojson").json({typed: true})
+  // Mexico
   const mexico = FileAttachment("data/geo/mexico.json").json({typed: true})
-  
   // County-level shape data for US
   const us = await fetch(import.meta.resolve("npm:us-atlas/counties-10m.json")).then((r) => r.json())
   // State polygons
@@ -48,13 +48,11 @@
   const tidyCleanSorted = FileAttachment("data/tt-per-date-flat.csv").csv({typed: true})
 ```
 
+<!-- Process geospatial data-->
 ```js
-const caProvincesCentroid = canadaProvinces.features.map(d => ({name: d.properties.PRNAME, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
-const mexicoStates = topojson.feature(mexico, mexico.objects.states)
-const mexicoCentroid = mexicoStates.features.map(d => ({name: d.properties.state_name, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
-
-console.log(mexicoStates)
-console.log(mexicoCentroid)
+  const caProvincesCentroid = canadaProvinces.features.map(d => ({name: d.properties.PRNAME, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
+  const mexicoStates = topojson.feature(mexico, mexico.objects.states)
+  const mexicoCentroid = mexicoStates.features.map(d => ({name: d.properties.state_name, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
 ```
 
 ```js
