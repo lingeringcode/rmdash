@@ -97,8 +97,8 @@ let AYLast = uniqueAYS.slice(-1)[0]
 <!-- Risk bubble chart and year completed histogram -->
 <div class="grid grid-cols-2 grid-rows-3" style="grid-auto-rows: 350px">
  <div class="card grid-colspan-3 grid-rowspan-1">
-   <h2>Types of Positions Per Academic Year (AY)</h2>
-   <h3>Size indicates number of job postings during that academic year</h3>
+   <h2>Types of Tracks Per Academic Year (AY)</h2>
+   <h3>Size indicates number of job postings of that track-type during that academic year</h3>
    ${resize((width, height) => trackTypesGrid(width, height))}
  </div>
 </div>
