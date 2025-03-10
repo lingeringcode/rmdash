@@ -1,14 +1,21 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0WPBBGTRL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Z0WPBBGTRL');
-</script>
-
 # Rhetoric, Composition &amp; TPC Job Dashboard
+
+```js
+ga = {
+  const ga = await require("https://www.google-analytics.com/analytics.js").catch(() => window.ga);
+  ga("create", "G-Z0WPBBGTRL", "auto");
+  ga("send", "pageview", html`<a href>`.pathname);
+  return ga;
+}
+```
+
+```js
+gtag = {
+  await require("https://www.googletagmanager.com/gtag/js?id=G-Z0WPBBGTRL").catch(() => {});
+  const dataLayer = window.dataLayer = window.dataLayer || [];
+  return function() { dataLayer.push(arguments); };
+}
+```
 
 <p style="font-size:small;">
   Original Data: Jim Ridolfo's <a href="http://rhetmap.org" target="_blank" rel="noreferrer noopenner">Rhetmap.org</a>
