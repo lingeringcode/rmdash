@@ -1,22 +1,7 @@
 # Rhetoric, Composition &amp; TPC Job Dashboard
 
 ```js
-async function _ga(require,html)
-{
-  const ga = await require("https://www.google-analytics.com/analytics.js").catch(() => window.ga);
-  ga("create", "G-Z0WPBBGTRL", "auto");
-  ga("send", "pageview", html`<a href>`.pathname);
-  return ga;
-}
-```
-
-```js
-async function _gtag(require)
-{
-  await require("https://www.googletagmanager.com/gtag/js?id=G-Z0WPBBGTRL").catch(() => {});
-  const dataLayer = window.dataLayer = window.dataLayer || [];
-  return function() { dataLayer.push(arguments); };
-}
+import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, download} from "./components/utils.js";
 ```
 
 <p style="font-size:small;">
@@ -34,7 +19,6 @@ async function _gtag(require)
   // Import deck.gl components for interactive map
   import deck from "npm:deck.gl";
   import {LollipopChart} from "./components/lollipopChart.js";
-  import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, download} from "./components/utils.js";
   import {utcParse} from "d3-time-format";
 
   const {DeckGL, AmbientLight, GeoJsonLayer, TextLayer, HexagonLayer, LightingEffect, PointLight, ScatterplotLayer} = deck;
