@@ -1,7 +1,8 @@
 # Rhetoric, Composition &amp; TPC Job Dashboard
 
 ```js
-ga = {
+async function _ga(require,html)
+{
   const ga = await require("https://www.google-analytics.com/analytics.js").catch(() => window.ga);
   ga("create", "G-Z0WPBBGTRL", "auto");
   ga("send", "pageview", html`<a href>`.pathname);
@@ -10,7 +11,8 @@ ga = {
 ```
 
 ```js
-gtag = {
+async function _gtag(require)
+{
   await require("https://www.googletagmanager.com/gtag/js?id=G-Z0WPBBGTRL").catch(() => {});
   const dataLayer = window.dataLayer = window.dataLayer || [];
   return function() { dataLayer.push(arguments); };
