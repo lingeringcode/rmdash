@@ -1,10 +1,6 @@
 # Rhetoric, Composition &amp; TPC Job Dashboard
 
-```js
-import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, download} from "./components/utils.js";
-```
-
-<p style="font-size:small;">
+<p class="page_summary" style="font-size:small;">
   Original Data: Jim Ridolfo's <a href="http://rhetmap.org" target="_blank" rel="noreferrer noopenner">Rhetmap.org</a>
   <br/>
   Creator: <a href="https://clndgrn.com" target="_blank" rel="noreferrer noopenner">Chris Lindgren</a>
@@ -20,7 +16,7 @@ import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, col
   import deck from "npm:deck.gl";
   import {LollipopChart} from "./components/lollipopChart.js";
   import {utcParse} from "d3-time-format";
-
+  import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, download} from "./components/utils.js";
   const {DeckGL, AmbientLight, GeoJsonLayer, TextLayer, HexagonLayer, LightingEffect, PointLight, ScatterplotLayer} = deck;
 
   const parseDate = utcParse("%m/%d/%Y")

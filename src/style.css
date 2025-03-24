@@ -335,6 +335,11 @@ kbd {
   font-weight:700
 }
 
+/* Page Summary */
+/* .page_summary:has(+ &) {
+  display: none;
+} */
+
 /* General Handlers */
 .relative {
   position:relative
