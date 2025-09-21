@@ -97,6 +97,7 @@
 "Indianola, IA 50125",41.3604966,-93.5613292,"Indianola (Indianola), IA 50125, United States of America",50125,Indianola,Warren County,Iowa,IA,United States,us
 "Ithaca, NY 14853",42.4396039,-76.4968019,"Ithaca, NY, United States of America",,Ithaca,Tompkins County,New York,NY,United States,us
 "Johnson City, TN 37614",36.3134398,-82.3534728,"Johnson City, TN, United States of America",,Johnson City,Washington County,Tennessee,TN,United States,us
+"Kalamazoo, MI 49008",42.280499,-85.625641,"Kalamazoo, MI 49008",49008,Kalamazoo,,Michigan,MI,United States,us
 "Kansas City, MO 64110",39.04349822,-94.56217764,"Kansas City, MO 64110, United States of America",64110,Kansas City,Jackson County,Missouri,MO,United States,us
 "Kansas City, MO 64145",38.89424781,-94.59553712,"Kansas City, MO 64145, United States of America",64145,Kansas City,Jackson County,Missouri,MO,United States,us
 "Kent, OH 44242",41.14907403,-81.33566358,"Kent, OH 44242, United States of America",44242,Kent,Portage County,Ohio,OH,United States,us
@@ -765,7 +766,7 @@ Kensington PA 15068,40.57209437,-79.73457037,"New Kensington, PA 15068, United S
 "Normal, Illinois 61761",40.51225922,-88.98463208,"Normal, IL 61761, United States of America",61761,Normal,McLean County,Illinois,IL,United States,us
 "Northfield, VT 05663",44.14815346,-72.66030629,"Northfield, VT 05663, United States of America",05663,Northfield,Washington County,Vermont,VT,United States,us
 "Omaha, NE 68106",41.24001136,-95.99835705,"Omaha, NE 68106, United States of America",68106,Omaha,Douglas County,Nebraska,NE,United States,us
-"Orange, California 92866",33.78491936,-117.8446497,"Orange, CA 92866, United States of America",92866,Orange,Orange County,California,CA,United States,us
+"Orange, CA 92866",33.78491936,-117.8446497,"Orange, CA 92866, United States of America",92866,Orange,Orange County,California,CA,United States,us
 "Poughkeepsie, NY 12604",41.68642132,-73.89288145,"Poughkeepsie, NY 12604, United States of America",12604,Town of Poughkeepsie,Dutchess County,New York,NY,United States,us
 Qatar,25.3336984,51.2295295,Qatar,,,,,,Qatar,qa
 "Rochester, MN 55094",44.0234387,-92.4630182,"Rochester, MN, United States of America",,Rochester,Olmsted County,Minnesota,MN,United States,us
@@ -1053,9 +1054,10 @@ Hayward CA,37.6688205,-122.080796,"Hayward, CA, United States of America",,Haywa
 "Syracuse, NY",43.0481221,-76.1474244,"Syracuse, NY, United States of America",,Syracuse,Onondaga County,New York,NY,United States,us
 "Valedosta, GA",32.53951,-83.380775,"Georgia, United States of America",,,,Georgia,GA,United States,us
 "Villanova, PA",41.9591678,8.668422,"20167 Villanova, France",20167,Villanova,South Corsica,Corsica,COR,France,fr
-"Wenzhou, China",27.9963899,120.695345,"Wenzhou, Zhejiang, China",,Wenzhou,,Zhejiang,,China,cn
+"Wenzhou,China",27.9963899,120.695345,"Wenzhou, Zhejiang, China",,Wenzhou,,Zhejiang,,China,cn
 "Wichita Falls, Texas",33.9004572,-98.5020777,"Wichita Falls, TX, United States of America",,Wichita Falls,Wichita County,Texas,TX,United States,us
 "Wichita, KS",37.6922361,-97.3375448,"Wichita, KS, United States of America",,Wichita,Sedgwick County,Kansas,KS,United States,us
+"Salt Lake City, UT 84070",40.575279,-111.901802,"Salt Lake City, UT, United States of America",84070,Salt Lake City,Salt Lake County,Utah,UT,United States,us
 "7 Bd Dr Petitjean, 21078 Dijon, France",47.310404,5.067952,"7 Boulevard Docteur Petitjean, 21000 Dijon, France",21000,Dijon,Cote d'Or,Burgundy-Franche-Comte,BF,France,fr
 "Huntsville, TX 77340",30.705352431,-95.53865317,"Huntsville, TX 77340, United States of America",77340,Huntsville,Walker County,Texas,TX,United States,us
 "88 Daxue Rd, Ouhai District, Wenzhou, Zhejiang, China, 325015",27.9195035,120.6529931,"88 Daxue Road 大学路, 丽塘社区, 325015 Zhejiang, China",325015,Ouhai District,,Zhejiang,,China,cn
@@ -1071,3 +1073,4 @@ Hayward CA,37.6688205,-122.080796,"Hayward, CA, United States of America",,Haywa
 "Warren, MI 48088",42.517251,-82.983743993,"Warren, MI 48088, United States of America",48088,Warren,Macomb County,Michigan,MI,United States,us
 "Brockport, NY 14420",43.213671,-77.93918,"Village of Brockport, Brockport, NY 14420, United States of America",14420,Brockport,Monroe County,New York,NY,United States,us
 "Billings, MT 59102",45.790632408,-108.570376851,"Billings, MT 59102, United States of America",59102,Billings,Yellowstone County,Montana,MT,United States,us
+"Wenzhou, China",27.9963899,120.695345,"Wenzhou, Zhejiang, China",,Wenzhou,,Zhejiang,,China,cn

@@ -1,4 +1,4 @@
-AY,Institution,Position,Address,Link,TrackType,DateAdded
+﻿AY,Institution,Position,Address,Link,TrackType,DateAdded
 2012-2013,Inst Universitaire de Tech de Dijon,Lecteur Université de Bourgogne [18714],"7 Bd Dr Petitjean, 21078 Dijon, France",,Unavailable,01/01/1900
 2012-2013,"SU of New York, U, Albany",Director of Undergraduate Writing [18645],"Albany, NY 12222",,Unavailable,01/01/1900
 2012-2013,"SU of New York, U, Albany",Lecturers- Writing and Critical Inquiry [18978],"Albany, NY 12222",,NTT,01/01/1900
@@ -59,15 +59,15 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2012-2013,"U of Colorado, Colorado Springs","Writing Center Director, Ph.D. Required [18477]","Colorado Springs, CO 80918",,Unavailable,01/01/1900
 2012-2013,"U of Colorado, Colorado Springs
 ","Assistant Professor, TT, Rhetoric Specialist; Director of First-Year Rhetoric and Writing [17727]","Colorado Springs, CO 80918",http://www.uccs.edu/,TT,01/01/1900
-2012-2013,"U of South Carolina, Columbia",Composition and Rhetoric [17721],"Columbia, SC 29208","http://artsandsciences.sc.edu/engl/
-",Unavailable,01/01/1900
+2012-2013,"U of South Carolina, Columbia",Composition and Rhetoric [17721],"Columbia, SC 29208",http://artsandsciences.sc.edu/engl/,Unavailable,01/01/1900
 2012-2013,Ohio SU,"Open Rank Position, Professional/Technical Communication [17416]","Columbus, OH 43210",http://english.osu.edu/,TT,01/01/1900
 2012-2013,Coastal Carolina U,Assistant Professor of English – Composition and Rhetoric [17957],"Conway, SC 29528",http://www.coastal.edu,TT,01/01/1900
 2012-2013,Tennessee Tech U,Assistant Professor of Linguistics [18331],"Cookeville, TN 38505",N/A,TT,01/01/1900
 2012-2013,Oregon SU,Assistant or Associate Professor [17373],"Corvallis, OR 97331",http://oregonstate.edu/jobs,TT,01/01/1900
 2012-2013,Misericordia U,Assistant Professor - English [18938],"Dallas, PA 18612",,TT,01/01/1900
 2012-2013,Wright SU,Assistant Professor of English & Academic Director of Developmental Writing [17341],"Dayton, OH 45435",http://jobs.wright.edu/postings/5523,TT,01/01/1900
-2012-2013,U of Dayton,"Full-Time Lecturer, English: Composition [19009]","Dayton, OH 45469",,NTT,01/01/1900
+2012-2013,U of Dayton,"Full-Time Lecturer, English: Composition [19009]
+","Dayton, OH 45469",,NTT,01/01/1900
 2012-2013,Embry-Riddle Aeronautical U,Assistant Professor Tenure Track [18104],"Daytona Beach, FL 32114",http://www.erau.edu/administration/hr.html,TT,01/01/1900
 2012-2013,Saint Norbert C,Assistant Professor of English and Director of Writing Across the Curriculum [17844],"De Pere, WI 54115",http://www.snc.edu,TT,01/01/1900
 2012-2013,"U of Michigan, Dearborn","Assistant Professor, Composition and Rhetoric [17899]","Dearborn, MI 48128",http://www.casl.umd.umich.edu/lcc/,TT,01/01/1900
@@ -507,8 +507,8 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2013-2014,Yale-NUS C,"Research Associate to the President, Yale-NUS C [20343]","New Haven, CT 06520",https://apply.interfolio.com/23990,NTT,11/19/2013
 2013-2014,"Penn State U, New Kensington",Lecturer of English/Professional Writing [20128],"New Kensington, PA 15068",https://apply.interfolio.com/23672,NTT,10/24/2013
 2013-2014,Tulane U,Post-Doctoral Teaching Fellowships [20784],"New Orleans, LA 70118",http://apply.interfolio.com/24484,NTT,02/21/2014
-2013-2014,"SU of New York, Fashion IoT","Full-Time, Tenure-track Faculty Digital Rhetoric and Writing at FIT [19916]","New York, NY 10001",https://apply.interfolio.com/23475,TT,10/04/2013
-2013-2014,"SU of New York, Fashion IoT","Full-Time, Tenure-track Faculty Digital Rhetoric and Writing at FIT [20803]","New York, NY 10001",https://apply.interfolio.com/24533,TT,02/24/2014
+2013-2014,Fashion IoT,"Full-Time, Tenure-track Faculty Digital Rhetoric and Writing at FIT [19916]","New York, NY 10001",https://apply.interfolio.com/23475,TT,10/04/2013
+2013-2014,Fashion IoT,"Full-Time, Tenure-track Faculty Digital Rhetoric and Writing at FIT [20803]","New York, NY 10001",https://apply.interfolio.com/24533,TT,02/24/2014
 2013-2014,New York U,"FULL-TIME CLINICAL ASSISTANT PROFESSOR, FIRST-YEAR PROGRAM (WRITING AND VISUAL ARTS) [20072]","New York, NY 10003",https://apply.interfolio.com/23627,NTT,10/18/2013
 2013-2014,Modern Language Association,"Indexer, MLA International Bibliography [19893]","New York, NY 10004",https://apply.interfolio.com/23260,NTT,10/04/2013
 2013-2014,"Baruch C, CUNY",Assistant or Associate Professor and Director of the Writing Program [19937],"New York, NY 10010",https://apply.interfolio.com/23462,TT,10/08/2013
@@ -652,7 +652,7 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2014-2015,Spelman C,"Director of Writing Center, Associate Professor of Rhetoric/Composition [21968]","Atlanta, GA 30314",https://apply.interfolio.com/27280,TT,10/20/2014
 2014-2015,Georgia Tech,Tenure-Track Assistant Professor of Technical Communication [21875],"Atlanta, GA 30332",https://apply.interfolio.com/27096,TT,10/06/2014
 2014-2015,Georgia Tech,Marion L. Brittain Postdoctoral Fellowship [22530],"Atlanta, GA 30332",https://apply.interfolio.com/28306,NTT,01/01/2015
-2014-2015,Spelman C,Assistant Professor of English (Rhetoric/Composition) [rhetmap 3],"Atlanta, GA, 30314",https://www.hrapply.com/spelman/AppJobView.jsp?link=589&page=AppJobList.jsp&skimSessionName=com.hrlogix.view.cont.table.cs.req.JobListTable&skimName=requisition.requisition_id&skimNdx=0&op=reset,TT,01/28/2015
+2014-2015,Spelman C,Assistant Professor of English (Rhetoric/Composition) [rhetmap 3],"Atlanta, GA, 30314",https://www.hrapply.com/spelman/AppJobView.jsp?link=589&page=AppJobList.jsp&skimSessionName=com.hrlogix.view.cont.table.cs.req.JobListTable&skimName=requisition.requisition_id&skimNdx=0&op=reset ,TT,01/28/2015
 2014-2015,Auburn U,Assistant Professor of Rhetoric and Compostion [21702],"Auburn, AL 36849",https://apply.interfolio.com/26808,TT,09/22/2014
 2014-2015,Auburn U,Full Time Instructor [23101],"Auburn, AL 36849",https://apply.interfolio.com/29862,NTT,05/27/2015
 2014-2015,Georgia Regents U,Assistant or Associate Professor of English [21910],"Augusta, GA 30912",https://apply.interfolio.com/27110,TT,10/08/2014
@@ -1150,8 +1150,8 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2015-2016,US Coast Guard Academy,LECTURER - ENGLISH [24816] - Position 2,"New London, CT 06320",https://apply.interfolio.com/34525,NTT,03/15/2016
 2015-2016,Tulane U,Professors of Practice [24956],"New Orleans, LA 70118",https://apply.interfolio.com/35088,NTT,05/03/2016
 2015-2016,"SU of New York, New Paltz","Lecturer, English (Composition) [24749]","New Paltz, NY 12561",https://apply.interfolio.com/34449,NTT,03/08/2016
-2015-2016,"SU of New York, Fashion IoT","Associate Director of the Writing Studio, Faculty FT [23477]","New York, NY 10001",https://apply.interfolio.com/31448,NTT,09/11/2015
-2015-2016,SU of New York Fashion IoT,"Full-Time Faculty Position, Composition and Rhetoric [23787]","New York, NY 10001",https://apply.interfolio.com/32212,NTT,10/02/2015
+2015-2016,Fashion IoT,"Associate Director of the Writing Studio, Faculty FT [23477]","New York, NY 10001",https://apply.interfolio.com/31448,NTT,09/11/2015
+2015-2016,Fashion IoT,"Full-Time Faculty Position, Composition and Rhetoric [23787]","New York, NY 10001",https://apply.interfolio.com/32212,NTT,10/02/2015
 2015-2016,New York U,FULL-TIME FACULTY Liberal Studies [23885],"New York, NY 10003",https://apply.interfolio.com/32409,NTT,10/09/2015
 2015-2016,"Baruch C, CUNY",Assistant Professor of English (tenure-track) [24108],"New York, NY 10010",https://apply.interfolio.com/32850,TT,10/28/2015
 2015-2016,"Baruch C, CUNY",Writing Consultants [rhetmap 8],"New York, NY 10010",http://writingcenter.baruch.cuny.edu/seeking-consultants-for-fall-2016/,NTT,10/28/2015
@@ -1354,7 +1354,7 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2016-2017,U of Southern Indiana,Assistant Professor of English [25935],"Evansville, IN 47712",https://apply.interfolio.com/37980,TT,09/23/2016
 2016-2017,U of Exeter,Research Assistant [28563],"Exeter, United Kingdom EX4 4ND",https://apply.interfolio.com/42679,NTT,06/15/2017
 2016-2017,Fairfield U,Asst/Assoc Professor of English and Director of Core Writing [26531],"Fairfield, CT 06824",https://apply.interfolio.com/39082,TT,10/26/2016
-2016-2017,North Dakota SU,Assistant Professor of Professional/Technical/Scientific Rhetoric and Writing [rhetmap 9],"Fargo, ND 58108",https://www.ndsu.edu/english/employment_opportunities/ ,TT,12/14/2016
+2016-2017,North Dakota SU,Assistant Professor of Professional/Technical/Scientific Rhetoric and Writing [rhetmap 9],"Fargo, ND 58108",https://www.ndsu.edu/english/employment_opportunities/,TT,12/14/2016
 2016-2017,"SU of New York, Farmingdale",Assistant Professor - English Literature [26914],"Farmingdale, NY 11735",https://apply.interfolio.com/39547,TT,11/18/2016
 2016-2017,"U of Arkansas, Fayetteville","Assistant Professor of Rhetoric, Composition, and Writing Program Administration [26410]","Fayetteville, AR 72701",https://apply.interfolio.com/38933,TT,10/18/2016
 2016-2017,Pacific U,"Visiting Assistant Professorship, Writing [26892]","Forest Grove, OR 97116",https://apply.interfolio.com/39483,NTT,11/18/2016
@@ -1522,7 +1522,7 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2016-2017,Brandeis U,Director of First-Year Writing [27091],"Waltham, MA 02454",https://apply.interfolio.com/39744,NTT,12/09/2016
 2016-2017,Brandeis U,"Lecturer, Composition and Rhetoric","Waltham, MA 02454",https://apply.interfolio.com/39745,NTT,12/09/2016
 2016-2017,Georgetown U,Assistant Teaching Professor [26180],"Washington, DC 20057",https://apply.interfolio.com/38167,NTT,10/07/2016
-2016-2017,William Patterson U,"Lecturer--Program, Writing and Rhetoric [rhetmap 14]","Wayne, NJ 07470",https://wpconnect.wpunj.edu/emps/jobs/positions2.cfm?job=27295,NTT,03/23/2017
+2016-2017,William Patterson U,"Lecturer--Program, Writing and Rhetoric [rhetmap 14]","Wayne, NJ 07470",https://wpconnect.wpunj.edu/emps/jobs/positions2.cfm?job=27295​,NTT,03/23/2017
 2016-2017,U of New Haven,Coordinator Principles of Communication [27761],"West Haven, CT 06516",https://apply.interfolio.com/41275,NTT,03/17/2017
 2016-2017,U of New Haven,Lecturer - Department of English [28429],"West Haven, CT 06516",https://apply.interfolio.com/42410,NTT,06/02/2017
 2016-2017,"Midwestern SU, Texas","Assistant Professor of English (Business and Technical Communication(, tenure track [26545]","Wichita Falls, TX 76308",https://apply.interfolio.com/39091,TT,10/28/2016
@@ -1578,7 +1578,7 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2017-2018,"U of Washington, Bothell","School of Interdisciplinary Arts Sciences – Lecturer, Full-time, Competitive Recruitment [30309]","Bothell, WA 98011",https://apply.interfolio.com/46509,NTT,12/15/2017
 2017-2018,"CUNY, Bronx Comm C",Assistant Professor - English Language and Literature [30400],"Bronx, NY 10453",https://apply.interfolio.com/48303,TT,01/12/2018
 2017-2018,"Lehman C, CUNY",Assistant/Associate Professor - Writing Across Disciplines (English) [29053],"Bronx, NY 10468",https://apply.interfolio.com/44684,TT,09/10/2017
-2017-2018,CUNY NYC C of Technology,Assistant Professor (Tenure Track) - Composition and Rhetoric [rhetmap 21],"Brooklyn, NY 11216",https://cuny.jobs/brooklyn-ny/assistant-professor-tenure-track-composition-and-rhetoric-english/B4ACF40739684906BE4F6BEFAD19F1F2/job/,TT,01/25/2018
+2017-2018,CUNY NYC C of Technology,Assistant Professor (Tenure Track) - Composition and Rhetoric [rhetmap 21],"Brooklyn, NY 11216",https://cuny.jobs/brooklyn-ny/assistant-professor-tenure-track-composition-and-rhetoric-english/B4ACF40739684906BE4F6BEFAD19F1F2/job/ ,TT,01/25/2018
 2017-2018,Canisius C,Assistant Professor of English & Director of the Writing Center [29702],"Buffalo, NY 14208",https://apply.interfolio.com/45926,TT,10/06/2017
 2017-2018,"SUNY, Buffalo State","Assistant Professor of English/Director, C Writing Program [29883]","Buffalo, NY 14222",https://apply.interfolio.com/46375,TT,10/20/2017
 2017-2018,"SUNY, U at Buffalo",Clinical Assistant Professors - Two Positions [30193],"Buffalo, NY 14260",https://apply.interfolio.com/47386,NTT,11/22/2017
@@ -1848,7 +1848,7 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2018-2019,"SUNY, U at Buffalo","Assistant Professor, Professional and Technical Writing [32988]","Buffalo, NY 14260",https://www.ubjobs.buffalo.edu/postings/16543,TT,09/21/2018
 2018-2019,"SUNY, U at Buffalo","Director, Writing Across the Curriculum; Associate/Full Professor, English [33363]","Buffalo, NY 14260",https://www.ubjobs.buffalo.edu/postings/16758,TT,10/12/2018
 2018-2019,"SUNY, U at Buffalo","Clinical Assistant Professor, English [35687]","Buffalo, NY 14260",https://www.ubjobs.buffalo.edu/postings/18512,NTT,02/22/2019
-2018-2019,Massachusetts Maritime Academy,"Full-time, tenure-track Assistant or Associate Professor of Humanities [rhetmap 13]","Buzzards Bay, MA 25320",https://www.maritime.edu/fy19-05-ft-tenure-track-professor-humanities-0,TT,10/25/2018
+2018-2019,Massachusetts Maritime Academy,"Full-time, tenure-track Assistant or Associate Professor of Humanities [rhetmap 13]","Buzzards Bay, MA 25320",https://www.maritime.edu/fy19-05-ft-tenure-track-professor-humanities-0 ,TT,10/25/2018
 2018-2019,Saint Lawrence U,"Director, Munn Center (Writing and Speaking Center) [37243]","Canton, NY 13617",https://employment.stlawu.edu/,Unavailable,06/14/2019
 2018-2019,Cedarville U,English Faculty [37283],"Cedarville, OH 45314",https://www.cedarville.edu/cf/hr/application/index.cfm,TT,06/21/2019
 2018-2019,"U of Tennessee, Chattanooga",Assistant Professor of English [33375],"Chattanooga, TN 37403",https://ut.taleo.net/careersection/utc_faculty/jobdetail.ftl?job=18000001IH,TT,10/12/2018
@@ -1862,9 +1862,8 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2018-2019,Western Carolina U,Assistant Professor of English -- Rhetoric and Composition [35923],"Cullowhee, NC 28723",https://jobs.wcu.edu/postings/10293,TT,03/08/2019
 2018-2019,Misericordia U,Assistant Professor of English [32587],"Dallas, PA 18612",https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d687b185-ab48-45f0-afcf-5b1ceb8d32ea&jobId=227287&lang=en_US&source=CC2&ccId=19000101_000001,TT,09/10/2018
 2018-2019,Defiance C,Assistant Professor of English [rhetmap 20],"Defiance, OH 43512",http://www.defiance.edu/information/employment.html,TT,02/10/2019
-2018-2019,U of North Texas,Assistant Professor of Technical Communication [rhetmap 10],"Denton, TX 76201",https://facultyjobs.unt.edu/applicants/jsp/shared/Welcome_css.jsp ,TT,09/28/2018
-2018-2019,Wayne SU,Assistant Professor of Composition and Rhetoric [rhetmap 8],"Detroit, MI 48202","http://www.clas.wayne.edu/English/Tenure-track-Assistant-Professor-Position
-",TT,09/25/2018
+2018-2019,U of North Texas,Assistant Professor of Technical Communication [rhetmap 10],"Denton, TX 76201",https://facultyjobs.unt.edu/applicants/jsp/shared/Welcome_css.jsp,TT,09/28/2018
+2018-2019,Wayne SU,Assistant Professor of Composition and Rhetoric [rhetmap 8],"Detroit, MI 48202",http://www.clas.wayne.edu/English/Tenure-track-Assistant-Professor-Position ,TT,09/25/2018
 2018-2019,Mercy C,Assistant Professor- English Composition [34264],"Dobbs Ferry, NY 10522",https://apply.interfolio.com/57916,NTT,11/15/2018
 2018-2019,"Carnegie Mellon U, Qatar","Assistant Teaching Professor; Writing for Multilingual Students, Lit & Cultural Studies, Digital Hum [34105]","Doha, Qatar",http://apply.interfolio.com/57635,NTT,11/09/2018
 2018-2019,C of Saint Scholastica,Assistant Professor of English [33082],"Duluth, MN 55811",https://www.csshrjobs.com/,TT,09/28/2018
@@ -1932,9 +1931,9 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2018-2019,Contra Costa Comm Coll District,English Assistant Professor [34586,"Martinez, CA 94553",https://www.4cdcareers.net/postings/5658,Unavailable,12/07/2018
 2018-2019,Contra Costa Comm Coll District,English Assistant Professor [34865],"Martinez, CA 94553",https://www.4cdcareers.net/postings/5770,Unavailable,12/28/2018
 2018-2019,Tufts U,First-Year Writing Part-time Lecturers (non-tenure track) [35946],"Medford, MA 02155",https://apply.interfolio.com/61098,NTT,03/08/2019
-2018-2019,Christian Brothers U,Visiting Assistant Professor of English: Rhetoric and Composition/Digital Rhetoric [rhetmap 25],"Memphis, TN 38104-5568",https://cbu.interviewexchange.com/candapply.jsp?JOBID=110608#pageTop,NTT,05/20/2019
-2018-2019,Florida International U,Writing and Rhetoric Instructor (2 Positions) [rhetmap 16],"Miami, FL 33174",https://pslinks.fiu.edu/psc/jobs/CUSTOMER/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_CAREERS_FL&Action=U&FOCUS=Applicant&SiteId=1000,NTT,01/03/2019
-2018-2019,Florida International U,Instructor of English (Search Extended) [rhetmap 21],"Miami, Florida 33199",https://facultycareers.fiu.edu/?posting=516087,NTT,03/21/2019
+2018-2019,Christian Brothers U,Visiting Assistant Professor of English: Rhetoric and Composition/Digital Rhetoric [rhetmap 25],"Memphis, TN 38104-5568",https://cbu.interviewexchange.com/candapply.jsp?JOBID=110608#pageTop ,NTT,05/20/2019
+2018-2019,Florida International U,Writing and Rhetoric Instructor (2 Positions) [rhetmap 16],"Miami, FL 33174",https://pslinks.fiu.edu/psc/jobs/CUSTOMER/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_CAREERS_FL&Action=U&FOCUS=Applicant&SiteId=1000 ,NTT,01/03/2019
+2018-2019,Florida International U,Instructor of English (Search Extended) [rhetmap 21],"Miami, Florida 33199",https://facultycareers.fiu.edu/?posting=516087 ,NTT,03/21/2019
 2018-2019,Middlebury C,Director of Writing Center and Assistant Professor of Writing & Rhetoric [32594],"Middlebury, VT 05753",https://apply.interfolio.com/52828,TT,09/10/2018
 2018-2019,"U of Wisconsin, Milwaukee","Assistant, Associate, and/or Professor of English (two positions) [32934]","Milwaukee, WI 53201",https://jobs.uwm.edu/postings/27904,TT,09/21/2018
 2018-2019,North Central U,Assistant or Associate Professor of English [rhetmap 22],"Minneapolis, MN 55404",https://careers.insidehighered.com/job/1723855/assistant-or-associate-professor-of-english/,TT,03/22/2019
@@ -1964,8 +1963,7 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2018-2019,U of Maine,Assistant Professor of Professional & Technical Writing [35132],"Orono, ME 04469",https://umaine.hiretouch.com/,TT,01/18/2019
 2018-2019,U of Wisconsin-Oshkosh,"Visiting Lecturer Position, Professional and Digital Writing [rhetmap 24]","Oshkosh, WI 54901",https://docs.google.com/document/d/1WLJDHU5xbYJxEicSoG0GTn9-XPSQiQ8SBqDWBTMkqSA/edit?usp=sharing,NTT,04/15/2019
 2018-2019,Emory U Oxford C,"Director, Writing Center [33333]","Oxford, GA 30054",https://apply.interfolio.com/54039,NTT,10/12/2018
-2018-2019,Emory U Oxford C,Writing Center Director [rhetmap 6],"Oxford, Georgia 30054","http://oxford.emory.edu/offices-and-services/human-resources/careers.html
-",Unavailable,09/11/2018
+2018-2019,Emory U Oxford C,Writing Center Director [rhetmap 6],"Oxford, GA 30054",http://oxford.emory.edu/offices-and-services/human-resources/careers.html ,Unavailable,09/11/2018
 2018-2019,Miami U,"Assistant Professor, Professional/Technical Communication and Interactive Media Studies [32184]","Oxford, OH 45056",https://miamioh.hiretouch.com/job-details?jobID=6213,TT,09/10/2018
 2018-2019,La Salle U,Assistant Professor of English/Director of Writing [33565],"Philadelphia, PA 19141",https://lasalle.peopleadmin.com/postings/1527,TT,10/26/2018
 2018-2019,Pittsburg SU,"Full Time Temporary Instructor, English and Modern Languages [34605]","Pittsburg, KS 66762",https://www.pittstate.edu/hr/jobs/index.html,NTT,12/07/2018
@@ -2056,21 +2054,22 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2019-2020,Johns Hopkins U,"Full-Time Lecturer, Professional Communication","Baltimore, MD 21218",http://apply.interfolio.com/72352,NTT,01/17/2020
 2019-2020,Louisiana SU & A&M C,Assistant Professor of Rhetoric,"Baton Rouge, LA 70803",https://joblist.mla.org/job-details/1128/assistant-professor-of-rhetoric,TT,01/04/2020
 2019-2020,American U of Beirut,"Instructor Positions, the Communication Skills Program [rhetmap 22]","Beirut, Lebanon 1107 2020",http://www.aub.edu.lb/fas/Pages/academic-employment.aspx,NTT,10/16/2019
-2019-2020,American U of Beirut,"Faculty Positions, the Communication Skills Program [rhetmap 28]","Beirut, Lebanon 1107 2020",https://www.aub.edu.lb/fas/Pages/academic-employment.aspx#Link8,Unavailable,11/02/2019
+2019-2020,American U of Beirut,"Faculty Positions, the Communication Skills Program [rhetmap 28]
+","Beirut, Lebanon 1107 2020",https://www.aub.edu.lb/fas/Pages/academic-employment.aspx#Link8,Unavailable,11/02/2019
 2019-2020,U of California Berkeley,Lecturer Pool - Department of English - C of Letters & Science,"Berkeley, CA 94720",https://aprecruit.berkeley.edu/JPF02595,NTT,06/05/2020
 2019-2020,Lehigh U,Assistant Director for Graduate Writing Support,"Bethlehem, PA 18015",https://lehigh.hiretouch.com/position-details?jobid=58474,Unavailable,10/10/2019
 2019-2020,Ferris SU,Assistant Professor of English - Writing,"Big Rapids, MI 49307",http://employment.ferris.edu/postings/33258,TT,01/03/2020
-2019-2020,Virginia Tech,"Assistant Professor of Rhetoric and Writing/PTW, [rhetmap 2]","Blacksburg, VA 24060","https://jobs.vt.edu/careers.html
-",TT,08/29/2019
-2019-2020,Virginia Tech,Associate Professor of Rhetoric and Writing/PTW [rhetmap 3],"Blacksburg, VA 24060","https://jobs.vt.edu/careers.html
-",TT,08/29/2019
+2019-2020,Virginia Tech,"Assistant Professor of Rhetoric and Writing/PTW, [rhetmap 2]
+","Blacksburg, VA 24060",https://jobs.vt.edu/careers.html ,TT,08/29/2019
+2019-2020,Virginia Tech,Associate Professor of Rhetoric and Writing/PTW [rhetmap 3],"Blacksburg, VA 24060",https://jobs.vt.edu/careers.html ,TT,08/29/2019
 2019-2020,Virginia Tech,Collegiate Assistant Professor of Rhetoric & Writing,"Blacksburg, VA 24060","http://www.jobs.vt.edu, job no. 510998",NTT,09/12/2019
 2019-2020,Virginia Tech,Department Chair,"Blacksburg, VA 24060",https://jobs.vt.edu/,TT,09/27/2019
 2019-2020,Virginia Tech,Technical Communication Faculty and Program Coordinator,"Blacksburg, VA 24060",https://joblist.mla.org/job-details/2417/technical-communication-faculty-and-program-coordinator/,NTT,02/27/2020
 2019-2020,Virginia Tech,Instructor of Technical Writing,"Blacksburg, VA 24060",https://joblist.mla.org/job-details/2552/instructor-of-technical-writing/,NTT,06/10/2020
 2019-2020,Appalachian SU,Assistant / Associate Professor of Rhetoric and Writing Studies,"Boone, NC 28608",http://appstate.peopleadmin.com/postings/23700,TT,11/07/2019
 2019-2020,Northeastern U,"Assistant/Associate Professor, Digital Humanities","Boston, MA 02115",http://www.northeastern.edu/cssh/faculty-positions,TT,09/12/2019
-2019-2020,"U of Massachusetts, Boston",Assistant Professor of English (in Composition & Rhetoric) and Director of ESL Program [rhetmap 14],"Boston, MA 02125",http://employmentopportunities.umb.edu/boston/en-us/job/502751/assistant-professor-of-english-in-composition-rhetoric-and-director-of-esl-program,TT,09/18/2019
+2019-2020,"U of Massachusetts, Boston","Assistant Professor of English (in Composition & Rhetoric) and Director of ESL Program [rhetmap 14]
+","Boston, MA 02125",http://employmentopportunities.umb.edu/boston/en-us/job/502751/assistant-professor-of-english-in-composition-rhetoric-and-director-of-esl-program,TT,09/18/2019
 2019-2020,"U of Colorado, Boulder",Assistant Professor of Cultural Rhetoric,"Boulder, CO 80309",https://jobs.colorado.edu/jobs/JobDetail/Assistant-Professor/20686?,TT,09/12/2019
 2019-2020,Olympic C,English Faculty - Tenure Track,"Bremerton, WA 98337",https://www.schooljobs.com/careers/olympic/jobs/2762478/english-faculty-tenure-track?keywords=english&pagetype=jobOpportunitiesJobs,TT,04/17/2020
 2019-2020,New York City C of Technology,Lecturer - Writing [rhetmap 37],"Brooklyn, NY 11216",https://cuny.jobs/brooklyn-ny/lecturer-writing-english-department/4221429ca59f4da892193d8914d5c375/job/,NTT,12/09/2019
@@ -2081,7 +2080,8 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2019-2020,UNC Chapel Hill,Teaching Assistant Professor - Technical Writing [rhetmap 31],"Chapel Hill, NC 27599",https://unc.peopleadmin.com/postings/171467,NTT,11/11/2019
 2019-2020,Eastern Illinois U,"Assistant Professor of English, English Education","Charleston, IL 61920",http://apply.interfolio.com/68676,TT,09/27/2019
 2019-2020,UNC Charlotte,"Chair, Writing, Rhetoric and Digital Studies [rhetmap 32]","Charlotte, NC 28223",https://jobs.uncc.edu/postings/search,TT,11/14/2019
-2019-2020,"U of Tennessee, Chattanooga",TT Assistant Professor of Civic Rhetoric & Public/Community Writing [rhetmap 29],"Chattanooga, TN 37403",https://ut.taleo.net/careersection/utc_faculty/jobdetail.ftl?job=19000001S2,TT,11/03/2019
+2019-2020,"U of Tennessee, Chattanooga","TT Assistant Professor of Civic Rhetoric & Public/Community Writing [rhetmap 29]
+","Chattanooga, TN 37403",https://ut.taleo.net/careersection/utc_faculty/jobdetail.ftl?job=19000001S2,TT,11/03/2019
 2019-2020,Roosevelt U,Assistant Teaching Professor of English Composition and Director of Undergraduate Writing,"Chicago, IL 60605",https://jobs.roosevelt.edu/postings/5142,NTT,12/20/2019
 2019-2020,"U of Illinois, Chicago",Assistant Professor of English and Director of the Writing Center,"Chicago, IL 60607",https://jobs.uic.edu/job-board/job-details?jobID=122480,TT,09/20/2019
 2019-2020,DePaul U,"Tenure Track Assistant Professor- Writing, Rhetoric, and Discourse","Chicago, IL 60614",https://apply.interfolio.com/65536,TT,09/12/2019
@@ -2101,11 +2101,12 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2019-2020,U of North Texas,Chair of Dept. of Technical Communication [rhetmap 11],"Denton, TX 76203",https://techcomm.unt.edu/sites/tc.unt.edu/files/case_statement_chair_2020.pdf,TT,09/12/2019
 2019-2020,U of North Texas,Assistant Professor of Rhetoric and Writing Studies,"Denton, TX 76203",https://facultyjobs.unt.edu/userfiles/jsp/shared/frameset/Frameset.jsp?time=1568665055718,TT,09/17/2019
 2019-2020,U of North Texas,Lecturer,"Denton, TX 76203",https://joblist.mla.org/job-details/878/lecturer/,NTT,10/18/2019
-2019-2020,Texas Womans U,Assistant/Associate Professor of English (Rhetoric) [rhetmap 27],"Denton, TX 76204",https://twu.edu/humanresources/careers-at-twu/faculty-jobs/ ,TT,10/28/2019
+2019-2020,Texas Womans U,Assistant/Associate Professor of English (Rhetoric) [rhetmap 27],"Denton, TX 76204",https://twu.edu/humanresources/careers-at-twu/faculty-jobs/,TT,10/28/2019
 2019-2020,U of Denver,"Executive Director, Writing Program","Denver, CO 80208",https://jobs.du.edu/cw/en-us/job/492879/executive-director-writing-program,Unavailable,12/20/2019
 2019-2020,"U of Colorado, Denver","Assistant Professor, Rhetoric and Composition [rhetmap 8]","Denver, CO 80217",http://www.cu.edu/cu-careers (CU Denver Job #: 17138),TT,09/10/2019
 2019-2020,U of Central Oklahoma,Visiting Assistant Professor (3) [rhetmap 51],"Edmond, OK 73034",https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=15780&clientkey=05027ACF42B26FF3DD70CE4664A18E9F,NTT,06/03/2020
-2019-2020,U of Oregon,"Associate or Full Professor, Composition, Rhetoric, and Writing Studies [rhetmap 7]","Eugene, OR 97403",https://academicjobsonline.org/ajo/jobs/14377,TT,09/09/2019
+2019-2020,U of Oregon,"Associate or Full Professor, Composition, Rhetoric, and Writing Studies [rhetmap 7]
+","Eugene, OR 97403",https://academicjobsonline.org/ajo/jobs/14377,TT,09/09/2019
 2019-2020,Fairfield U,"Tenure Track Assistant Professor, Rhetoric and Professional Writing","Fairfield, CT 06824",https://ffd.wd1.myworkdayjobs.com/en-US/EmploymentOpportunities/job/Fairfield-CT/Tenure-Track-Assistant-Professor--Rhetoric-and-Professional-Writing_JR0000598,TT,10/04/2019
 2019-2020,"U of Arkansas, Fayetteville","Endowed Chair, English Literacy/Full or Associate Professor","Fayetteville, AR 72701",http://jobs.uark.edu/postings/36291,TT,09/12/2019
 2019-2020,"U of Arkansas, Fayetteville",Associate Professor of Rhetoric and Composition/Writing Program Director,"Fayetteville, AR 72701",http://jobs.uark.edu/postings/35831,TT,09/12/2019
@@ -2116,7 +2117,7 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2019-2020,Indiana U Northwest,Assistant Professor,"Gary, Indiana 46408",http://indiana.peopleadmin.com/postings/8828,Unavailable,11/07/2019
 2019-2020,Gettysburg C,"Three-Year Lectureship, Rhetoric and Composition","Gettysburg, PA 17325",http://gettysburg.peopleadmin.com/postings/3228,NTT,11/08/2019
 2019-2020,"U of North Carolina, Greensboro",Visiting Assistant Professor of Rhetoric and Writing Studies [rhetmap 52],"Greensboro, NC 27412",https://english.uncg.edu/wp-content/uploads/2020/06/UNCG-VAP-Rhetoric.pdf,NTT,06/10/2020
-2019-2020,"Mount Saint Vincent U
+2019-2020,"Mount Saint Vincent U 
 ","Indigenous Literatures and Oral Traditions and/or Creative Writing at the Assistant Professor
 ","Halifax, NS B3K 3S9",https://joblist.mla.org/job-details/1305/tenure-track-faculty-position-indigenous-literatures-and-oral-traditions-and-or-creative-writing/,TT,02/12/2020
 2019-2020,Purdue U Northwest,"Assistant Professor, English","Hammond, IN 46323","https://careers.purdue.edu/job/Hammond-and-Westville-Assistant-Professor,-English-IN-46320/595322000/",TT,09/27/2019
@@ -2126,10 +2127,11 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2019-2020,Michigan Technological U,Assistant Professor of Rhetoric and Composition,"Houghton, MI 49931",http://www.jobs.mtu.edu/postings/8681,TT,11/01/2019
 2019-2020,"U of Houston, Downtown","Assistant Professor, Technical Communication","Houston, TX 77002",https://uhs.taleo.net/careersection/ex3_uhdf/jobdetail.ftl?job=FAC001142&tz=GMT-05:00&tzname=America/Chicago,TT,09/17/2019
 2019-2020,"U of Houston, Downtown","Assistant Professor, Rhetoric and Composition","Houston, TX 77002",https://uhs.taleo.net/careersection/ex2_uhf/jobdetail.ftl?job=FAC001203&tz=GMT-05%3A00&tzname=America%2FChicago,TT,10/18/2019
-2019-2020,"U of Alabama, Huntsville",Full Time Lecturer [rhetmap 45],"Huntsville, AL 35899",https://www.uah.edu/hr/careers/faculty-careers ,NTT,02/20/2020
+2019-2020,"U of Alabama, Huntsville",Full Time Lecturer [rhetmap 45],"Huntsville, AL 35899",https://www.uah.edu/hr/careers/faculty-careers,NTT,02/20/2020
 2019-2020,Sam Houston SU,"Assistant Professor, English (Composition/Secondary Education)","Huntsville, TX 77340",https://shsu.peopleadmin.com/hr/postings/23160,TT,11/07/2019
 2019-2020,Cornell U,Klarman Fellowship,"Ithaca, NY 14850",https://as.cornell.edu/KlarmanFellows,NTT,09/12/2019
-2019-2020,U of North Florida,Writing Program Instructor [rhetmap 46],"Jacksonville, FL 32224",https://www.unfjobs.org/postings/13346,NTT,03/07/2020
+2019-2020,U of North Florida,Writing Program Instructor [rhetmap 46],"Jacksonville, FL 32224
+",https://www.unfjobs.org/postings/13346,NTT,03/07/2020
 2019-2020,St. John's U,Full-Time Tenure Track Assistant Professor- Inst of Core Studies,"Jamaica, NY 11439",https://joblist.mla.org/job-details/814/full-time-tenure-track-assistant-professor-Inst-of-core-studies/?fbclid=IwAR1bNzMlPicLENJvmlX-QRdPWtYLgXXCdDxXkrpbQ8XMOf6dimHSIU03IQQ,TT,10/10/2019
 2019-2020,Habib U,Writing Program Director,"Karachi, Pakistan",http://joblist.mla.org/job-details/1314/writing-program-director/,NTT,01/10/2020
 2019-2020,"U of Nebraska, Kearney","Assistant Professor, English and English Education [rhetmap 36]","Kearney, Nebraska 68847",https://unk.peopleadmin.com/postings/3209,TT,12/07/2019
@@ -2150,16 +2152,18 @@ AY,Institution,Position,Address,Link,TrackType,DateAdded
 2019-2020,U of Wisconsin Madison,Associate/Full Professor of English and Director of the Writing Center/WAC Program [rhetmap 20],"Madison, WI 53706",https://jobs.hr.wisc.edu/en-us/job/503037/associate-professor-or-professor-in-englishdirector-of-the-writing-center,TT,10/08/2019
 2019-2020,Tufts U,First-Year Writing Part-time Lecturers (non-tenure-track),"Medford, MA 02155",https://apply.interfolio.com/74541,NTT,02/27/2020
 2019-2020,Christian Brothers U,"Assistant Professor, English, (Tenure-track), specializing, Digital Rhetoric /Communications [rhetmap 1]","Memphis, TN 38104",https://cbu.interviewexchange.com/jobofferdetails.jsp?JOBID=114118,TT,08/20/2019
-2019-2020,Christian Brothers U,"Visiting Assistant Professor or Instructor, English, First-Year Comp [rhetmap 34]","Memphis, TN 38104",https://cbu.interviewexchange.com/jobofferdetails.jsp;jsessionid=A1ABDB43FDEAA3847F7996F1CB9DBA16?JOBID=117682,NTT,11/27/2019
+2019-2020,Christian Brothers U,"Visiting Assistant Professor or Instructor, English, First-Year Comp [rhetmap 34]
+","Memphis, TN 38104",https://cbu.interviewexchange.com/jobofferdetails.jsp;jsessionid=A1ABDB43FDEAA3847F7996F1CB9DBA16?JOBID=117682,NTT,11/27/2019
 2019-2020,Arizona SU,Assistant Professor - Technical Communication,"Mesa, AZ 85212",https://apply.interfolio.com/67748,TT,09/12/2019
 2019-2020,Arizona SU,"Clinical Assistant Professor, Multi-Year [rhetmap 21]","Mesa, AZ 85212",https://apply.interfolio.com/69620,NTT,10/10/2019
 2019-2020,Arizona SU,"Lecturer, Technical Communication [rhetmap 33]","Mesa, AZ 85212",https://apply.interfolio.com/71801,NTT,11/27/2019
 2019-2020,Arizona SU,Instructor - First Year Composition [rhetmap 49],"Mesa, AZ 85212",http://apply.interfolio.com/75270,NTT,03/23/2020
 2019-2020,Florida International U,Writing and Rhetoric Instructor (2 Positions) [rhetmap 16],"Miami, FL 33199",https://facultycareers.fiu.edu/?posting=519491,NTT,10/01/2019
-2019-2020,Florida International U,Writing and Rhetoric Instructor [rhetmap 19],"Miami, Florida 33199",https://facultycareers.fiu.edu/?keyword&job_opening=519491&job_title&college&department&posted=A&search-postings=Search,NTT,10/07/2019
+2019-2020,Florida International U,Writing and Rhetoric Instructor [rhetmap 19],"Miami, Florida 33199",https://facultycareers.fiu.edu/?keyword&job_opening=519491&job_title&college&department&posted=A&search-postings=Search ,NTT,10/07/2019
 2019-2020,"Penn State U, Harrisburg",Assistant Professor of Rhetoric and Composition,"Middletown, PA 17057",https://apptrkr.com/get_redirect.php?id=1674642,TT,10/23/2019
 2019-2020,"U of Minnesota, Twin Cities",Lecturer/Supervisor of Spanish Composition,"Minneapolis, MN 55455",https://hr.myu.umn.edu/jobs/ext/333445,NTT,10/25/2019
-2019-2020,Saint Mary's C of California,Assistant Professor of Business Communication [rhetmap 30],"Moraga, CA 94575",https://apply.interfolio.com/70008,TT,11/08/2019
+2019-2020,Saint Mary's C of California,"Assistant Professor of Business Communication [rhetmap 30]
+","Moraga, CA 94575",https://apply.interfolio.com/70008,TT,11/08/2019
 2019-2020,Berry C,"Visiting Instructor/Assistant Professor, English, Rhetoric and Writing","Mt Berry, GA 30149",https://berry.interviewexchange.com/jobofferdetails.jsp?JOBID=122493,NTT,05/15/2020
 2019-2020,Munich U of Applied Science,Professor of English Business Communication,"München, Germany",https://stellen.hm.edu/xyg43,Unavailable,04/03/2020
 2019-2020,Middle Tennessee SU,"English, Technical Writing, Tenure-Track Faculty [rhetmap 26]","Murfreesboro, TN 37132",https://mtsujobs.mtsu.edu/postings/8779?fbclid=IwAR13LFiNZDi4OpfkzCc8IvQGuIB7Zpq4yKAQiqAw_TdTOAYtw5F9yVNrHBY,TT,10/22/2019
@@ -2178,14 +2182,16 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2019-2020,Weber SU,"Visiting Assistant Professor, Professional & Technical Writing","Ogden, UT 84408",https://joblist.mla.org/job-details/1148/visiting-assistant-professor-in-professional-and-technical-writing/,NTT,11/20/2019
 2019-2020,"U of Nebraska, Omaha","Full-time Instructor, English","Omaha, NE 68106",http://unomaha.peopleadmin.com/postings/9595,NTT,01/31/2020
 2019-2020,"U of Nebraska, Omaha",Assistant Professor,"Omaha, NE 68182",https://joblist.mla.org/job-details/1302/assistant-professor/,TT,01/10/2020
-2019-2020,Chapman U,Assistant Professor of English,"Orange, California 92866",https://joblist.mla.org/job-details/629/assistant-professor-of-english/?porder=Composition+and+rhetoric&so=Date&ix=3#top-pagination,TT,09/27/2019
+2019-2020,Chapman U,Assistant Professor of English,"Orange, CA 92866",https://joblist.mla.org/job-details/629/assistant-professor-of-english/?porder=Composition+and+rhetoric&so=Date&ix=3#top-pagination,TT,09/27/2019
 2019-2020,U of Central Florida,ASSOCIATE PROFESSOR AND COORDINATOR OF UNDERGRADUATE PROGRAMS,"Orlando, FL 32816",https://www.ucf.edu/jobs/,TT,12/06/2019
-2019-2020,U of Central Florida,Associate Professor and Coordinator of Undergraduate Programs [rhetmap 38],"Orlando, FL 32816",https://jobs.ucf.edu/en-us/job/498553/associate-professor-and-coordinator-of-undergraduate-programs,TT,12/15/2019
+2019-2020,U of Central Florida,"Associate Professor and Coordinator of Undergraduate Programs [rhetmap 38]
+","Orlando, FL 32816",https://jobs.ucf.edu/en-us/job/498553/associate-professor-and-coordinator-of-undergraduate-programs,TT,12/15/2019
 2019-2020,U of Central Florida,Professor and Chair,"Orlando, FL 32816",https://jobs.ucf.edu/en-us/job/498852/professor-and-chair-writing-and-rhetoric,TT,01/24/2020
-2019-2020,U of Wisconsin Oshkosh,Assistant Professor of English [rhetmap 18],"Oshkosh, WI 54901",https://careers.uwosh.edu/cw/en-us/job/497352/assistant-professor-of-english,TT,10/07/2019
-2019-2020,Emory U Oxford C,Visiting Assistant Professor of English [rhetmap 43],"Oxford, GA 30054",https://apply.interfolio.com/73460,NTT,01/24/2020
+2019-2020,U of Wisconsin Oshkosh,Assistant Professor of English [rhetmap 18],"Oshkosh, WI 54901",https://careers.uwosh.edu/cw/en-us/job/497352/assistant-professor-of-english ,TT,10/07/2019
+2019-2020,Emory U Oxford C,Visiting Assistant Professor of English [rhetmap 43],"Oxford, GA 30054",https://apply.interfolio.com/73460 ,NTT,01/24/2020
 2019-2020,Carnegie Mellon U,"Lecturer, Writing and Communication Program, Department of English","Pittsburgh, PA 15213",http://apply.interfolio.com/71415,NTT,11/15/2019
-2019-2020,U of Pittsburgh,"Assistant Professor/Advanced Assistant Professor, Composition [rhetmap 15]","Pittsburgh, PA 15260",https://apply.interfolio.com/68326,TT,09/20/2019
+2019-2020,U of Pittsburgh,"Assistant Professor/Advanced Assistant Professor, Composition [rhetmap 15]
+","Pittsburgh, PA 15260",https://apply.interfolio.com/68326 ,TT,09/20/2019
 2019-2020,U of Pittsburgh,Associate Director of the Inst for Writing Excellence [rhetmap 28],"Pittsburgh, PA 15260",https://apply.interfolio.com/70058,NTT,10/29/2019
 2019-2020,U of Pittsburgh,"Writing, the Disciplines Specialist [rhetmap 35]","Pittsburgh, PA 15260",https://apply.interfolio.com/71762,NTT,12/06/2019
 2019-2020,"California SU, Pomona",Assistant Professor of Rhetoric and Composition,"Pomona, CA 91768",https://apply.interfolio.com/65981,TT,09/12/2019
@@ -2211,7 +2217,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2019-2020,"Texas SU, San Marcos","Co-Director, U Writing Center","San Marcos, TX 78666",https://jobs.hr.txstate.edu/postings/25836,Unavailable,09/12/2019
 2019-2020,"Texas SU, San Marcos","Director, M.A., Technical Communication","San Marcos, TX 78666",https://jobs.hr.txstate.edu/postings/25841,Unavailable,09/12/2019
 2019-2020,Santa Clara U,"Lecturer, English-Composition and Rhetoric","Santa Clara, CA 95053",https://wd1.myworkdaysite.com/en-US/recruiting/scu/scu/job/Santa-Clara-CA/Lecturer-in-English-Composition-and-Rhetoric_R614,NTT,02/07/2020
-2019-2020,U of South Florida Sarasota-Manatee,"Instructor, English Composition [rhetmap 39]","Sarasota, FL 34243",https://gems.fastmail.usf.edu:4440/psc/gemspro-tam/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&,NTT,12/17/2019
+2019-2020,U of South Florida Sarasota-Manatee,"Instructor, English Composition [rhetmap 39]
+","Sarasota, FL 34243",https://gems.fastmail.usf.edu:4440/psc/gemspro-tam/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&,NTT,12/17/2019
 2019-2020,U of Washington,"Full Time Lecturer, Technical & Professional Writing—Interdisciplinary Writing Program","Seattle, WA 98195",http://apply.interfolio.com/67153,NTT,09/12/2019
 2019-2020,U of Washington,"Open Rank Faculty Position, English—Rhetoric and Composition Studies","Seattle, WA 98195",http://apply.interfolio.com/66954,TT,09/12/2019
 2019-2020,Yonsei U,Professor of English Language and Literature,"Seoul, South Korea",http://www.yonsei.ac.kr/sc/recruit/notice02.jsp,TT,09/12/2019
@@ -2219,16 +2226,20 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2019-2020,American U of Sharjah,"Visiting Faculty, Rhetoric Composition","Sharjah, United Arab Emirates",https://acg-apps1.aus.edu/cas/empapp/apply.php?p=ENG-19-04,NTT,10/04/2019
 2019-2020,Nanyang Technological U,"Lecturer, Language and Communication Centre",Singapore,https://ntu.wd3.myworkdayjobs.com/en-US/Careers/job/NTU-Main-Campus-Singapore/Lecturer_R00000682,NTT,12/06/2019
 2019-2020,Lawrence Technological U,"Assistant Professor, Technical and Professional Communication","Southfield, Michigan 48075",https://joblist.mla.org/job-details/929/assistant-professor-technical-and-professional-communication/,TT,10/23/2019
-2019-2020,Hamline U,Assistant Professor - First Year Writing and English [rhetmap 41],"St Paul, MN 55104",https://hamline.wd5.myworkdayjobs.com/Faculty_Career_Site/job/St-Paul-Main-Campus/Assistant-Professor---First-Year-Writing-and-English_R0000497,TT,01/10/2020
+2019-2020,Hamline U,"Assistant Professor - First Year Writing and English [rhetmap 41]
+","St Paul, MN 55104",https://hamline.wd5.myworkdayjobs.com/Faculty_Career_Site/job/St-Paul-Main-Campus/Assistant-Professor---First-Year-Writing-and-English_R0000497,TT,01/10/2020
 2019-2020,Stanford U,"Postdoctoral Opportunity - Mellon Fellowship of Scholars, the Humanities at Stanford","Stanford, CA 94305",http://shc.stanford.edu/fellowships/mellon,NTT,09/12/2019
 2019-2020,U of Connecticut,"Associate/Full Professor, Composition, Rhetoric, and Writing Studies","Storrs, CT 06269",https://academicjobsonline.org/ajo/jobs/15139,TT,10/23/2019
 2019-2020,U of Connecticut,Visiting Assistant Professor,"Storrs, CT 06269",https://academicjobsonline.org/ajo/jobs/16420,NTT,06/10/2020
 2019-2020,U of Connecticut,"Assistant Professsor of Residence, First-Year Writing","Storrs, CT 06269",https://joblist.mla.org/job-details/2555/assistant-professor-in-residence-first-year-writing/,TT,06/10/2020
 2019-2020,Syracuse U,"Associate/Full Professor, African American Rhetoric/Literacies","Syracuse, NY 13244",http://www.sujobopps.com/postings/81861,TT,10/04/2019
 2019-2020,U of South Florida,Associate Professor/Professor of English (Director FYC),"Tampa, FL 33620",https://joblist.mla.org/job-apply/1266/associate-professor-professor-of-english-director-fyc-/,TT,12/20/2019
-2019-2020,York U,Rhetorics of Advocacy,"Toronto, Ontario M3J 1P3, Canada",https://joblist.mla.org/job-details/650/rhetorics-of-advocacy/,TT,10/23/2019
-2019-2020,York U,Visual Rhetorics,"Toronto, Ontario M3J 1P3, Canada",https://joblist.mla.org/job-details/651/visual-rhetorics/,TT,10/23/2019
-2019-2020,U of Arizona,"Career-Track Assistant Professor or Assistant Professor of Practice, Professional & Technical Writing [rhetmap 47]","Tucson, AZ 85721",https://arizona.csod.com/ux/ats/careersite/4/home/requisition/524?c=arizona,NTT,03/10/2020
+2019-2020,York U,Rhetorics of Advocacy,"Toronto, Ontario M3J 1P3, Canada
+",https://joblist.mla.org/job-details/650/rhetorics-of-advocacy/,TT,10/23/2019
+2019-2020,York U,Visual Rhetorics,"Toronto, Ontario M3J 1P3, Canada
+",https://joblist.mla.org/job-details/651/visual-rhetorics/,TT,10/23/2019
+2019-2020,U of Arizona,"Career-Track Assistant Professor or Assistant Professor of Practice, Professional & Technical Writing [rhetmap 47]
+","Tucson, AZ 85721",https://arizona.csod.com/ux/ats/careersite/4/home/requisition/524?c=arizona,NTT,03/10/2020
 2019-2020,U of Alabama,Chair of English,"Tuscaloosa, AL 35487",https://facultyjobs.ua.edu/postings/45971,TT,10/18/2019
 2019-2020,U of Alabama,Multi-year Contract Instructor Positions,"Tuscaloosa, AL 35487",https://joblist.mla.org/job-details/2397/multi-year-contract-instructor-positions/,NTT,02/14/2020
 2019-2020,"U of Texas, Tyelr","Assistant Professor, Digital Rhetoric and Writing","Tyler, TX 75799",https://zahr-prd-candidate-ada.utshare.utsystem.edu/psp/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL/?tab=PAPP_GUEST&SiteId=12.,NTT,09/27/2019
@@ -2238,10 +2249,12 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2019-2020,Baylor U,"Lecturer/Assistant Director of UWC
 ","Waco, TX 76706",https://apply.interfolio.com/67222,NTT,11/21/2019
 2019-2020,Whitman C,Assistant Professor of Rhetoric/Composition,"Walla Walla, WA 99362",https://whitmanhr.simplehire.com/,NTT,09/12/2019
-2019-2020,Brandeis U,"Two full-time Lecturers beginning Fall 2020 with experience, professional, business, science, medical, and/or technical writing [rhetmap 6]","Waltham, MA 02454",https://academicjobsonline.org/ajo/jobs/14409,NTT,09/09/2019
+2019-2020,Brandeis U,"Two full-time Lecturers beginning Fall 2020 with experience, professional, business, science, medical, and/or technical writing [rhetmap 6]
+","Waltham, MA 02454",https://academicjobsonline.org/ajo/jobs/14409 ,NTT,09/09/2019
 2019-2020,The George Washington U,"Teaching Assistant Professor, STEM and Multilingual Writing","Washington, DC 20052",http://www.gwu.jobs/postings/71355,NTT,11/07/2019
 2019-2020,"US Military Academy, West Point","Teaching Postdoctoral Position, English Composition and Literature",West Point. NY 10996,https://joblist.mla.org/job-apply/2543/teaching-postdoctoral-position-in-english-composition-and-literature/,NTT,05/15/2020
-2019-2020,"Midwestern SU, Texas",Assistant Professor of English (Composition and Rhetoric) [rhetmap 17],"Wichita Falls, TX 76308",https://msutexas.edu/human-resources/jobs/job-details.php?id=173113&type=faculty,NTT,10/02/2019
+2019-2020,"Midwestern SU, Texas","Assistant Professor of English (Composition and Rhetoric) [rhetmap 17]
+","Wichita Falls, TX 76308",https://msutexas.edu/human-resources/jobs/job-details.php?id=173113&type=faculty,NTT,10/02/2019
 2019-2020,Saint Mary’s U of Minnesota,Assistant Professor of English,"Winona, MN 55987",https://www.smumn.edu/about/offices/human-resources/job-details/assistant-professor-of-english-1,TT,10/18/2019
 2019-2020,BNU-HKBU United International C,"Professor/Associate Professor/Assistant Professor, English Language and Literature Studies","Zhuhai, Guangdong, China",https://hrapp.uic.edu.hk/recruit/job/vacancy/JobDetail/71,NTT,10/11/2019
 2020-2021,Muhlenberg C,"Writing Program Director, Assistant/Associate Professor of English","Allentown, PA",https://bit.ly/WritingProgramDirector,TT,10/28/2020
@@ -2263,7 +2276,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2020-2021,U of California Berkeley,Lecturer Pool,"Berkeley, CA 94720",https://aprecruit.berkeley.edu/JPF02996,NTT,06/04/2021
 2020-2021,"U of Alabama, Birmingham",Instructor/Assistant Professor of English,"Birmingham, AL 35294",https://uab.peopleadmin.com/postings/8403,NTT,02/12/2021
 2020-2021,Virginia Tech,Technical Communication Faculty and Program Coordinator,"Blacksburg, VA 24060",https://careers.pageuppeople.com/968/cw/en-us/job/512769/tech-comm-faculty-prog-coord,TT,12/01/2020
-2020-2021,Virginia Tech,Open Rank Professor of Rhetoric & Composition [rhetmap 11],"Blacksburg, VA 24060",https://careers.pageuppeople.com/968/cw/en-us/job/515258/open-rank-professor-of-rhetoric-compositionwriting-studies,TT,02/22/2021
+2020-2021,Virginia Tech,"Open Rank Professor of Rhetoric & Composition [rhetmap 11]
+","Blacksburg, VA 24060",https://careers.pageuppeople.com/968/cw/en-us/job/515258/open-rank-professor-of-rhetoric-compositionwriting-studies,TT,02/22/2021
 2020-2021,Virginia Tech,Instructor of First-Year Writing [rhetmap 19],"Blacksburg, VA 24060",https://careers.pageuppeople.com/968/cw/en-us/job/515826/instructor-of-first-year-writing,NTT,04/22/2021
 2020-2021,Bluefield State C,Instructor or Assistant Professor of English [Rhetmap 9],"Bluefield, WV",https://bluefieldstate.edu/sites/default/files/userfiles/hr/jva/jva2020-28.pdf,TT,01/09/2021
 2020-2021,Appalachian SU,Assistant Professor of Rhetoric and Writing Studies,"Boone, NC 28608",https://appstate.peopleadmin.com/postings/26904?fbclid=IwAR3RXuo0mTExmjbrxR4nwMGWLRpi4zhjY9M2JQBI_tnlNkT-UHMUHX7tkC8,TT,11/03/2020
@@ -2288,14 +2302,16 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2020-2021,"Texas A&M U, Commerce",Assistant Professor - English [rhetmap 5],"Commerce, TX",https://careers.insidehighered.com/job/2019642/assistant-professor-english-r00010-/,TT,09/16/2020
 2020-2021,"Texas A&M U, Corpus Christi","Assistant Professor, English (Writing Studies)","Corpus Christi, TX 78412",https://tamus.wd1.myworkdayjobs.com/en-US/TAMUCC_External/job/Corpus-Christi-TAMUCC/Assistant-Professor--English--Writing-Studies-_R-032681-1,TT,10/20/2020
 2020-2021,Southern Methodist U,Lecturer,"Dallas, TX 75205",https://joblist.mla.org/job-details/4342/lecturer/?so=Date&ix=14#top-pagination,NTT,05/18/2021
-2020-2021,U of Dayton,"Lecturer, Technical Writing & Health Rhetorics [rhetmap 12]","Dayton, OH 45469",https://employment.udayton.edu/en-us/job/498542/lecturer-in-english-specializing-in-technical-writing-and-health-rhetorics,NTT,02/28/2021
+2020-2021,U of Dayton,"Lecturer, Technical Writing & Health Rhetorics [rhetmap 12]
+","Dayton, OH 45469",https://employment.udayton.edu/en-us/job/498542/lecturer-in-english-specializing-in-technical-writing-and-health-rhetorics,NTT,02/28/2021
 2020-2021,Regis U,"Assistant Professor, Creative Writing/Literature","Denver, CO 80221",https://joblist.mla.org/job-details/2657/assistant-professor-creative-writing-literature/?ix=10#top-pagination,TT,09/16/2020
 2020-2021,"U of Wisconsin, Eau Claire","Visiting Assistant Professor, Writing [rhetmap 18]","Eau Claire, WI 54702",https://www.uwec.edu/job-postings/17077/,NTT,04/14/2021
 2020-2021,"U of Texas, El Paso",Assistant Professor - Rhetoric & Writing Studies,"El Paso, TX 79968",https://www.utep.edu/human-resources/services/employment/,TT,09/07/2020
 2020-2021,George Mason U,"Assistant Professor, English (Professional and Technical Writing)","Fairfax, VA 22030",https://jobs.gmu.edu/postings/48719,TT,09/17/2020
-2020-2021,"U of Arkansas, Fayetteville",Associate or Advanced Assistant Professor of Rhetoric and Composition/Writing Program Director,"Fayetteville, AR 72701",https://hr.uark.edu/apply-now/index.php ,TT,11/17/2020
+2020-2021,"U of Arkansas, Fayetteville",Associate or Advanced Assistant Professor of Rhetoric and Composition/Writing Program Director,"Fayetteville, AR 72701",https://hr.uark.edu/apply-now/index.php,TT,11/17/2020
 2020-2021,Methodist U,Assistant/Associate Professor of English/Communication (four positions) [rhetmap 8],"Fayetteville, NC 28311",https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=23635&clientkey=24375BA29C8AE0EA98AC3A9FD8D2FDCE,TT,01/08/2021
-2020-2021,Francis Marion U,Assistant Professor of English-Technical and Professional Communication (21-04),"Florence, SC 29502",https://joblist.mla.org/job-details/2707/assistant-professor-of-english-technical-and-professional-communication-21-04-/,TT,10/06/2020
+2020-2021,Francis Marion U,"Assistant Professor of English-Technical and Professional Communication (21-04)
+","Florence, SC 29502",https://joblist.mla.org/job-details/2707/assistant-professor-of-english-technical-and-professional-communication-21-04-/,TT,10/06/2020
 2020-2021,Texas Christian U,Full-Time Instructor of Writing,"Fort Worth, TX",https://joblist.mla.org/job-details/4269/full-time-instructor-of-writing-addran-college-of-liberal-arts/,NTT,04/10/2021
 2020-2021,"Texas A&M U, Galveston",Academic Professional Track (Non-Tenure): Instructional Assistant Professor,"Galveston, TX",http://apply.interfolio.com/74721,NTT,10/11/2020
 2020-2021,Southwestern U,Director of the Deborah S. Ellis Writing Center,"Georgetown, TX",https://apply.interfolio.com/88713,NTT,06/08/2021
@@ -2322,7 +2338,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 ","Louisville, KY",https://www.higheredjobs.com/institution/details.cfm?JobCode=177447748&Title=Assistant%20Professor%20Term%20%2D%20Business%20Communication%20%28Job%20Id%3A%2040838%29&aID=7137,NTT,04/02/2021
 2020-2021,Texas Tech U,"Lecturers, First-Year Writing [rhetmap 23]","Lubbock, TX 79409",https://www.depts.ttu.edu/english/fyw/lecturer.php,NTT,06/04/2021
 2020-2021,"Minnesota SU, Mankato",Teacher-Scholar Post-Doctoral Fellow [rhetmap 25],"Mankato, MN",https://carts.mnsu.edu/academics/english/employment-opportunities/,NTT,06/21/2021
-2020-2021,"U of Puerto Rico, Mayagüez",Assistant Professor-English-Rhetoric and Composition,Mayagüez P.R. 00681-9000,https://home.uprm.edu/hrjobs/showjob.php?id=848&fbclid=IwAR3X1_6YXLiWO-mKlPh0HFvckoZSN3_P-wSyZfvkv96_eSJ6cnXHuiGORVw,TT,12/20/2020
+2020-2021,"U of Puerto Rico, Mayagüez",Assistant Professor-English-Rhetoric and Composition,"Mayagüez P.R. 00681-9000
+",https://home.uprm.edu/hrjobs/showjob.php?id=848&fbclid=IwAR3X1_6YXLiWO-mKlPh0HFvckoZSN3_P-wSyZfvkv96_eSJ6cnXHuiGORVw,TT,12/20/2020
 2020-2021,Messiah U,Assistant Professor of English and Director of First-Year Courses,"Mechanicsburg, PA",https://jobs.messiah.edu/postings/18180,TT,01/27/2021
 2020-2021,Rhodes C,Visiting Assistant Professor of English,"Memphis, TN 38112",https://jobs.rhodes.edu/postings/3571,NTT,05/28/2021
 2020-2021,Arizona SU,Instructor - First Year Composition [rhetmap 1],"Mesa, AZ 85212",https://apply.interfolio.com/77314,NTT,07/17/2020
@@ -2332,7 +2349,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2020-2021,U of Toronto Mississauga,"Associate Professor - Writing Studies, Higher Education
 ","Mississauga, ON L5L 1C6, Canada",https://careers.insidehighered.com/job/2022506/associate-professor-writing-studies-in-higher-education/,TT,09/23/2020
 2020-2021,Mississippi SU,Assistant Professor of Professional Writing,"Mississippi State, MS 39762",https://explore.msujobs.msstate.edu/cw/en-us/job/501752?lApplicationSubSourceID=,TT,11/12/2020
-2020-2021,"Auburn U, Montgomery","Assistant Professor of English, Professional Writing [rhetmap 7]","Montgomery, AL 36124",https://www.jobs.aum.edu/postings/4427,TT,10/01/2020
+2020-2021,"Auburn U, Montgomery","Assistant Professor of English, Professional Writing [rhetmap 7] 
+","Montgomery, AL 36124",https://www.jobs.aum.edu/postings/4427,TT,10/01/2020
 2020-2021,West Virginia U,Assistant or Associate Professor - Rhetoric and Composition,"Morgantown, WV 26506",https://joblist.mla.org/job-details/2676/assistant-or-associate-professor-rhetoric-and-composition/,TT,09/25/2020
 2020-2021,West Virginia U,Gaziano Family Legacy Professor – Rhetoric and Writing Studies,"Morgantown, WV 26506",https://joblist.mla.org/job-details/2677/gaziano-family-legacy-professor-rhetoric-and-writing-studies/,TT,09/25/2020
 2020-2021,U of Idaho,Assistant Director of the Writing Center,"Moscow, ID",https://uidaho.peopleadmin.com/postings/30057?fbclid=IwAR156cq1lazpGooW4XlUmL-LhSPPsYbRkntBjKujolU5XON8UoDDP2KHOWU,NTT,10/27/2020
@@ -2346,10 +2364,11 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2020-2021,Columbia U,"Lecturer, Discipline (limited-term UWP lectureship)","New York, NY 10027",https://apply.interfolio.com/88925,NTT,06/14/2021
 2020-2021,U of Delaware,"Post Doctoral Researcher, Teaching of Writing","Newark, DE",https://joblist.mla.org/job-details/4229/post-doctoral-researcher-teaching-of-writing/?ix=18#top-pagination,NTT,04/02/2021
 2020-2021,Norwich U,Lecturer and International and Multilingual Curriculum Coordinator,"Northfield, VT 05663",https://norwich.interviewexchange.com/jobofferdetails.jsp?JOBID=129050,NTT,03/17/2021
-2020-2021,U of Notre Dame,Assistant Teaching Professor,"Notre Dame, IN 46556",http://apply.interfolio.com/79144,NTT,10/11/2020
+2020-2021,U of Notre Dame,Assistant Teaching Professor,"Notre Dame, IN 46556
+",http://apply.interfolio.com/79144,NTT,10/11/2020
 2020-2021,U of Texas Permian Basin,Visiting Instructor of English,"Odessa, TX",https://joblist.mla.org/job-details/4198/visiting-instructor-of-english-begins-fall-2021-/,NTT,03/19/2021
 2020-2021,U of Nebraska Omaha,Assistant Professor of English Rhetoric/Composition,"Omaha, NE",https://unomaha.peopleadmin.com/postings/11569,TT,09/30/2020
-2020-2021,Chapman U,"Assistant Professor of English, Tenure Track","Orange, CA",https://joblist.mla.org/job-details/2769/assistant-professor-of-english-tenure-track-august-2021/,TT,10/23/2020
+2020-2021,Chapman U,"Assistant Professor of English, Tenure Track","Orange, CA 92866",https://joblist.mla.org/job-details/2769/assistant-professor-of-english-tenure-track-august-2021/,TT,10/23/2020
 2020-2021,Emory U Oxford C,Visiting Assistant Professor of English [rhetmap 21],"Oxford, GA 30054",https://apply.interfolio.com/87933,NTT,05/19/2021
 2020-2021,Harper C,English Full Time Tenure Track Faculty,"Palatine, IL",http://jobs.harpercollege.edu/cw/en-us/job/493918?lApplicationSubSourceID=,TT,12/24/2020
 2020-2021,California IoT,STEM Writing Specialist and Lecturer [rhetmap 20],"Pasadena, CA 91125",https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=5815,NTT,05/19/2021
@@ -2634,8 +2653,10 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2021-2022,U of South Florida,Professor/Chair - English,"Tampa, FL",https://joblist.mla.org/job-details/5242/professor-chair-english/,TT,11/17/2021
 2021-2022,U of Tampa,"Visiting Assistant Teaching Professor, English and Writing","Tampa, FL",https://utampa.wd1.myworkdayjobs.com/en-US/Faculty/details/Visiting-Assistant-Teaching-Professors-of-English-and-Writing_R0006299-1,NTT,05/09/2022
 2021-2022,Rose-Hulman IoT,"Tenure Track Faculty, English 2022-2023","Terre Haute, IN",https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/315?c=rosehulman,TT,12/05/2021
-2021-2022,York U,Assistant/Associate Professor - Technical Communication [rhetmap 14],"Toronto, Ontario M3J 1P3, Canada",http://webapps.yorku.ca/academichiringviewer/viewposition.jsp?positionnumber=2204,TT,11/01/2021
-2021-2022,York U,"Assistant Professor, Teaching Stream - Book Publishing [rhetmap 15]","Toronto, Ontario M3J 1P3, Canada",http://webapps.yorku.ca/academichiringviewer/viewposition.jsp?positionnumber=2207,TT,11/01/2021
+2021-2022,York U,Assistant/Associate Professor - Technical Communication [rhetmap 14],"Toronto, Ontario M3J 1P3, Canada
+",http://webapps.yorku.ca/academichiringviewer/viewposition.jsp?positionnumber=2204,TT,11/01/2021
+2021-2022,York U,"Assistant Professor, Teaching Stream - Book Publishing [rhetmap 15]","Toronto, Ontario M3J 1P3, Canada
+",http://webapps.yorku.ca/academichiringviewer/viewposition.jsp?positionnumber=2207,TT,11/01/2021
 2021-2022,Rensselaer Polytechnic Inst,"Lecturers, Technical/ Scientific Writing and TESOL","Troy, NY",https://careers.rpi.edu/en-us/job/492618/lecturer-sr-lecturer-professor-of-practice-school-of-humanities-arts-and-social-sciences,NTT,10/09/2021
 2021-2022,Rensselaer Polytechnic Inst,Multiple Open-Rank Tenure-Track Positions – Media and Artificial Intelligence/Machine Learning,"Troy, NY",https://careers.rpi.edu/en-us/job/492668/faculty-openings-in-artificial-intelligence-ai-and-machine-learning-ml,TT,10/21/2021
 2021-2022,Rensselaer Polytechnic Inst,"Assistant Professor, Media and (Dis)Information","Troy, NY",https://careers.rpi.edu/cw/en-us/job/492930/assistant-professor-media-disinformation,TT,10/21/2021
@@ -2663,7 +2684,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,Georgia Tech,Marion L. Brittain Postdoctoral Fellowship (Multiple Positions),"Atlanta, GA 30332",https://joblist.mla.org/job-details/6242/marion-l-brittain-postdoctoral-fellowship-multiple-positions-/,NTT,09/19/2022
 2022-2023,Georgia Tech,Assistant/Associate Professor of Technical Communication (Multiple Openings),"Atlanta, GA 30332",https://careers.hprod.onehcm.usg.edu/psp/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=3000&JobOpeningId=249965&PostingSeq=1,TT,10/10/2022
 2022-2023,Emory U,"Teaching Professors and Program Administrators, Writing and Rhetoric [rhetmap 23]","Atlanta, GA 30332",https://apply.interfolio.com/116788,NTT,11/05/2022
-2022-2023,Emory U,Emory Writing Program Postdoctoral Teaching Fellow [rhetmap 48],"Atlanta, GA 30332",https://apply.interfolio.com/121634,NTT,03/24/2023
+2022-2023,Emory U,"Emory Writing Program Postdoctoral Teaching Fellow [rhetmap 48]
+","Atlanta, GA 30332",https://apply.interfolio.com/121634 ,NTT,03/24/2023
 2022-2023,Auburn U,Post Doctoral Fellow,"Auburn, AL 36849",https://joblist.mla.org/job-details/7302/post-doctoral-fellow/,NTT,03/10/2023
 2022-2023,Illinois Mathematics and Science Academy,English Faculty - Fall 2023,"Aurora, IL",https://careers-imsa.icims.com/jobs/1569/english-faculty---fall-2023/job?mobile=false&width=1440&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,NTT,03/17/2023
 2022-2023,Wells C,Assistant Professor of Rhetoric & Composition,"Aurora, NY",https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=14c62faa-11e0-4864-bf28-fb1d2abe5ae9&ccId=9200520269655_2&lang=en_US&jobId=479046,TT,05/16/2023
@@ -2677,7 +2699,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,U of California Berkeley,Lecturer Pool - Department of English,"Berkeley, CA 94720",https://aprecruit.berkeley.edu/JPF03922,NTT,06/05/2023
 2022-2023,Ferris SU,Assistant Professor - Journalism and Professional Writing,"Big Rapids, MI 49307",https://jobs.ferris.edu/en-us/job/495249/assistant-professor-journalism-and-professional-writing,TT,02/02/2023
 2022-2023,Ferris SU,Assistant Professor - Developmental Writing,"Big Rapids, MI 49307",https://jobs.ferris.edu/en-us/job/495250/assistant-professor-developmental-writing,TT,02/02/2023
-2022-2023,Indiana U Bloomington,Lecturer and Online ENG-W131 Coordinator,"Bloomington, IN 47405",https://indiana.peopleadmin.com/postings/14202,NTT,10/10/2022
+2022-2023,Indiana U Bloomington,"Lecturer and Online ENG-W131 Coordinator
+","Bloomington, IN 47405",https://indiana.peopleadmin.com/postings/14202,NTT,10/10/2022
 2022-2023,Indiana U Bloomington,Lecturer and Associate Director of Compositon,"Bloomington, IN 47405",https://indiana.peopleadmin.com/postings/14417,NTT,10/18/2022
 2022-2023,Indiana U Bloomington,"Associate or Full Professor, English and Cognitive Science","Bloomington, IN 47405",https://joblist.mla.org/job-details/7222/associate-or-full-professor-in-english-and-cognitive-science/,TT,02/09/2023
 2022-2023,Florida Atlantic U,"Associate Professor of Rhetoric & Composition, Director of Writing Center and WAC Program","Boca Raton, FL 33431",https://joblist.mla.org/job-apply/6462/associate-professor-of-rhetoric-and-composition-director-of-writing-center-and-wac-program/,TT,10/04/2022
@@ -2700,7 +2723,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,"U of Illinois, Chicago",Clinical Assistant Professor of Professional Writing - Director of the Professional Writing Program,"Chicago, IL 60607",https://joblist.mla.org/job-apply/7229/clinical-assistant-professor-of-professional-writing-director-of-the-professional-writing-program/,NTT,02/17/2023
 2022-2023,DePaul U,Instructor/Full-Time Faculty,"Chicago, IL 60614",https://apply.interfolio.com/108728,NTT,10/21/2022
 2022-2023,"U of Cincinnati
-","Open Rank Professor, Dual Enrollment Coordinator, English Composition [rhetmap 10]","Cincinnati, OH 45221",https://jobs.uc.edu/job/Cincinnati-Open-Rank-Professor%2C-Dual-Enrollment-Coordinator%2C-English-Composition-OH-45201/943049400/,TT,10/05/2022
+","Open Rank Professor, Dual Enrollment Coordinator, English Composition [rhetmap 10]
+","Cincinnati, OH 45221",https://jobs.uc.edu/job/Cincinnati-Open-Rank-Professor%2C-Dual-Enrollment-Coordinator%2C-English-Composition-OH-45201/943049400/,TT,10/05/2022
 2022-2023,"U of Cincinnati
 ","Assistant Professor, Educator, English, Composition","Cincinnati, OH 45221",https://joblist.mla.org/job-details/6908/assistant-professor-educator-english-composition/?,NTT,11/17/2022
 2022-2023,Xavier U,Teaching Professor English,"Cincinnati, OH",https://jobs.silkroad.com/Xavier/apply/jobs/2845,NTT,11/28/2022
@@ -2717,7 +2741,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,Coastal Carolina U,"Lecturer, Digital Writing","Conway, SC 29528",https://jobs.coastal.edu/postings/18630,NTT,11/11/2022
 2022-2023,Misericordia U,Visiting Assistant Professor | Department of English,"Dallas, PA 18612",https://joblist.mla.org/job-details/7424/visiting-assistant-professor-department-of-english/?,NTT,05/10/2023
 2022-2023,"U of Massachusetts, Dartmouth
-",Assistant Professor of English & Communication [rhetmap 37],"Dartmouth, MA",http://careers.umassd.edu/dartmouth/en-us/job/516717/assistant-professortenure-track-english-and-communications,TT,11/22/2022
+","Assistant Professor of English & Communication [rhetmap 37]
+","Dartmouth, MA",http://careers.umassd.edu/dartmouth/en-us/job/516717/assistant-professortenure-track-english-and-communications ,TT,11/22/2022
 2022-2023,Davidson C,Multilingual Writing Assistant Professor of Practice,"Davidson, NC",https://employment.davidson.edu/en-us/job/494324/multilingual-writing-assistant-professor-of-practice,NTT,01/16/2023
 2022-2023,"U of California, Davis","Associate Vice Provost, The Writing Center","Davis, CA 95616",https://recruit.ucdavis.edu/JPF05280,TT,10/10/2022
 2022-2023,"U of California, Davis","Assistant Professor of Teaching, Science and Engineering Writing [rhetmap 22]","Davis, CA 95616",https://recruit.ucdavis.edu/JPF05283,NTT,11/05/2022
@@ -2731,7 +2756,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 ","Denton, TX 76203",https://jobs.untsystem.edu/postings/66915,NTT,12/02/2022
 2022-2023,U of North Texas,Visiting Lecturer,"Denton, TX 76203",https://jobs.untsystem.edu/postings/71879,NTT,05/16/2023
 2022-2023,"Wayne SU
-","Post-doctoral Position, Rhetoric and Writing Studies [rhetmap 43]","Detroit, MI 48202",https://clas.wayne.edu/english/news/faculty-position-post-doctoral-in-rhetoric-and-writing-studies-45642,NTT,12/20/2022
+","Post-doctoral Position, Rhetoric and Writing Studies [rhetmap 43] 
+","Detroit, MI 48202",https://clas.wayne.edu/english/news/faculty-position-post-doctoral-in-rhetoric-and-writing-studies-45642,NTT,12/20/2022
 2022-2023,Duke U,Professor of the Practice of Writing Studies,"Durham, NC 27708",https://academicjobsonline.org/ajo/jobs/22807,NTT,09/15/2022
 2022-2023,Duke U,"Lecturer, Writing Studies","Durham, NC 27708",https://academicjobsonline.org/ajo/jobs/22809,NTT,09/15/2022
 2022-2023,Duke U,Professor of the Practice of Writing Studies,"Durham, NC 27708",https://academicjobsonline.org/ajo/jobs/22807,NTT,09/15/2022
@@ -2744,19 +2770,22 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,"U of Wisconsin, Eau Claire","Assistant Professor, Rhetorics–Technical Writing [rhetmap 5]","Eau Claire, WI 54702",https://www.uwec.edu/job-postings/18799/,TT,09/15/2022
 2022-2023,"U of Wisconsin, Eau Claire",Center for Writing Excellence--Assistant Director of the Center and Lecturer [rhetmap 8],"Eau Claire, WI 54702",https://www.uwec.edu/job-postings/18821/,NTT,10/02/2022
 2022-2023,"U of Wisconsin, Eau Claire","Visiting Assistant Professor, Writing [rhetmap 47]","Eau Claire, WI 54702",https://www.uwec.edu/job-postings/19377/,NTT,03/08/2023
-2022-2023,U of Texas Rio Grande Valley,"Assistant Professor of Rhetoric, Composition, and Literacy Studies [rhetmap 39]","Edinburg, TX",https://careers.utrgv.edu/postings/36063,TT,11/29/2022
+2022-2023,U of Texas Rio Grande Valley,"Assistant Professor of Rhetoric, Composition, and Literacy Studies [rhetmap 39]
+","Edinburg, TX",https://careers.utrgv.edu/postings/36063,TT,11/29/2022
 2022-2023,"U of Texas, El Paso",Assistant Professor of Rhetoric and Writing Studies [rhetmap 17],"El Paso, TX 79968",https://utep.interviewexchange.com/jobofferdetails.jsp;jsessionid=5145F15FAE0A9851D0749E0C7564CA90;jsessionid=0AF22DEC83F97B92842E03A309689DCF?JOBID=153843,TT,10/20/2022
 2022-2023,Elon U,"Limited Term Instructor or Assistant Professor of English
 ","Elon, NC 27244",https://joblist.mla.org/job-details/7481/limited-term-instructor-or-assistant-professor-of-english/,NTT,06/23/2023
 2022-2023,Fairfield U,"Assistant Professor of the Practice, English / Rhetoric and Composition","Fairfield, CT 06824",https://ffd.wd1.myworkdayjobs.com/en-US/EmploymentOpportunities/jobs/details/Assistant-Professor-of-the-Practice--English_JR0001596,NTT,01/10/2023
 2022-2023,"U of Arkansas, Fayetteville","Teaching Assistant Professor, Rhetoric and Composition [rhetmap 26]","Fayetteville, AR 72701",https://uasys.wd5.myworkdayjobs.com/en-US/UASYS/details/Teaching-Assistant-Professor--Rhetoric-and-Composition_R0025577?q=rhetoric+and+composition&locations=17a66cdad98201f7890cfb48ca00e249&startDate=a19913d62cec01e1f3933da5a30e091c,NTT,11/09/2022
-2022-2023,Texas Christian U,Assistant/Associate Professor of English (Xicanx/Chicanx/Latinx Rhetorics) [rhetmap 27],"Fort Worth, TX",https://jobs.tcu.edu/en-us/job/498315/assistantassociate-professor-of-english-xicanxchicanxlatinx-rhetorics,TT,11/14/2022
+2022-2023,Texas Christian U,"Assistant/Associate Professor of English (Xicanx/Chicanx/Latinx Rhetorics) [rhetmap 27]
+","Fort Worth, TX",https://jobs.tcu.edu/en-us/job/498315/assistantassociate-professor-of-english-xicanxchicanxlatinx-rhetorics,TT,11/14/2022
 2022-2023,Fresno Pacific U,"Tenure-track Faculty, Media Studies","Fresno, CA",https://joblist.mla.org/job-details/7113/tenure-track-faculty-in-media-studies/,TT,01/10/2023
 2022-2023,"California SU, Fresno",English Education - Assistant / Associate Professor,"Fresno, CA 93740",https://careers.fresnostate.edu/en-us/job/520304/english-education-assistant-associate-professor,TT,11/08/2022
 2022-2023,Westminister C,Assistant Professor of English,"Fulton, MS",https://joblist.mla.org/job-details/7086/assistant-professor-of-english/,TT,12/20/2022
 2022-2023,Georgetown C,Visiting Assistant Professor of English,"Georgetown, KY",https://joblist.mla.org/job-details/7160/visiting-assistant-professor-of-english/,NTT,01/27/2023
 2022-2023,C of DuPage,"Full Time Faculty - English Composition (Fall 2023, Tenure Track)","Glen Ellyn, IL 60137",https://cod.csod.com/ux/ats/careersite/4/home/requisition/959?c=cod,NTT,12/08/2022
-2022-2023,James Madison U,Assistant Professor of Technical Communication [rhetmap 2],"Harrisonburg, VA",https://joblink.jmu.edu/postings/12677,TT,08/29/2022
+2022-2023,James Madison U,"Assistant Professor of Technical Communication [rhetmap 2]
+","Harrisonburg, VA 22807",https://joblink.jmu.edu/postings/12677,TT,08/29/2022
 2022-2023,Montana SU-Northern,"Assistant Professor of English, tenure-track","Harve, MT",https://jobs.msun.edu/postings/2317,TT,05/10/2023
 2022-2023,Haverford C,Visiting Assistant Professor of the Writing Program,"Haverford, PA",https://apply.interfolio.com/120105,NTT,01/27/2023
 2022-2023,Montana SU-Northern,"Assistant Professor of English, tenure-track
@@ -2767,11 +2796,13 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,Michigan Technological U,"Assistant Teaching Professor, Technical & Professional Communication
 ","Houghton, MI",https://www.employment.mtu.edu/en-us/job/493159/assistant-teaching-professor-technical-professional-communication,NTT,02/17/2023
 2022-2023,"U of Houston, Downtown","Assistant / Associate Professor, Rhetoric and Composition, and Director of First-Year Writing","Houston, TX 77002",https://joblist.mla.org/job-details/6940/assistant-associate-professor-in-rhetoric-and-composition-and-director-of-first-year-writing/,TT,11/22/2022
-2022-2023,Cornell U,"Engineering Communications Senior Lecturer/Lecturer (full time, not remote) [rhetmap 7]","Ithaca, NY",https://academicjobsonline.org/ajo/jobs/22984,NTT,09/28/2022
+2022-2023,Cornell U,"Engineering Communications Senior Lecturer/Lecturer (full time, not remote) [rhetmap 7]
+","Ithaca, NY",https://academicjobsonline.org/ajo/jobs/22984,NTT,09/28/2022
 2022-2023,U of Nebraska-Kearney,Assistant Professor of English (Tenure-Track) [rhetmap 5],"Kearny, NE",https://unk.peopleadmin.com/postings/4657,TT,09/16/2022
 2022-2023,U of Nebraska Kearney,Assistant Professor,"Kearny, NE",https://joblist.mla.org/job-details/6568/assistant-professor/,TT,10/18/2022
 2022-2023,Kennesaw SU,Assistant Professor of Rhetoric of Science [rhetmap 34],"Kennesaw, GA 30144",https://careers.hprod.onehcm.usg.edu/psp/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=43000&JobOpeningId=251099&PostingSeq=1,TT,11/20/2022
-2022-2023,Kennesaw SU,Lecturer of English (primarily first-year composition) [rhetmap 35],"Kennesaw, GA 30144",https://careers.hprod.onehcm.usg.edu/psp/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=43000&JobOpeningId=251101&PostingSeq=1,NTT,11/20/2022
+2022-2023,Kennesaw SU,"Lecturer of English (primarily first-year composition) [rhetmap 35]
+","Kennesaw, GA 30144",https://careers.hprod.onehcm.usg.edu/psp/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=43000&JobOpeningId=251101&PostingSeq=1,NTT,11/20/2022
 2022-2023,Kent SU,Lecturer C Writing [rhetmap 46],"Kent, OH",https://jobslist.kent.edu/cw/en-us/job/499424/faculty-nontenure-track9-mo-2-openings,NTT,03/08/2023
 2022-2023,Oregon IoT,Assistant Professor of Professional Writing [rhetmap 30],"Klamath Falls, OR",https://jobs.oit.edu/postings/5518,TT,11/15/2022
 2022-2023,U of Tennessee Knoxville,"Full-Time Lecturer, English, Non-Tenure-Track","Knoxville, TN",https://joblist.mla.org/job-details/7138/full-time-lecturer-in-english-non-tenure-track/,NTT,01/16/2023
@@ -2787,13 +2818,15 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,"California SU, Long Beach","Assistant Professor of English - Cultural Rhetoric and Composition
 ","Long Beach, CA 90840",https://careers.pageuppeople.com/873/lb/en-us/job/520483/assistant-professor-of-english,TT,12/20/2022
 2022-2023,USC Viterbi,Full-Time Teaching Faculty,"Los Angeles, CA",https://joblist.mla.org/job-details/6222/full-time-teaching-faculty/,NTT,09/16/2022
-2022-2023,Texas Tech U,TT Assistant/Associate Professor of Technical Communication [rhetmap 1],"Lubbock, TX 79409",https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25898&siteid=5637#jobDetails=743270_5637,TT,08/17/2022
+2022-2023,Texas Tech U,"TT Assistant/Associate Professor of Technical Communication [rhetmap 1]
+","Lubbock, TX 79409",https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25898&siteid=5637#jobDetails=743270_5637,TT,08/17/2022
 2022-2023,Texas Tech U,Assistant Professor of Practice - First-Year Writing,"Lubbock, TX 79409",https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25898&siteid=5637&PageType=JobDetails&jobid=782868#jobDetails=782868_5637,NTT,02/27/2023
 2022-2023,Pepperdine U,Assistant Professor of English (Rhetoric and Composition),"Malibu, CA",http://apply.interfolio.com/110490,TT,09/01/2022
 2022-2023,Northern Michigan U,"Assistant Professor/Tenure-Track English, Composition and Rhetoric","Marquette, MI",https://workatnmu.nmu.edu/en-us/job/493953/assistant-professortenure-track,TT,10/04/2022
 2022-2023,Texas A&M U,Visiting Assistant Professor,"McAllen, TX",https://apply.interfolio.com/125503,NTT,06/05/2023
-2022-2023,Christian Brothers U,"Assistant/Associate Professor, English (Digital Media/Writing program Administration) Tenure Track [rhetmap 38]","Memphis, TN 38104",https://www.cbu.edu/human-resources/ ,TT,11/28/2022
-2022-2023,Christian Brothers U,"Assistant/Associate Professor, English (Digital Rhetoric/Writing Program Administration) [rhetmap 49]","Memphis, TN 38104",https://www.cbu.edu/human-resources/ ,TT,03/29/2023
+2022-2023,Christian Brothers U,"Assistant/Associate Professor, English (Digital Media/Writing program Administration) Tenure Track [rhetmap 38] 
+","Memphis, TN 38104",https://www.cbu.edu/human-resources/,TT,11/28/2022
+2022-2023,Christian Brothers U,"Assistant/Associate Professor, English (Digital Rhetoric/Writing Program Administration) [rhetmap 49]","Memphis, TN 38104",https://www.cbu.edu/human-resources/,TT,03/29/2023
 2022-2023,"U of California, Merced",Assistant or Associate Teaching Professor of Writing Studies [rhetmap 16],"Merced, CA 95343",https://aprecruit.ucmerced.edu/JPF01416,TT,10/18/2022
 2022-2023,"U of Minnesota, Twin Cities","Assistant or Associate Professor, Writing Instruction and Pedagogy [rhetmap 3]","Minneapolis, MN",https://cla.umn.edu/writing-studies/news-events/story/writing-studies-announces-tenure-track-position-writing-instruction-and-pedagogy,TT,09/08/2022
 2022-2023,U of Idaho,Regular Faculty - Rhetoric and Composition,"Moscow, ID",https://uidaho.peopleadmin.com/postings/38433,TT,11/08/2022
@@ -2801,7 +2834,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,Ball SU,Assistant Lecturer/Assistant Teaching Professor of English,"Muncie, IN 47306",https://bsu.peopleadmin.com/postings/34104,NTT,10/18/2022
 2022-2023,Middle Tennessee SU,"English Lecturer - Full Time
 ","Murfeesboro, TN",https://careers.mtsu.edu/en-us/job/497342/english-fulltime-lecturer-faculty,NTT,05/01/2023
-2022-2023,Middle Tennessee SU,Assistant/Associate Professor of English (Writing Studies) [rhetmap 9],"Murfreesboro, TN",https://careers.mtsu.edu/en-us/job/497118/english-writing-studies-tenuretrack-faculty,TT,10/05/2022
+2022-2023,Middle Tennessee SU,"Assistant/Associate Professor of English (Writing Studies) [rhetmap 9]
+","Murfreesboro, TN",https://careers.mtsu.edu/en-us/job/497118/english-writing-studies-tenuretrack-faculty,TT,10/05/2022
 2022-2023,Tulane U,Visiting Assistant Professor of First-Year Writing,"New Orleans, LA",https://apply.interfolio.com/41317,NTT,04/11/2023
 2022-2023,Yeshiva U,Clinical Assistant Professor of English,"New York, NY",https://careers.pageuppeople.com/876/cw/en-us/job/496445/clinical-assistant-professor-of-english,NTT,10/18/2022
 2022-2023,Brooklyn C,"Lecturer, Composition and Rhetoric (English)","New York, NY",https://cuny.jobs/brooklyn-college/new-jobs/,NTT,10/26/2022
@@ -2811,7 +2845,7 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,Old Dominion U,"Professor and Chair, Department of English (Tenured) [rhetmap 24]","Norfolk, VA 23529",https://jobs.odu.edu/postings/17363,TT,11/08/2022
 2022-2023,Old Dominion U,Assistant or Associate Professor of Medical Rhetoric (Tenure Track),"Norfolk, VA 23529",https://jobs.odu.edu/postings/17326,TT,11/08/2022
 2022-2023,Norwich U,Assistant Professor of English & Director - Center for Writing,"Northfield, VT",https://norwich.interviewexchange.com/jobofferdetails.jsp;jsessionid=B2A81B8A328DBA72E45D1005C0075E88?JOBID=155288,TT,11/17/2022
-2022-2023,Chapman U,"Instructional Assistant Professor of English/Writing Center Director, Non-Tenure Track","Orange, CA",https://academicjobsonline.org/ajo/jobs/23358,NTT,11/22/2022
+2022-2023,Chapman U,"Instructional Assistant Professor of English/Writing Center Director, Non-Tenure Track","Orange, CA 92866",https://academicjobsonline.org/ajo/jobs/23358,NTT,11/22/2022
 2022-2023,Utah Valley U,"Faculty, Tenure Track - Technical Communication
 ","Orem, UT",https://joblist.mla.org/job-details/6179/faculty-tenure-track-technical-communication/?,TT,09/12/2022
 2022-2023,U of Pittsburgh,"Assistant or Advanced Assistant Professor, Black Rhetorics (Composition Program, English Department) [rhetmap 13]","Pittsburgh, PA 15260",https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobdetail.ftl?job=22007598&tz=GMT-04%3A00&tzname=America%2FNew_York,TT,10/11/2022
@@ -2829,8 +2863,9 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,"Queens C, CUNY",Assistant Professor of English/ SEEK [rhetmap 12],"Queens, NY 11367",https://cuny.jobs/queens-ny/assistant-professor-englishsearch-for-education-elevation-and-knowledge-seek/CF6B3797DF024194BC393145D312E0B1/job/,TT,10/06/2022
 2022-2023,"Queens C, CUNY",Open rank professor/Director of the Writing Center [rhetmap 21],"Queens, NY 11367",https://cuny.jobs/queens-ny/assistant-associate-or-full-professor-director-of-the-writing-center/7F2DDDD79FDA45E5AAD1A97D69F8CCC1/job/?utm_campaign=RR%20RSS%20Feed&utm_medium=Other&utm_source=RR%20RSS%20Feed-DE,TT,10/28/2022
 2022-2023,"Queens C, CUNY",Lecturer or Doctoral Lecturer (full time) [rhetmap 31],"Queens, NY 11367",https://cuny.jobs/queens-ny/lecturer-or-lecturer-doctoral-schedule-english-multiple-positions/89E51A00614A4A2CA50E739F3824E430/job/?utm_campaign=RR%20RSS%20Feed&utm_medium=Other&utm_source=RR%20RSS%20Feed-DE,NTT,11/17/2022
-2022-2023,"Queens C, CUNY
-",Assistant/Associate Professor of Multilingualism and English Education [rhetmap 33],"Queens, NY 11367",https://cuny.jobs/queens-ny/assistantassociate-professor-of-multilingualism-and-english-education/16D50B88907547099903AAC678BBC78D/job/?utm_campaign=RR%20RSS%20Feed&utm_medium=Other&utm_source=RR%20RSS%20Feed-DE,TT,11/18/2022
+2022-2023,"Queens C, CUNY 
+","Assistant/Associate Professor of Multilingualism and English Education [rhetmap 33]
+","Queens, NY 11367",https://cuny.jobs/queens-ny/assistantassociate-professor-of-multilingualism-and-english-education/16D50B88907547099903AAC678BBC78D/job/?utm_campaign=RR%20RSS%20Feed&utm_medium=Other&utm_source=RR%20RSS%20Feed-DE,TT,11/18/2022
 2022-2023,North Carolina SU,"Co-Director of Writing and Speaking Across the Curriculum, Campus Writing and Speaking Program","Raleigh, NC 27695",https://jobs.ncsu.edu/postings/170014,TT,09/28/2022
 2022-2023,"U of Nevada, Reno","Lecturer II, Department of English
 ","Reno, NV 89557",https://nshe.wd1.myworkdayjobs.com/UNR-external/job/U-of-Nevada-Reno---Main-Campus/Lecturer-II-Teaching-Assistant-Professor--English_R0135854,NTT,03/22/2023
@@ -2876,7 +2911,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2022-2023,Arizona SU,"Instructor Specialty: Writing Programs
 ","Tempe, AZ 85287",https://joblist.mla.org/job-apply/7468/instructor-specialty-writing-programs/,NTT,06/13/2023
 2022-2023,Rose-Hulman IoT,"Tenure Track Assistant Professor, Writing","Terre Haute, IN",https://joblist.mla.org/job-details/6946/tenure-track-assistant-professor-in-writing/,TT,11/22/2022
-2022-2023,Towson U,Assistant Professor of Technical Communication [rhetmap 18],"Towson, MD",https://towson.taleo.net/careersection/fac_ex/jobdetail.ftl?job=220000UF,TT,10/26/2022
+2022-2023,Towson U,"Assistant Professor of Technical Communication [rhetmap 18] 
+","Towson, MD",https://towson.taleo.net/careersection/fac_ex/jobdetail.ftl?job=220000UF ,TT,10/26/2022
 2022-2023,U of Alabama,"Assistant Professor of Composition, Rhetoric, and English Studies
 ","Tuscaloosa, AL 35487",https://facultyjobs.ua.edu/postings/51265,TT,09/19/2022
 2022-2023,U of Alabama,instructor faculty,"Tuscaloosa, AL 35487",https://joblist.mla.org/job-details/7220/instructor-faculty/,NTT,02/09/2023
@@ -2897,7 +2933,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2023-2024,Northern SU,Assistant Professor of English,"Aberdeen, SD 57401",https://joblist.mla.org/job-details/7840/assistant-professor-of-english/,TT,09/26/2023
 2023-2024,Grand Valley SU,Affiliate Faculty of First-Year Writing,"Allendale, MI 49401",https://jobs.gvsu.edu/en-us/job/494983/affiliate-faculty-of-instruction-firstyear-writing,NTT,09/18/2023
 2023-2024,Alma C,Assistant Professor of English and Director of Writing Center,"Alma, MI 48801",https://joblist.mla.org/job-details/7912/assistant-professor-of-english-and-director-of-writing-center/,TT,09/30/2023
-2023-2024,Iowa SU,"Assistant or Associate Professor, Artificial Intelligence (AI) and Writing [rhetmap 13]","Ames, IA 50011",https://isu.wd1.myworkdayjobs.com/IowaStateJobs/job/Ames-IA/Assistant-or-Associate-Professor-in-Artificial-Intelligence--AI--and-Writing_R13056,TT,10/05/2023
+2023-2024,Iowa SU,"Assistant or Associate Professor, Artificial Intelligence (AI) and Writing [rhetmap 13]
+","Ames, IA 50011",https://isu.wd1.myworkdayjobs.com/IowaStateJobs/job/Ames-IA/Assistant-or-Associate-Professor-in-Artificial-Intelligence--AI--and-Writing_R13056,TT,10/05/2023
 2023-2024,U of Michigan,"LEO Lecturer III, Technical Communication [rhetmap 24]","Ann Arbor, MI 48109",https://apply.interfolio.com/135795,NTT,11/17/2023
 2023-2024,Oglethorpe U,Writing Center Director (tenured/tenure-track),"Atlanta, GA 30332",https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=110373&clientkey=E89EC0BE36E642B4CF9B1208D8AFD807,TT,11/27/2023
 2023-2024,Georgia Tech,"Assistant Professor, Digital Media","Atlanta, GA 30332",https://careers.hprod.onehcm.usg.edu/psp/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=3000&JobOpeningId=265756&PostingSeq=1,TT,12/13/2023
@@ -2926,7 +2963,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2023-2024,"California SU, Dominguez Hills","Associate or Full Professor, English (Director of Composition)","Carson, CA 90747",https://careers.csudh.edu/en-us/job/533396/associate-or-full-professor-english-director-of-composition,TT,12/04/2023
 2023-2024,Penn State Lehigh Valley,Lecturer or Assistant Teaching Professor of English,"Center Valley, PA",https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Lehigh-Valley/Lecturer-or-Assistant-Teaching-Professor-of-English_REQ_0000050725-1,NTT,12/13/2023
 2023-2024,The Citadel,"Tenure-Track Assistant Professor - English, Fine Arts and Communications","Charleston, SC",https://jobs.citadel.edu/cw/en-us/job/496459/tenuretrack-assistant-professor-english-fine-arts-and-communications,TT,10/03/2023
-2023-2024,C of Charleston,"Visiting Assistant Professor of English (composition), Visiting Assistant Professor of English (writing studies) [rhetmap 34]","Charleston, SC 29424",https://jobs.cofc.edu/postings/15150 https://jobs.cofc.edu/postings/15149,NTT,03/26/2024
+2023-2024,C of Charleston,"Visiting Assistant Professor of English (composition), Visiting Assistant Professor of English (writing studies) [rhetmap 34]
+","Charleston, SC 29424",https://jobs.cofc.edu/postings/15150 https://jobs.cofc.edu/postings/15149,NTT,03/26/2024
 2023-2024,U of Virginia,"Assistant Professor of English, Academic General Faculty","Charlottesville, VA 22904",https://apply.interfolio.com/143553,NTT,04/30/2024
 2023-2024,Widener U,Teaching Professor of English/Foundations and Transformation - Non-tenure track,"Chester, PA",https://joblist.mla.org/job-details/8751/teaching-professor-of-english-foundations-and-transformation-non-tenure-track/,NTT,04/14/2024
 2023-2024,"U of Illinois, Chicago",Lecturer – English,"Chicago, IL 60607",https://uic.csod.com/ux/ats/careersite/1/home/requisition/8898?c=uic,NTT,04/02/2024
@@ -2948,12 +2986,14 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2023-2024,U of Miami,Writing Studies- Associate Professor-Design and Emerging Writing Technologies,"Coral Gables, FL 33146",https://umiami.wd1.myworkdayjobs.com/UMFaculty/job/Coral-Gables-FL/CAS-Writing-Studies--Associate-Professor-Design-and-Emerging-Writing-Technologies_R100070298-1,TT,09/26/2023
 2023-2024,U of Miami,Full-Time Lecturer - Department of Writing Studies,"Coral Gables, FL 33146",https://joblist.mla.org/job-details/8638/full-time-lecturer-department-of-writing-studies/,NTT,02/15/2024
 2023-2024,"Texas A&M U, Corpus Christi","Assistant Professor of Technical and Professional Writing
-[rhetmap 16]","Corpus Christi, TX 78412",https://tamus.wd1.myworkdayjobs.com/en-US/TAMUCC_External/job/Assistant-Professor--English--Technical-and-Professional-Writing-_R-066628,TT,10/19/2023
+[rhetmap 16]","Corpus Christi, TX 78412",https://tamus.wd1.myworkdayjobs.com/en-US/TAMUCC_External/job/Assistant-Professor--English--Technical-and-Professional-Writing-_R-066628 ,TT,10/19/2023
 2023-2024,SUNY Cortland,Instructor of First-Year Composition,"Cortland, NY 13045",https://jobs.cortland.edu/postings/7756,NTT,09/30/2023
-2023-2024,Emory U Oxford C,Assistant Professor/Writing and Communication Center Director [rhetmap 26],"Oxford, GA 30054",https://apply.interfolio.com/138072,TT,12/13/2023
-2023-2024,Wabash C,Visiting Assistant Professor of English,"Crawfordsville, IN, 47933",https://joblist.mla.org/job-details/8723/visiting-assistant-professor-of-english/,NTT,03/26/2024
+2023-2024,Emory U Oxford C,"Assistant Professor/Writing and Communication Center Director [rhetmap 26]
+","Oxford, GA 30054",https://apply.interfolio.com/138072,TT,12/13/2023
+2023-2024,Wabash C,Visiting Assistant Professor of English,"Crawfordville, IN",https://joblist.mla.org/job-details/8723/visiting-assistant-professor-of-english/,NTT,03/26/2024
 2023-2024,Southern Methodist U,Lecturer,"Dallas, TX 75205",https://apply.interfolio.com/146935,NTT,06/05/2024
-2023-2024,Embry-Riddle Aeronautical U,"Tenure-Track Assistant Professor, Speech & Technical Communication [rhetmap 18]","Daytona Beach, FL 32114",https://embryriddle.wd1.myworkdayjobs.com/en-US/External/job/Tenure-Track-Assistant-Professor-in-Speech---Technical-Communication_R306674,TT,10/30/2023
+2023-2024,Embry-Riddle Aeronautical U,"Tenure-Track Assistant Professor, Speech & Technical Communication [rhetmap 18] 
+","Daytona Beach, FL 32114",https://embryriddle.wd1.myworkdayjobs.com/en-US/External/job/Tenure-Track-Assistant-Professor-in-Speech---Technical-Communication_R306674,TT,10/30/2023
 2023-2024,Embry-Riddle Aeronautical U,Tenure-Track Assistant Professor of Humanities and Composition,"Daytona Beach, FL 32114",https://embryriddle.wd1.myworkdayjobs.com/en-US/External/details/Tenure-Track-Assistant-Professor-of-Humanities-and-Composition_R306857,TT,11/13/2023
 2023-2024,Drake U,"Assistant Professor, English (Interest, Artificial Intelligence)","Des Moines, IA 50311",https://joblist.mla.org/job-details/7669/assistant-professor-english-interest-in-artificial-intelligence-/,TT,09/01/2023
 2023-2024,"Northwestern U, Qatar","Open Rank Professor, Writing Studies","Doha, Qatar",https://joblist.mla.org/job-details/7956/open-rank-professor-in-writing-studies/,NTT,09/30/2023
@@ -2963,8 +3003,10 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2023-2024,"Penn State U, Erie, Behrend C","Assistant Teaching Professor or Lecturer, Composition","Erie, PA 16563",https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Erie-The-Behrend-C/Assistant-Teaching-Professor-or-Lecturer-in-Composition_REQ_0000047467-1,NTT,09/12/2023
 2023-2024,U of Oregon,Assistant Professor of English - Digital Rhetoric [rhetmap 20],"Eugene, OR 97403",https://careers.uoregon.edu/en-us/job/532071/assistant-professor-of-english,TT,11/07/2023
 2023-2024,George Mason U,"Term Assistant Professor or Term Instructor, Composition","Fairfax, VA 22030",https://listings.jobs.gmu.edu/jobs/5061c5d5-c3ab-4527-a557-71510746d206,NTT,11/07/2023
-2023-2024,North Dakota SU,"Two Assistant or Advanced Assistant Professors, Rhetoric and Writing [rhetmap 22]","Fargo, ND 58108",https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=2949399&PostingSeq=1,TT,11/13/2023
-2023-2024,North Dakota SU,"Two Assistant or Advanced Assistant Professors, Rhetoric and Writing [rhetmap 22]","Fargo, ND 58108",https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=2949399&PostingSeq=1,TT,11/13/2023
+2023-2024,North Dakota SU,"Two Assistant or Advanced Assistant Professors, Rhetoric and Writing [rhetmap 22]
+","Fargo, ND 58108",https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=2949399&PostingSeq=1,TT,11/13/2023
+2023-2024,North Dakota SU,"Two Assistant or Advanced Assistant Professors, Rhetoric and Writing [rhetmap 22]
+","Fargo, ND 58108",https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=2949399&PostingSeq=1,TT,11/13/2023
 2023-2024,Colorado SU,Associate/Full Professor and Writing Program Administrator,"Fort Collins, CO",https://jobs.colostate.edu/postings/135432,TT,11/07/2023
 2023-2024,Texas Christian U,Assistant Professor - Rhetoric and Composition,"Fort Worth, TX",https://jobs.tcu.edu/jobs/assistant-professor-rhetoric-and-composition-tcu-main-campus-texas-united-states,TT,10/30/2023
 2023-2024,"California SU, Fullerton",Assistant Professor Composition and Rhetoric,"Fullerton, CA 92831",https://joblist.mla.org/job-details/7733/assistant-professor-composition-and-rhetoric,TT,09/12/2023
@@ -2974,7 +3016,7 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 ",Contract-Renewable Instructor or Lecturer of Writing Studies,"Greeley, CO",https://unco.csod.com/ux/ats/careersite/4/home/requisition/285?c=unco,NTT,04/25/2024
 2023-2024,Colgate U,Director of the Writing and Speaking Center,"Hamilton, NY",https://apply.interfolio.com/136204,NTT,11/13/2023
 2023-2024,Hampden-Sydney C,Visiting Assistant Professor of Rhetoric for 2024-25 NEW,"Hampden-Sydney, VA",https://apply.interfolio.com/145768,NTT,05/09/2024
-2023-2024,James Madison U,"Assistant/Associate Professor of Writing, Rhetoric & Technical Communication [rhetmap 5]","Harrisonburg, VA",https://joblink.jmu.edu/postings/15423,TT,09/13/2023
+2023-2024,James Madison U,"Assistant/Associate Professor of Writing, Rhetoric & Technical Communication [rhetmap 5]","Harrisonburg, VA 22807",https://joblink.jmu.edu/postings/15423,TT,09/13/2023
 2023-2024,U of Southern Mississippi,Assistant Professor of Composition and Rhetoric and Director of Composition,"Hattiesburg, MS 39406",https://usm.csod.com/ats/careersite/JobDetails.aspx?id=3724&site=1,TT,10/12/2023
 2023-2024,Fort Hays SU,Assistant Professor,"Hays, KS 67601",https://joblist.mla.org/job-details/7729/assistant-professor-department-of-english/,TT,09/08/2023
 2023-2024,Hofstra U,Assistant Professor of Writing Studies,"Hempstead, NY 11549",https://hofstra.peopleadmin.com/postings/2788,TT,11/07/2023
@@ -3000,7 +3042,8 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2023-2024,U of Louisville,Assistant Professor Term,"Louisville, KY",https://joblist.mla.org/job-details/8702/assistant-professor-term/,NTT,03/11/2024
 2023-2024,Texas Tech U,Assistant Professor of Technical Communication & Rhetoric,"Lubbock, TX 79409",https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25898&siteid=5637&PageType=JobDetails&jobid=820280#jobDetails=820280_5637,TT,09/08/2023
 2023-2024,Dakota SU,Assistant Professor of Composition and Rhetoric,"Madison, SD",https://joblist.mla.org/job-details/8821/assistant-professor-of-composition-and-rhetoric/,TT,05/30/2024
-2023-2024,U of Wisconsin-Madison,"Teaching Faculty III, Business Communication [rhetmap 15]","Madison, WI",https://jobs.wisc.edu/jobs/teaching-faculty-iii-madison-wisconsin-united-states ,NTT,10/06/2023
+2023-2024,U of Wisconsin-Madison,"Teaching Faculty III, Business Communication [rhetmap 15]
+","Madison, WI",https://jobs.wisc.edu/jobs/teaching-faculty-iii-madison-wisconsin-united-states,NTT,10/06/2023
 2023-2024,U of Tennessee Martin,Assistant Professor of English,"Martin, TN",https://joblist.mla.org/job-details/7829/assistant-professor-of-english/,TT,09/18/2023
 2023-2024,Messiah U,Term-Tenure Track Assistant Professor of English,"Mechanicsburg, PA",https://jobs.messiah.edu/postings/25689,TT,10/16/2023
 2023-2024,U of Memphis,Visiting Assistant Professor of Technical Communication,"Memphis, TN",https://workforum.memphis.edu/postings/38454,NTT,11/13/2023
@@ -3060,8 +3103,7 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2023-2024,Gonzaga U,"Lecturer – IR/AT, English","Spokane, WA",https://gonzaga.peopleadmin.com/postings/20089,NTT,09/01/2023
 2023-2024,Gonzaga U,"Lecturer – IR/AT, English","Spokane, WA",https://gonzaga.peopleadmin.com/postings/20018,NTT,09/01/2023
 2023-2024,Mississippi SU,Professor and Head,"Starkville, MS",https://explore.msujobs.msstate.edu/cw/en-us/job/507041?lApplicationSubSourceID=,TT,01/10/2024
-2023-2024,Oklahoma SU,"Open-rank position, Rhetoric and Writing Studies/First-Year Composition Director","Stillwater, OK","Open-rank position, Rhetoric and Writing Studies/First-Year Composition Director
-",TT,10/22/2023
+2023-2024,Oklahoma SU,"Open-rank position, Rhetoric and Writing Studies/First-Year Composition Director","Stillwater, OK","Open-rank position, Rhetoric and Writing Studies/First-Year Composition Director",TT,10/22/2023
 2023-2024,U of Connecticut,"Assistant Professor, Residence","Storrs, CT",https://joblist.mla.org/job-details/8812/assistant-professor-in-residence/,NTT,05/30/2024
 2023-2024,Middle Tennessee SU,Dual Enrollment Lecturer - Full Time,"Sumner County, TN",https://joblist.mla.org/job-details/8822/dual-enrollment-lecturer-full-time,NTT,05/30/2024
 2023-2024,U of Tampa,"Assistant Teaching Professor, English And Writing","Tampa, FL",https://joblist.mla.org/job-details/7817/assistant-teaching-professor-english-and-writing/,NTT,09/18/2023
@@ -3085,7 +3127,7 @@ Assistant Vice Dean of General Education","New York, NY 10003",http://apply.inte
 2023-2024,Baylor U,"Lecturer, Professional Writing and Rhetoric","Waco, TX 76706",http://apply.interfolio.com/130847,NTT,09/18/2023
 2023-2024,Brandeis U,"Lecturer (FT, NTT) [rhetmap 12]","Waltham, MA 02454",https://academicjobsonline.org/ajo/jobs/25983,NTT,10/03/2023
 2023-2024,Howard U,Assistant or Associate Professor of Composition and Writing,"Washington, D.C.",https://joblist.mla.org/job-details/8297/assistant-or-associate-professor-of-composition-and-writing/,TT,11/07/2023
-2023-2024,Georgetown U,Assistant Teaching Professor [rhetmap 17],"Washington, DC",https://apply.interfolio.com/135046,TT,10/20/2023
+2023-2024,Georgetown U,Assistant Teaching Professor [rhetmap 17],"Washington, DC",https://apply.interfolio.com/135046 ,TT,10/20/2023
 2023-2024,Gordon C,"Assistant or Associate Professor of English and Coordinator of First-Year Writing
 Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2023-2024,West Liberty U,English Faculty and Director of the Robinson Writing Center,"West Liberty, WV",https://westlibertyuniversity.bamboohr.com/careers/262,TT,02/15/2024
@@ -3102,8 +3144,9 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,U of Michigan,"LEO Lecturer III
 ","Ann Arbor, MI 48109",https://joblist.mla.org/job-details/9575/sweetland-center-for-writing-leo-lecturer-iii,NTT,11/11/2024
 2024-2025,U of Georgia,"Assistant Professor of English, Game Studies and Design [rhetmap 7]","Athens, GA 30602",https://www.ugajobsearch.com/postings/400715,TT,09/24/2024
-2024-2025,"Emory U
-","Assistant Teaching Professor, Technical Communication & Cultural Rhetorics [rhetmap 9]","Atlanta, GA 30332",https://apply.interfolio.com/156162,NTT,10/02/2024
+2024-2025,"Emory U 
+","Assistant Teaching Professor, Technical Communication & Cultural Rhetorics [rhetmap 9]
+","Atlanta, GA 30332",https://apply.interfolio.com/156162,NTT,10/02/2024
 2024-2025,Georgia Tech,"Tenure-Track Faculty, Digital Media - Open Rank","Atlanta, GA 30332",https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=3000&JobOpeningId=278182&PostingSeq=1&PortalActualURL=https%3a%2f%2fcareers.hprod.onehcm.usg.edu%2fpsc%2fcareers%2fCAREERS%2fHRMS%2fc%2fHRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL%3fPage%3dHRS_APP_JBPST_FL%26Action%3dU%26FOCUS%3dApplicant%26SiteId%3d3000%26JobOpeningId%3d278182%26PostingSeq%3d1&PortalRegistryName=CAREERS&PortalServletURI=https%3a%2f%2fcareers.hprod.onehcm.usg.edu%2fpsp%2fcareers%2f&PortalURI=https%3a%2f%2fcareers.hprod.onehcm.usg.edu%2fpsc%2fcareers%2f&PortalHostNode=APPLICANT&NoCrumbs=yes&PortalKeyStruct=yes,TT,10/21/2024
 2024-2025,Georgia Tech,"Technical Communications Lecturer, Computer Science","Atlanta, GA 30332",https://careers.hprod.onehcm.usg.edu/psp/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=3000&JobOpeningId=278755&PostingSeq=1,NTT,11/05/2024
 2024-2025,"U of Texas, Austin",Assistant Professor [rhetmap 3],"Austin, TX 78712",https://faculty.utexas.edu/career/145550,TT,09/12/2024
@@ -3117,7 +3160,8 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,Southern Illinois U: Carbondale,"Director, Center for Virtual Expression","Carbondale, IL",https://www.schooljobs.com/careers/siu/jobs/4711471/director-center-for-virtual-expression?keywords=director&pagetype=jobOpportunitiesJobs&fbclid=IwY2xjawGQeJNleHRuA2FlbQIxMAABHXBmwMJUoE2_Qaolf8v0kDBpeoJMXGwqhHcteuDnCW_XRFXDSTG1R_1EZg_aem_FIUw_Ib9xU3X5J2_WqUxgg,TT,11/05/2024
 2024-2025,UNC Chapel Hill,Assistant Professor of Rhetoric and Composition,"Chapel Hill, NC 27599",https://unc.peopleadmin.com/postings/290071,TT,10/21/2024
 2024-2025,"U of Tennessee, Chattanooga
-",Assistant Professor of Public and Community Writing [rhetmap 15],"Chattanooga, TN 37403",https://ut.taleo.net/careersection/utc_faculty/jobdetail.ftl?job=2400000256&tz=GMT-04%3A00&tzname=America%2FNew_York,TT,10/29/2024
+","Assistant Professor of Public and Community Writing [rhetmap 15]
+","Chattanooga, TN 37403",https://ut.taleo.net/careersection/utc_faculty/jobdetail.ftl?job=2400000256&tz=GMT-04%3A00&tzname=America%2FNew_York,TT,10/29/2024
 2024-2025,Boston C,Assistant Professor of the Practice and Director of Writing Center,"Chestnut Hill, MA 02467",https://apply.interfolio.com/148140,NTT,08/26/2024
 2024-2025,U of Chicago,"Senior Instructional Professor, Academic Director - Program for Public Thinking and Discourse","Chicago, IL 60637",https://joblist.mla.org/job-details/9685/senior-instructional-professor-academic-director-program-for-public-thinking-and-discourse/,NTT,12/05/2024
 2024-2025,U of Cincinnati,"Visiting Assistant Professor, English","Cincinnati, OH 45221","https://jobs.uc.edu/job/Cincinnati-Visiting-Assistant-Professor,-English,-C-of-Arts-and-Sciences-OH-45201/1228215300/",NTT,11/05/2024
@@ -3137,7 +3181,7 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,U of Northern Colorado,Contract Renewable Lecturer of Writing Studies [rhetmap 4],"Greeley, CO",https://unco.csod.com/ux/ats/careersite/4/home/requisition/514?c=unco,NTT,09/19/2024
 2024-2025,U of Northern Colorado,Tenure-Track Assistant Professor of Writing Studies [rhetmap 5],"Greeley, CO",https://unco.csod.com/ux/ats/careersite/4/home/requisition/515?c=unco,TT,09/19/2024
 2024-2025,"U of North Carolina, Greensboro",Assistant Professor of Rhetoric and Composition,"Greensboro, NC 27412",https://joblist.mla.org/job-details/9370/assistant-professor-of-rhetoric-and-composition/,TT,10/09/2024
-2024-2025,James Madison U,"Assistant Professors of Writing, Rhetoric and Technical Communication [rhetmap 8]","Harrisonburg, VA",https://jobs.jmu.edu/jobs/tenure-track-assistant-professor-writing-rhetoric-technical-communication-two-positions-harrisonburg-virginia-united-states,TT,09/25/2024
+2024-2025,James Madison U,"Assistant Professors of Writing, Rhetoric and Technical Communication [rhetmap 8]","Harrisonburg, VA 22807",https://jobs.jmu.edu/jobs/tenure-track-assistant-professor-writing-rhetoric-technical-communication-two-positions-harrisonburg-virginia-united-states,TT,09/25/2024
 2024-2025,Trinity C,"Lecturer, the Allan K. Smith Center for Writing and Rhetoric
 ","Hartford, CT",https://joblist.mla.org/job-details/9560/lecturer-in-the-allan-k-smith-center-for-writing-and-rhetoric/,NTT,11/05/2024
 2024-2025,U of Southern Mississippi,Assistant Professor of Digital Humanities,"Hattiesburg, MS 39406",https://joblist.mla.org/job-details/9555/assistant-professor-of-digital-humanities/,TT,11/05/2024
@@ -3174,7 +3218,7 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 ","Naperville, IL",https://northcentralcollege.peopleadmin.com/postings/13117,TT,09/20/2024
 2024-2025,SUNY New Paltz,Assistant Professor of Rhetoric & Composition,"New Paltz, NY",https://www.newpaltz.edu/hr/displayjobdetails.php?id=2938,TT,10/21/2024
 2024-2025,New York U,"Clinical Assistant Professor, Expository Writing Program","New York, NY",https://apply.interfolio.com/149854,NTT,08/20/2024
-2024-2025,Fashion IoT,"Full-Time Faculty Position, Composition and Rhetoric","New York, NY",https://joblist.mla.org/job-details/9080/full-time-faculty-position-in-composition-and-rhetoric/,TT,09/09/2024
+2024-2025,Fashion IoT,"Full-Time Faculty Position, Composition and Rhetoric","New York, NY 10001",https://joblist.mla.org/job-details/9080/full-time-faculty-position-in-composition-and-rhetoric/,TT,09/09/2024
 2024-2025,New York U,"Postdoctoral Faculty Fellow, Liberal Studies - WRITING","New York, NY",https://joblist.mla.org/job-details/9116/postdoctoral-faculty-fellow-liberal-studies-writing/,NTT,09/12/2024
 2024-2025,Salve Regina U,"Lecturer, First Year Writing/Composition","Newport, RI",https://joblist.mla.org/job-details/9683/lecturer-first-year-writing-composition/,NTT,12/05/2024
 2024-2025,Old Dominion U,Assistant Professor of African American Rhetoric [rhetmap 20],"Norfolk, VA 23529",https://jobs.odu.edu/postings/21987,TT,12/05/2024
@@ -3182,7 +3226,8 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,St. Olaf C,Assistant Professor of English (Writing and Digital Studies),"Northfield, MN",https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/925/?mode=location,TT,08/20/2024
 2024-2025,U of Central Florida,"Assistant Professor, Writing & Rhetoric","Orlando, FL",https://joblist.mla.org/job-details/9582/assistant-professor-writing-and-rhetoric/,TT,11/11/2024
 2024-2025,U of Central Florida,"Instructor or Lecturer, Writing & Rhetoric","Orlando, FL",https://joblist.mla.org/job-details/9672/instructor-or-lecturer-writing-and-rhetoric/,NTT,11/27/2024
-2024-2025,Emory U Oxford C,"Assistant Professor, Rhetoric, Composition and Writing Studies [rhetmap 1]","Oxford, GA 30054",https://apply.interfolio.com/153707,TT,09/05/2024
+2024-2025,Emory U Oxford C,"Assistant Professor, Rhetoric, Composition and Writing Studies [rhetmap 1]
+","Oxford, GA 30054",https://apply.interfolio.com/153707,TT,09/05/2024
 2024-2025,U of Oxford,Professorship of Language and Communication,"Oxford, United Kingdom",https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.display_form?p_company=10&p_internal_external=E&p_display_in_irish=N&p_process_type=&p_applicant_no=&p_form_profile_detail=&p_display_apply_ind=Y&p_refresh_search=Y&p_recruitment_id=176329,TT,11/27/2024
 2024-2025,American U of Paris,Assistant Professor of Writing and Digital Humanities,"Paris, France",https://joblist.mla.org/job-details/8903/assistant-professor-of-writing-and-digital-humanities/,TT,08/20/2024
 2024-2025,"U of North Carolina, Pembroke",Assistant Professor of English and Director of Writing Center,"Pembroke, NC",https://joblist.mla.org/job-details/9158/assistant-professor-of-english-and-director-of-writing-center-3295/,TT,09/20/2024
@@ -3192,9 +3237,11 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,U of Pittsburgh,Teaching Assistant or Associate Professor_ Composition and Disability Studies,"Pittsburgh, PA 15260",https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobdetail.ftl?job=24007361&tz=GMT-04:00&tzname=America/New_York,NTT,10/01/2024
 2024-2025,U of Pittsburgh,"Teaching Assistant or Associate Professor, LGBTQ+ Literature and Culture","Pittsburgh, PA 15260",https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobdetail.ftl?job=24007367&tz=GMT-04:00&tzname=America/New_York,NTT,10/01/2024
 2024-2025,"California SU, Pomona",Assistant Professor of Rhetoric and Composition,"Pomona, CA 91768",https://careers.pageuppeople.com/873/po/en-us/job/540142/rhetoric-and-composition-assistant-professor,TT,08/20/2024
-2024-2025,"U of Nevada, Reno","Associate or Full Professor of English, Director of Core Writing (Tenure Track) [rhetmap 13]","Reno, NV 89557",https://nshe.wd1.myworkdayjobs.com/UNR-external/job/U-of-Nevada-Reno---Main-Campus/Associate-or-Full-Professor-of-English--Director-of-Core-Writing--Tenure-Track-_R0144773,TT,10/22/2024
+2024-2025,"U of Nevada, Reno","Associate or Full Professor of English, Director of Core Writing (Tenure Track) [rhetmap 13]
+","Reno, NV 89557",https://nshe.wd1.myworkdayjobs.com/UNR-external/job/U-of-Nevada-Reno---Main-Campus/Associate-or-Full-Professor-of-English--Director-of-Core-Writing--Tenure-Track-_R0144773 ,TT,10/22/2024
 2024-2025,Missouri U of Science & Technology,Assistant Teaching Professor [rhetmap 17],"Rolla, MS",https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&SiteId=10&FOCUS=Applicant&JobOpeningId=53955&PostingSeq=1,NTT,11/18/2024
-2024-2025,California Polytechnic SU,Assistant Professor of English - Technical and Professional Communication [rhetmap 16],"San Luis Obispo, CA 93407",https://jobs.calpoly.edu/en-us/job/543723/assistant-professor-of-english-technical-and-professional-communication-2526,TT,11/04/2024
+2024-2025,California Polytechnic SU,"Assistant Professor of English - Technical and Professional Communication [rhetmap 16]
+","San Luis Obispo, CA 93407",https://jobs.calpoly.edu/en-us/job/543723/assistant-professor-of-english-technical-and-professional-communication-2526,TT,11/04/2024
 2024-2025,"Texas SU, San Marcos","Chair, Department of English","San Marcos, TX 78666",https://jobs.hr.txstate.edu/postings/49487,TT,09/12/2024
 2024-2025,"Texas SU, San Marcos","Assistant Professor and Associate Director, U Writing Center","San Marcos, TX 78666",https://jobs.hr.txstate.edu/postings/49283,TT,09/12/2024
 2024-2025,"Texas SU, San Marcos",Assistant Professor—Technical Communication,"San Marcos, TX 78666",https://jobs.hr.txstate.edu/postings/49491,TT,09/12/2024
@@ -3206,14 +3253,16 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,St. Mary's C of Maryland,Assistant Professor of Rhetoric and Professional Writing,"St. Mary's City, MD",https://apply.interfolio.com/156412,TT,10/09/2024
 2024-2025,Le Moyne C,"Assistant Professor, English and Communication","Syracuse, NY",https://agilitas.wd5.myworkdayjobs.com/en-US/LMC/details/Assistant-Professor--English-and-Communication_JR100066,TT,09/09/2024
 2024-2025,Syracuse U,Associate Professor: Rhetoric and Composition/ Director of the Writing Center,"Syracuse, NY",https://www.sujobopps.com/postings/106772,TT,10/21/2024
-2024-2025,Florida SU,"Assistant Professor, 9 Month Salaried (Rhetoric and Composition)","Tallahassee, FL",https://hr.fsu.edu/working-fsu/prospective-employees/faculty-careers,TT,09/25/2024
+2024-2025,Florida SU,"Assistant Professor, 9 Month Salaried (Rhetoric and Composition)
+","Tallahassee, FL",https://hr.fsu.edu/working-fsu/prospective-employees/faculty-careers,TT,09/25/2024
 2024-2025,U of Tampa,Assistant Professor Of English And Writing,"Tampa, FL",https://utampa.wd1.myworkdayjobs.com/en-US/Faculty/job/Tampa/Assistant-Professor-of-English-and-Writing_R0008970-2,TT,09/16/2024
 2024-2025,U of Tampa,Assistant Teaching Professor Of English And Writing,"Tampa, FL",https://utampa.wd1.myworkdayjobs.com/en-US/Faculty/job/Tampa/Assistant-Teaching-Professor-of-English-and-Writing_R0008974-1,NTT,09/16/2024
 2024-2025,U of South Florida,"Assistant Professors, Rhetoric and Composition [rhetmap 16]","Tampa, FL",https://www.usf.edu/work-at-usf/careers/,TT,11/14/2024
 2024-2025,U of South Florida,Assistant Professor of Instruction,"Tampa, FL",https://www.usf.edu/work-at-usf/careers/index.aspx,NTT,11/27/2024
 2024-2025,Arizona SU,"Instructor Specialty: Writing Programs
 ","Tempe, AZ 85287",https://apply.interfolio.com/150237,NTT,08/20/2024
-2024-2025,Towson U,Assistant Professor of Technical Communication [rhetmap 2],"Towson, MD",https://towson.taleo.net/careersection/fac_ex/jobdetail.ftl?job=240000SV&tz=GMT-04%3A00&tzname=America%2FNew_York,TT,09/09/2024
+2024-2025,Towson U,"Assistant Professor of Technical Communication [rhetmap 2]
+","Towson, MD",https://towson.taleo.net/careersection/fac_ex/jobdetail.ftl?job=240000SV&tz=GMT-04%3A00&tzname=America%2FNew_York,TT,09/09/2024
 2024-2025,Towson U,"Assistant Professor, First-Year Composition and Digital Literacies","Towson, MD",https://towson.taleo.net/careersection/fac_ex/jobdetail.ftl?job=240000VH,TT,09/20/2024
 2024-2025,U of Alabama,Instructor,"Tuscaloosa, AL 35487",https://joblist.mla.org/job-details/9375/instructor/,NTT,10/09/2024
 2024-2025,"U of Texas, Tyler","Writing Center Director, Assistant Professor of Rhetoric & Composition (Tenure-Track)","Tyler, TX 75799",https://joblist.mla.org/job-details/9398/writing-center-director-assistant-professor-of-rhetoric-and-composition-tenure-track-/,TT,10/21/2024
@@ -3231,7 +3280,7 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,Georgetown U,"Assistant Teaching Professor, the Writing Program","Washington, DC",https://joblist.mla.org/job-details/9441/assistant-teaching-professor-in-the-writing-program/,NTT,10/29/2024
 2024-2025,Massachusetts Bay Community C,"Assistant/Associate Professor of English (Full time, Tenure-Track)","Wellesley Hills, MA",https://mbcc-mass.csod.com/ux/ats/careersite/1/home/requisition/599?c=mbcc-mass,TT,10/21/2024
 2024-2025,Wenzhou-Kean U,2025 Writing Center Director/English tenure track Assistant/Associate Professor,"Wenzhou, China",https://apply.interfolio.com/155103,TT,11/14/2024
-2024-2025,Wenzho-Kean U,2025 Digital Humanities Assistant/Associate Professor,"Wenzhou, China",https://apply.interfolio.com/155106,TT,11/05/2024
+2024-2025,Wenzho-Kean U,2025 Digital Humanities Assistant/Associate Professor,"Wenzhou,China",https://apply.interfolio.com/155106,TT,11/05/2024
 2024-2025,"Midwestern SU, Texas",Lecturer,"Wichita Falls, TX 76308",https://joblist.mla.org/job-details/8914/lecturer/,NTT,08/20/2024
 2024-2025,"Midwestern SU, Texas",Assistant Professor,"Wichita Falls, TX 76308",https://joblist.mla.org/job-apply/9178/assistant-professor/,TT,09/17/2024
 2024-2025,Newman U,Director of First Year Studies and Writing Across the Curriculum,"Wichita, KS",https://newmanuniversity.applytojob.com/apply/gPzD3PGxHp/Director-Of-First-Year-Studies-And-Writing-Across-The-Curriculum?referrer=20240812155528YRG6C3KYB4MRLAKO,NTT,10/29/2024
@@ -3249,10 +3298,12 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,"Carnegie Mellon U, Qatar",Writing & Communication Program,"Doha, Qatar",https://joblist.mla.org/job-details/9770/lecturer-writing-and-communication-program/,NTT,01/23/2025
 2024-2025,Western Connecticut SU,Assistant Professor of Composition and Coordinator of Composition [rhetmap 25[,"Danbury, CT 06810",https://www.wcsu.edu/hr/wp-content/uploads/sites/57/2024/12/WLC_Composition_Coordinator_Assistant_Professor_TT-PA-1224.pdf,TT,01/25/2025
 2024-2025,Northeastern U,"Teaching Professor, Writing Program [rhetmap 26]","Boston, MA",https://northeastern.wd1.myworkdayjobs.com/careers/job/Boston-MA-Main-Campus/Assistant-Teaching-Professor--Associate-Teaching-Professor--Full-Teaching-Professor_R131364,NTT,01/25/2025
-2024-2025,U of Northern Colorado,Contract Renewable Lecturer of Writing Studies [rhetmap 27],"Greeley, CO",https://unco.csod.com/ux/ats/careersite/4/home/requisition/613?c=unco,NTT,01/30/2025
+2024-2025,U of Northern Colorado,"Contract Renewable Lecturer of Writing Studies [rhetmap 27]
+","Greeley, CO",https://unco.csod.com/ux/ats/careersite/4/home/requisition/613?c=unco,NTT,01/30/2025
 2024-2025,Emory U,"Postdoctoral Teaching Fellow, Emory Writing Program [rhetmap 28]","Atlanta, GA 30332",https://apply.interfolio.com/162654,NTT,02/06/2025
 2024-2025,Georgia Tech,"Full-time Lecturer in Writing and Communication (Multiple Positions Starting August 1, 2025)","Atlanta, GA 30332",https://careers.hprod.onehcm.usg.edu/psp/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=3000&JobOpeningId=280951&PostingSeq=1,NTT,02/06/2025
-2024-2025,Georgia Tech,"Marion L. Brittain Postdoctoral Fellowship (Multiple Positions Starting August 1, 2025)","Atlanta, GA 30332",https://joblist.mla.org/job-details/9773/marion-l-brittain-postdoctoral-fellowship-multiple-positions-starting-august-1-2025-/?so=Date&ix=8#top-pagination,NTT,02/06/2025
+2024-2025,Georgia Tech,"Marion L. Brittain Postdoctoral Fellowship (Multiple Positions Starting August 1, 2025)
+","Atlanta, GA 30332",https://joblist.mla.org/job-details/9773/marion-l-brittain-postdoctoral-fellowship-multiple-positions-starting-august-1-2025-/?so=Date&ix=8#top-pagination,NTT,02/06/2025
 2024-2025,Brigham Young U,English Faculty,"Provo, UT 84602",https://joblist.mla.org/job-details/9793/english-faculty/?so=Date&ix=27#top-pagination,TT,02/06/2025
 2024-2025,Newman U,Director of Writing Across the Curriculum (WAC),"Wichita, KS",https://newmanuniversity.applytojob.com/apply/F0D690NtWk/Director-Of-Writing-Across-The-Curriculum?referrer=20250128143931EV2WVOQFA5BAFNHR,NTT,02/06/2025
 2024-2025,U of Central Florida,"Instructor or Lecturer, Writing & Rhetoric","Orlando, FL",https://joblist.mla.org/job-details/9775/instructor-or-lecturer-writing-and-rhetoric/,NTT,02/06/2025
@@ -3270,3 +3321,18 @@ Save","Wenham, MA",http://apply.interfolio.com/141881,TT,03/11/2024
 2024-2025,SUNY Brockport,Lecturer - English,"Brockport, NY 14420",https://careers.pageuppeople.com/788/cw/en-us/job/497259/lecturer-english,NTT,04/08/2025
 2024-2025,Rocky Mountain C,First-Year Writing Coordinator and Assistant Professor of English,"Billings, MT 59102",https://joblist.mla.org/job-details/9910/first-year-writing-coordinator-and-assistant-professor-of-english/,TT,04/08/2025
 2024-2025,U of Alabama,Instructor of English,"Tuscaloosa, AL 35487",https://careers.ua.edu/jobs/2827e390-4331-492d-aa23-b39e6daae754,NTT,04/08/2025
+2025-2026,Ponoma College,Director of College Writing,"Claremont, CA 91711",https://academicjobsonline.org/ajo/jobs/30371,TT,08/26/2025
+2025-2026,Chapman U,"Assistant Professor of English (Technical Rhetorics), Tenure Track, Fall 2026","Orange, CA 92866",https://apply.interfolio.com/170503,TT,08/26/2025
+2025-2026,Chapman U,"Assistant Professor of English (Cultural Rhetorics), Tenure Track, Fall 2026
+","Orange, CA 92866",https://apply.interfolio.com/170526,TT,08/26/2025
+2025-2026,Carnegie Mellon U,Teaching-Track Assistant Professor of English – Professional & Technical Communication,"Pittsburgh, PA 15213",http://joblist.mla.org/job/2000219/teaching-track-assistant-professor-of-english-professional-and-technical-communication/,TT,09/04/2025
+2025-2026,Stony Brook U,Assistant Professor in Rhetoric and AI [rhetmap 1],"Stony Brook, NY",https://apply.interfolio.com/172672,TT,09/05/2025
+2025-2026,Western Michigan U,"Assistant/Associate Professor of Rhetoric and Writing Studies [rhetmap 2]
+","Kalamazoo, MI 49008",https://www.wmujobs.org/postings/4322,TT,09/08/2025
+2025-2026,Salt Lake Community C,"Assistant Professor of English, Linguistics, and Writing Studies
+","Salt Lake City, UT 84070",https://joblist.mla.org/job/2000286/assistant-professor-of-english-linguistics-and-writing-studies/,TT,09/10/2025
+2025-2026,Fashion IoT,"Full-Time Faculty Position in Composition and Rhetoric, School of Liberal Arts and Sciences","New York, NY 10001",https://joblist.mla.org/job/2000254/full-time-faculty-position-in-composition-and-rhetoric-school-of-liberal-arts-and-sciences/,TT,09/10/2025
+2025-2026,Georgia Tech,Assistant Professor of Technical Communication:Science Communication,"Atlanta, GA 30332",https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=3000&JobOpeningId=290084&PostingSeq=1&PortalActualURL=https%3a%2f%2fcareers.hprod.onehcm.usg.edu%2fpsc%2fcareers%2fCAREERS%2fHRMS%2fc%2fHRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL%3fPage%3dHRS_APP_JBPST_FL%26Action%3dU%26FOCUS%3dApplicant%26SiteId%3d3000%26JobOpeningId%3d290084%26PostingSeq%3d1&PortalRegistryName=CAREERS&PortalServletURI=https%3a%2f%2fcareers.hprod.onehcm.usg.edu%2fpsp%2fcareers%2f&PortalURI=https%3a%2f%2fcareers.hprod.onehcm.usg.edu%2fpsc%2fcareers%2f&PortalHostNode=APPLICANT&NoCrumbs=yes&PortalKeyStruct=yes,TT,09/12/2025
+2025-2026,Georgia Tech,Assistant Professor of Digital Media:Media Studies/Digital Studies,"Atlanta, GA 30332",https://joblist.mla.org/apply/2000300/assistant-professor-of-digital-media-media-studies-digital-studies/?LinkSource=JobDetails&countrycode=US,TT,09/12/2025
+2025-2026,James Madison U,"TT Assistant Professor, Technical and Professional Communication [rhetmap 3]","Harrisonburg, VA 22807",https://jobs.jmu.edu/jobs/tenure-track-assistant-professor-technical-and-professional-communication-harrisonburg-virginia-united-states,TT,09/16/2025
+2025-2026,San Jose SU,Assistant Professor of Assistant Writing Programs Administrator,"San Jose, CA 95192",https://jobs.sjsu.edu/en-us/job/551624/assistant-professor-assistant-writing-programs-administrator,TT,09/16/2025
