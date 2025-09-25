@@ -1,4 +1,4 @@
-﻿original_address,lat,lon,formatted,postcode,city,county,state,state_code,country,country_code
+original_address,lat,lon,formatted,postcode,city,county,state,state_code,country,country_code
 "Albany, NY 12222",42.6511674,-73.754968,"Albany, NY, United States of America",,Albany,Albany County,New York,NY,United States,us
 "Ames, IA 50011",42.02640382,-93.64542714,"Ames, IA 50011, United States of America",50011,Ames,Story County,Iowa,IA,United States,us
 "Amherst, MA 01003",42.39006521,-72.52671956,"Amherst, MA 01003, United States of America",01003,Amherst,Hampshire County,Massachusetts,MA,United States,us
@@ -15,6 +15,7 @@
 "Baltimore, MD 21210",39.35509687,-76.63386451,"Baltimore, MD 21210, United States of America",21210,Baltimore,,Maryland,MD,United States,us
 "Baltimore, MD 21217",39.3066798,-76.64006896,"Baltimore, MD 21217, United States of America",21217,Baltimore,,Maryland,MD,United States,us
 "Baltimore, MD 21251",39.34486675,-76.58445685,"Baltimore, MD 21251, United States of America",21251,Baltimore,,Maryland,MD,United States,us
+"Baton Rouge, LA 70802",30.446119,-91.1716,"Baton Rouge, LA 70803, United States of America",70802,Baton Rouge,East Baton Rouge Parish,Louisiana,LA,United States,us
 "Baton Rouge, LA 70803",30.40957027,-91.17988389,"Baton Rouge, LA 70803, United States of America",70803,Baton Rouge,East Baton Rouge Parish,Louisiana,LA,United States,us
 "Beaumont, TX 77710",30.04299075,-94.0743157,"Beaumont, TX 77710, United States of America",77710,Beaumont,Jefferson County,Texas,TX,United States,us
 "Beirut, Lebanon 1107 2020",33.85232175,35.5483637,"Baabda 11072020, Lebanon",11072020,Baabda,,Mount Lebanon Governorate,,Lebanon,lb
