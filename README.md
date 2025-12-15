@@ -2,7 +2,7 @@
 
 Repo for a data dashboard designed to help folx, whether an individually or institutionally, better understand the Rhetoric, Composition &amp; Technical Communication academic job terrain.
 
-Dashboard currently hosted by ObservableHQ: [https://lingeringcode.observablehq.cloud/rmdash/](https://lingeringcode.observablehq.cloud/rmdash/).
+Dashboard currently hosted by my (Chris') Netlify account: [https://rmdash.netlify.app/](https://rmdash.netlify.app/).
 
 ## Data Provenance
 
