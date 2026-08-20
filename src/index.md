@@ -12,39 +12,39 @@
 
 <!-- IMPORTS -->
 ```js
-  // Import deck.gl components for interactive map
-  import deck from "npm:deck.gl";
-  import {LollipopChart} from "./components/lollipopChart.js";
-  import {utcParse} from "d3-time-format";
-  import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, download} from "./components/utils.js";
-  const {DeckGL, AmbientLight, GeoJsonLayer, TextLayer, HexagonLayer, LightingEffect, PointLight, ScatterplotLayer} = deck;
+// Import deck.gl components for interactive map
+import deck from "npm:deck.gl";
+import {LollipopChart} from "./components/lollipopChart.js";
+import {utcParse} from "d3-time-format";
+import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, download} from "./components/utils.js";
+const {DeckGL, AmbientLight, GeoJsonLayer, TextLayer, HexagonLayer, LightingEffect, PointLight, ScatterplotLayer} = deck;
 
-  const parseDate = utcParse("%m/%d/%Y")
-  const formatDecimal = d3.format(".2f")
-  const formatPercent = (value, format) => {
-    return value == null
-      ? "N/A"
-      : (value / 100).toLocaleString("en-US", {minimumFractionDigits: 2, style: "percent", ...format});
-  }
+const parseDate = utcParse("%m/%d/%Y")
+const formatDecimal = d3.format(".2f")
+const formatPercent = (value, format) => {
+  return value == null
+    ? "N/A"
+    : (value / 100).toLocaleString("en-US", {minimumFractionDigits: 2, style: "percent", ...format});
+}
 ```
 
 <!-- GET DATA -->
 ```js
-  // Canada provinces
-  const canadaProvinces = FileAttachment("data/geo/canada_provinces.geojson").json({typed: true})
-  // Mexico
-  const mexico = FileAttachment("data/geo/mexico.json").json({typed: true})
-  // County-level shape data for US
-  const us = await fetch(import.meta.resolve("npm:us-atlas/counties-10m.json")).then((r) => r.json())
-  // State polygons
-  const states = topojson.feature(us, us.objects.states)
-  // Find state centroids (for text label)
-  const stateCentroid = states.features.map(d => ({name: d.properties.name, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
+// Canada provinces
+const canadaProvinces = FileAttachment("data/geo/canada_provinces.geojson").json({typed: true})
+// Mexico
+const mexico = FileAttachment("data/geo/mexico.json").json({typed: true})
+// County-level shape data for US
+const us = await fetch(import.meta.resolve("npm:us-atlas/counties-10m.json")).then((r) => r.json())
+// State polygons
+const states = topojson.feature(us, us.objects.states)
+// Find state centroids (for text label)
+const stateCentroid = states.features.map(d => ({name: d.properties.name, longitude: d3.geoCentroid(d.geometry)[0], latitude: d3.geoCentroid(d.geometry)[1]}))
 
-  // JOB DATA
-  const jobsOG = FileAttachment("data/combined-jobs.csv").csv({typed: true})
-  const jobs = FileAttachment("data/tt-per-date.csv").csv({typed: true})
-  const tidyCleanSorted = FileAttachment("data/tt-per-date-flat.csv").csv({typed: true})
+// JOB DATA
+const jobsOG = FileAttachment("data/combined-jobs.csv").csv({typed: true})
+const jobs = FileAttachment("data/tt-per-date.csv").csv({typed: true})
+const tidyCleanSorted = FileAttachment("data/tt-per-date-flat.csv").csv({typed: true})
 ```
 
 <!-- Process geospatial data-->
@@ -504,13 +504,13 @@ const jobsFiltered = jobsOGSorted
 ```
 
 ```js
-  const searchJobs = Inputs.search(jobsFiltered,
-    {
-      placeholder: "Search City, State, Institution, Position columns ...",
-      columns: ["City", "State", "Institution", "Position"],
-    }
-  )
-  const searchJobsValue = Generators.input(searchJobs)
+const searchJobs = Inputs.search(jobsFiltered,
+  {
+    placeholder: "Search City, State, Institution, Position columns ...",
+    columns: ["City", "State", "Institution", "Position"],
+  }
+)
+const searchJobsValue = Generators.input(searchJobs)
 ```
 
 <!-- Searchable Table -->
