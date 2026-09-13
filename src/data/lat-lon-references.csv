@@ -259,6 +259,7 @@
 "Edinburg, TX",26.3013982,-98.1624501,"Edinburg, TX, United States of America",,Edinburg,Hidalgo County,Texas,TX,United States,us
 "Edmond, OK 73034",35.67286537,-97.44688065,"Edmond, OK 73034, United States of America",73034,Edmond,Oklahoma County,Oklahoma,OK,United States,us
 "Edwardsville, IL 62026",38.79301533,-89.99559875,"Edwardsville, IL 62026, United States of America",62026,Edwardsville,Madison County,Illinois,IL,United States,us
+"8C9V+29P Education City, Al Luqta St, Al-Rayyan, Qatar",25.31466364,51.4373667,"8C9V+29P Education City, Al Luqta St, Al-Rayyan, Qatar",,Al-Rayyan,,,,Qatar,qa
 "El Paso, TX 79968",31.76821888,-106.5049179,"El Paso, TX 79968, United States of America",79968,El Paso,El Paso County,Texas,TX,United States,us
 "Elgin, IL 60123",42.04210069,-88.33027052,"Elgin, IL 60123, United States of America",60123,Elgin,Kane County,Illinois,IL,United States,us
 "Elizabethtown, PA 17022",40.153364,-76.6042521,"Elizabethtown (Elizabethtown), PA 17022, United States of America",17022,Elizabethtown,Lancaster County,Pennsylvania,PA,United States,us
@@ -288,6 +289,7 @@
 "Fayetteville, NC 28311",35.13073943,-78.89684863,"Fayetteville, NC 28311, United States of America",28311,Fayetteville,Cumberland County,North Carolina,NC,United States,us
 "Fitchburg, MA 01420",42.5854371,-71.8046023,"Fitchburg, MA 01420, United States of America",01420,Fitchburg,Worcester County,Massachusetts,MA,United States,us
 "Flagstaff, AZ 86011",35.18652339,-111.6545599,"Flagstaff, AZ 86011, United States of America",86011,Flagstaff,Coconino County,Arizona,AZ,United States,us
+"Flint, MI 48503",43.018566,-83.67066397,"Flint, MI 48503",8503,Flint,Genesee County,Michigan,MI,United States,us
 "Flint, MI 48504",43.04328972,-83.73220332,"Flint, MI 48504, United States of America",48504,Flint,Genesee County,Michigan,MI,United States,us
 "Florence, AL 35632",34.809875,-87.6813356,"Florence, AL 35632, United States of America",35632,Florence,Lauderdale County,Alabama,AL,United States,us
 "Florence, SC 29502",34.20232425,-79.77389666,"Florence, SC 29502, United States of America",29502,Florence,Florence County,South Carolina,SC,United States,us
@@ -721,6 +723,7 @@ Mayagüez P.R. 00681-9000,18.2030797,-67.1188205,"Mayagüez, PR 00681, United St
 "Palatine, IL 60067",42.10560122,-88.05832275,"Palatine Township, IL 60067, United States of America",60067,Palatine Township,Cook County,Illinois,IL,United States,us
 "Palm Desert, CA 92260",33.72790734,-116.3882892,"Palm Desert, CA 92260, United States of America",92260,Palm Desert,Riverside County,California,CA,United States,us
 "Paris, France",48.8534951,2.3483915,"Paris, IDF, France",,Paris,,Ile-de-France,IDF,France,fr
+"Parkville, MO 64152",39.19166744,-94.67556803,"Parkville, MO",64152,Parkville,Platte County,Missouri,MO,United States,us
 "Pasadena, CA 91106",34.14099248,-118.1266205,"Pasadena, CA 91106, United States of America",91106,Pasadena,Los Angeles County,California,CA,United States,us
 "Pasadena, CA 91125",34.1346407,-118.1248551,"Pasadena, CA 91125, United States of America",91125,Pasadena,Los Angeles County,California,CA,United States,us
 "Pasadena, TX, 77504",29.64878832,-95.18560944,"Pasadena, TX 77504, United States of America",77504,Pasadena,Harris County,Texas,TX,United States,us
@@ -889,6 +892,7 @@ Singapore 138593,1.2899175,103.8519072,Singapore,,Singapore,,,,Singapore,sg
 "Slippery Rock, PA",41.0640395,-80.0564928,"Slippery Rock (Slippery Rock), PA, United States of America",,Slippery Rock,Butler County,Pennsylvania,PA,United States,us
 "Smithfield, RI 02917",41.88216251,-71.51569186,"Smithfield, RI 02917, United States of America",02917,Smithfield,Providence County,Rhode Island,RI,United States,us
 "Somerville, NJ 08876",40.5742696,-74.60988,"Somerville, NJ, United States of America",,Somerville,Somerset County,New Jersey,NJ,United States,us
+"South Bend, IN 46615",41.72623,-73.934212,"South Bend, IN",46615,South Bend,,Indiana,IN,United States,us
 "South Kingstown, RI",41.454944,-71.5394738,"South Kingstown, RI, United States of America",,South Kingstown,South County,Rhode Island,RI,United States,us
 "Southfield, MI",42.4733689,-83.2218731,"Southfield (Southfield), MI, United States of America",,Southfield,Oakland County,Michigan,MI,United States,us
 "Southfield, MI 48075",42.46283891,-83.2254127,"Southfield, MI 48075, United States of America",48075,Southfield,Oakland County,Michigan,MI,United States,us
@@ -923,6 +927,7 @@ Singapore 138593,1.2899175,103.8519072,Singapore,,Singapore,,,,Singapore,sg
 "St. Paul, MN",44.9497487,-93.0931028,"Saint Paul, MN, United States of America",,Saint Paul,Ramsey County,Minnesota,MN,United States,us
 "St. Peters, MO",38.791612,-90.5958468,"Saint Peters (Saint Peters), MO 63376, United States of America",63376,Saint Peters,Saint Charles County,Missouri,MO,United States,us
 "St. Petersburg, FL 33701",27.77057188,-82.63873677,"Saint Petersburg, FL 33701, United States of America",33701,Saint Petersburg,Pinellas County,Florida,FL,United States,us
+"St. Petersburg, FL 33711",27.71483615,-82.68652755,"Saint Petersburg, FL 33711, United States of America",33711,Saint Petersburg,Pinellas County,Florida,FL,United States,us
 "Stamford, CT",41.0534302,-73.5387341,"Stamford (Stamford), CT, United States of America",,Stamford,Western Connecticut Planning Region,Connecticut,CT,United States,us
 "Stanford, CA 94305",37.42620827,-122.164265,"Stanford, CA 94305, United States of America",94305,Stanford,Santa Clara County,California,CA,United States,us
 "Starkville, MS",33.4638745,-88.8152074,"Starkville (Starkville), MS 39759, United States of America",39759,Starkville,Oktibbeha County,Mississippi,MS,United States,us
@@ -1001,6 +1006,7 @@ Singapore 138593,1.2899175,103.8519072,Singapore,,Singapore,,,,Singapore,sg
 "Vancouver, BC, Canada",49.2608724,-123.113952,"Vancouver, BC, Canada",,Vancouver,Metro Vancouver Regional District,British Columbia,BC,Canada,ca
 "Vancouver, WA 98686",45.6306954,-122.6744557,"Vancouver, WA, United States of America",,Vancouver,Clark County,Washington,WA,United States,us
 "Vermillion, SD",42.7795273,-96.929101,"Vermillion, SD 57069, United States of America",57069,Vermillion,Clay County,South Dakota,SD,United States,us
+"Victoria, British Columbia, Canada",48.4283182,-123.364953,"Victoria, BC, Canada",,Victoria,Capital Regional District,British Columbia,BC,Canada,ca
 "Victoria, Canada",48.4283182,-123.364953,"Victoria, BC, Canada",,Victoria,Capital Regional District,British Columbia,BC,Canada,ca
 "Victoria, TX 77901",28.81263677,-96.99817779,"Victoria, TX 77901, United States of America",77901,Victoria,Victoria County,Texas,TX,United States,us
 "Victorville, CA 92392",34.48743195,-117.3378502,"Victorville, CA 92392, United States of America",92392,Victorville,San Bernardino County,California,CA,United States,us
