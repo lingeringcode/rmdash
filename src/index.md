@@ -15,6 +15,7 @@
 // Import deck.gl components for interactive map
 import deck from "npm:deck.gl";
 import {LollipopChart} from "./components/lollipopChart.js";
+import {LollipopCityChart} from "./components/lollipopCityChart.js";
 import {utcParse} from "d3-time-format";
 import {removeNulls, sortedAscListDates, sortedAscObjArrayDates, colorRange, colorLegend, lightingEffects, onlyUniqueItems, getTooltip, download} from "./components/utils.js";
 const {DeckGL, AmbientLight, GeoJsonLayer, TextLayer, HexagonLayer, LightingEffect, PointLight, ScatterplotLayer} = deck;
@@ -72,8 +73,102 @@ let AYLast = uniqueAYS.slice(-1)[0]
   <span style="color: var(--theme-foreground-muted)">Of <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.length)} academic jobs</span> included in the RhetMap data set,</span> <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "NTT").length)} are listed as Non-Tenure Track (NTT)</span><span style="color: var(--theme-foreground-muted)">, <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "TT").length)} are Tenure-Track (TT)</span><span style="color: var(--theme-foreground-muted)">, and <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "Unavailable").length)} were unavailable to verify</span>.
 </p>
 
+<!-- Inputs.select() to choose which track type (TT or NTT) to plot -->
+```js
+let selectedPositionTrack = view(
+  Inputs.select(
+    ["All", "TT", "NTT"],
+    {
+      multiple: false,
+      label: "Choose a job track type to plot",
+    }
+  )
+)
+```
+
+<!-- Filter jobs by tracktype -->
+```js
+let filteredJobsByTracks = jobsOGSorted.filter((j) => {
+  if (selectedPositionTrack == "All") {
+    return j
+  }
+  else if (selectedPositionTrack == "TT") {
+    if (j.TrackType == "TT") {
+      return j
+    }
+  }
+  else if (selectedPositionTrack == "NTT") {
+    if (j.TrackType == "NTT") {
+      return j
+    }
+  }
+})
+```
+
+<!-- Top 25 States -->
+```js
+// 1. Rollups on one level
+const jobsByTracksAndStatesRollup = d3.rollup(
+  filteredJobsByTracks,
+  (v) => v.length, // Count length of leaf node
+  (d) => d["State"] // e.g., d["State"]
+)
+
+const jobsByTracksAndStates = Array.from(
+    jobsByTracksAndStatesRollup,
+    ([key1, value1]) => {
+      return {
+        State: key1,
+        count: value1
+      }
+    }
+  )
+
+// Top 25 jobs
+const top25States = jobsByTracksAndStates.filter((d) => d.State != null)
+  .sort(
+    // Works like an accessor function to pass two objects to compare
+    (a, b) => {
+      // Uses D3's descending() function to sort by the given properties
+      return d3.descending(a.count, b.count)
+    }
+  ).splice(0,25)
+
+```
+
+<!-- Lollipop Chart for top 25 cities -->
+```js
+// 1. Rollups on one level
+const jobsByTracksAndCitiesRollup = d3.rollup(
+  filteredJobsByTracks,
+  (v) => v.length, // Count length of leaf node
+  (d) => d["City"] // e.g., d["City"]
+)
+
+const jobsByTracksAndCities = Array.from(
+    jobsByTracksAndCitiesRollup,
+    ([key1, value1]) => {
+      return {
+        City: key1,
+        count: value1
+      }
+    }
+  )
+
+let resultsByTracksAndCities = jobsByTracksAndCities.filter((d) => d.City != null)
+  .sort(
+    // Works like an accessor function to pass two objects to compare
+    (a, b) => {
+      // Uses D3's descending() function to sort by the given properties
+      return d3.descending(a.count, b.count)
+    }
+  ).splice(0,25)
+
+```
+
+<!-- Interactive Map -->
 <div class="grid grid-cols-3">
-  <div class="card grid-colspan-2" style="padding: 0px;">
+  <div class="card grid-colspan-3" style="padding: 0px;">
     <div style="padding: 1rem;">
       <h2>Rhetoric, Composition &amp; TPC Job Locations</h2>
       <h3>Zoom and scroll, or hold down Shift to rotate.</h3>
@@ -86,11 +181,27 @@ let AYLast = uniqueAYS.slice(-1)[0]
     </figure>
   </div>
 </div>
-  <div class="card grid-colspan-1">
-    <h2>Job counts by state or territory</h2>
-    <h3>Total jobs listed between the academic years of ${jobsOGSorted.at(0).AY} &amp; ${jobsOGSorted.at(-1).AY}: ${d3.format(",")(jobsOGSorted.length)}</h3>
-    ${resize((width, height) => LollipopChart(width, height, jobsOGSorted))}
+
+</div>
+
+
+
+<div class="grid grid-cols-2" style="grid-auto-rows: 1fr 3fr 1fr;height: 850px;">
+  <div class="card grid-colspan-1 grid-rowspan-3">
+    <h2>Top 25 job totals from <strong>${selectedPositionTrack}</strong> job types per <strong>State or Territory</strong></h2>
+    <h3>
+      <strong>${d3.format(",")(filteredJobsByTracks.length)}</strong> total jobs filtered by selected <em>track type</em> listed between the academic years of ${filteredJobsByTracks.at(0).AY} &amp; ${filteredJobsByTracks.at(-1).AY}:
+    </h3>
+    ${resize((width, height) => LollipopChart(width, height, top25States))}
   </div>
+
+  <div class="card grid-colspan-1 grid-rowspan-3">
+   <h2>Top 25 job totals from <strong>${selectedPositionTrack}</strong> job types per <strong>City</strong></h2>
+    <h3>
+      <strong>${d3.format(",")(filteredJobsByTracks.length)}</strong> total jobs filtered by selected <em>track type</em> listed between the academic years of ${filteredJobsByTracks.at(0).AY} &amp; ${filteredJobsByTracks.at(-1).AY}:
+    </h3>
+    ${resize((width, height) => LollipopCityChart(width, height, resultsByTracksAndCities))}
+ </div>
 </div>
 
 <!-- Risk bubble chart and year completed histogram -->
@@ -103,6 +214,7 @@ let AYLast = uniqueAYS.slice(-1)[0]
 </div>
 
 <!-- Create interactive map with deck.gl -->
+<!-- 1. Set Map Params -->
 ```js
   const deckInstance = new DeckGL({
     container,
@@ -119,6 +231,7 @@ let AYLast = uniqueAYS.slice(-1)[0]
   });
 ```
 
+<!-- 2. Set map viewstate -->
 ```js
   const initialViewState = {
     longitude: -93,
@@ -131,6 +244,7 @@ let AYLast = uniqueAYS.slice(-1)[0]
   };
 ```
 
+<!-- 3. Create map layers & filter by TrackType -->
 ```js
 deckInstance.setProps({
   controller: true,
@@ -156,10 +270,11 @@ deckInstance.setProps({
       getLineColor: [38, 38, 38],
       getFillColor: [255,255,255, 100]
     }),
+    // FILTER BY TRACK TYPE
     new HexagonLayer({
       // id: 'hexbin-plot',
       id: 'heatmap',
-      data: jobsOGSorted,
+      data: filteredJobsByTracks,
       coverage: 1,
       radius: 6000,
       upperPercentile: 100,
