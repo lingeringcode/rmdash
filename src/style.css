@@ -335,10 +335,41 @@ kbd {
   font-weight:700
 }
 
-/* Page Summary */
+/* PAGE SUMMARY */
 /* .page_summary:has(+ &) {
   display: none;
 } */
+
+/* FORMS */
+
+/* TrackType Form */
+#form__filter_tracktype + .observablehq.observablehq--block > form {
+  width: 100%;
+
+  & > label {
+    flex: 0.15 1 320px;
+    font-size: 1.5rem;
+    color: var(--theme-foreground-alt);
+    font-weight: 600;
+  }
+
+  & > select {
+    flex: 0.5 1 150px;
+    font-size: 1.5rem;
+    color: var(--theme-foreground-alt);
+    font-weight: 600;
+    align-self: center;
+  }
+}
+
+/* CHART CONTAINER */
+.chart__container {
+
+  & h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+}
 
 /* General Handlers */
 .relative {

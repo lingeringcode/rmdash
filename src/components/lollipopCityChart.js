@@ -3,7 +3,7 @@ import * as Plot from "npm:@observablehq/plot";
 /**
  * Lollipop chart of dams by state / territory
 */
-export function LollipopCityChart(width, height, jobs) {
+export function LollipopCityChart(width, height, jobs, jobTrack) {
 
   return Plot.plot({
     width: width,
@@ -14,7 +14,7 @@ export function LollipopCityChart(width, height, jobs) {
     insetBottom: -5,
     color: {scheme: "Viridis"},
     y: {label: "City"},
-    x: {label: "Number of Jobs", grid: true, ticks: 5, tickSize: 0},
+    x: {label: `Number of ${jobTrack} Jobs`, grid: true, ticks: 5, tickSize: 0},
     marks: [
       Plot.ruleY(
         jobs,
@@ -31,7 +31,7 @@ export function LollipopCityChart(width, height, jobs) {
         {
           x: "count", fill: "count",
           y: "City",
-          r: 4,
+          r: 6,
           stroke: "currentColor",
           strokeWidth: 0.5,
           tip: true,

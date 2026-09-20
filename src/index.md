@@ -73,19 +73,6 @@ let AYLast = uniqueAYS.slice(-1)[0]
   <span style="color: var(--theme-foreground-muted)">Of <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.length)} academic jobs</span> included in the RhetMap data set,</span> <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "NTT").length)} are listed as Non-Tenure Track (NTT)</span><span style="color: var(--theme-foreground-muted)">, <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "TT").length)} are Tenure-Track (TT)</span><span style="color: var(--theme-foreground-muted)">, and <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "Unavailable").length)} were unavailable to verify</span>.
 </p>
 
-<!-- Inputs.select() to choose which track type (TT or NTT) to plot -->
-```js
-let selectedPositionTrack = view(
-  Inputs.select(
-    ["All", "TT", "NTT"],
-    {
-      multiple: false,
-      label: "Choose a job track type to plot",
-    }
-  )
-)
-```
-
 <!-- Filter jobs by tracktype -->
 ```js
 let filteredJobsByTracks = jobsOGSorted.filter((j) => {
@@ -163,14 +150,52 @@ let resultsByTracksAndCities = jobsByTracksAndCities.filter((d) => d.City != nul
       return d3.descending(a.count, b.count)
     }
   ).splice(0,25)
-
 ```
 
+<div id="form__filter_tracktype"></div>
+
+<!-- Inputs.select() to choose which track type (TT or NTT) to plot -->
+```js
+let selectedPositionTrack = view(
+  Inputs.select(
+    ["All", "TT", "NTT"],
+    {
+      multiple: false,
+      label: "Choose a job track type to plot",
+    }
+  )
+)
+```
+
+<!-- TOP 25 LOCALE LOLLIPOP CHARTS -->
+<div class="grid grid-cols-2" style="grid-auto-rows: 1fr 3fr 1fr;height: 850px;">
+
+  <div class="card grid-colspan-1 grid-rowspan-3 chart__container">
+    <h2>Top 25 job totals from <strong>${selectedPositionTrack}</strong> job types per <strong>State or Territory</strong></h2>
+    <h3>
+      <strong>${d3.format(",")(filteredJobsByTracks.length)}</strong> total jobs filtered by selected <em>track type</em> listed between the academic years of ${filteredJobsByTracks.at(0).AY} &amp; ${filteredJobsByTracks.at(-1).AY}:
+    </h3>
+    ${resize((width, height) => LollipopChart(width, height, top25States, selectedPositionTrack))}
+
+  </div>
+
+  <div class="card grid-colspan-1 grid-rowspan-3 chart__container">
+
+   <h2>Top 25 job totals from <strong>${selectedPositionTrack}</strong> job types per <strong>City</strong></h2>
+    <h3>
+      <strong>${d3.format(",")(filteredJobsByTracks.length)}</strong> total jobs filtered by selected <em>track type</em> listed between the academic years of ${filteredJobsByTracks.at(0).AY} &amp; ${filteredJobsByTracks.at(-1).AY}:
+    </h3>
+    ${resize((width, height) => LollipopCityChart(width, height, resultsByTracksAndCities, selectedPositionTrack))}
+
+ </div>
+
+</div>
+
 <!-- Interactive Map -->
-<div class="grid grid-cols-3">
+<div class="grid grid-cols-3 chart__container">
   <div class="card grid-colspan-3" style="padding: 0px;">
     <div style="padding: 1rem;">
-      <h2>Rhetoric, Composition &amp; TPC Job Locations</h2>
+      <h2>${selectedPositionTrack} Job Locations</h2>
       <h3>Zoom and scroll, or hold down Shift to rotate.</h3>
       <div>${colorLegend}</div>
     </div>
@@ -182,26 +207,6 @@ let resultsByTracksAndCities = jobsByTracksAndCities.filter((d) => d.City != nul
   </div>
 </div>
 
-</div>
-
-
-
-<div class="grid grid-cols-2" style="grid-auto-rows: 1fr 3fr 1fr;height: 850px;">
-  <div class="card grid-colspan-1 grid-rowspan-3">
-    <h2>Top 25 job totals from <strong>${selectedPositionTrack}</strong> job types per <strong>State or Territory</strong></h2>
-    <h3>
-      <strong>${d3.format(",")(filteredJobsByTracks.length)}</strong> total jobs filtered by selected <em>track type</em> listed between the academic years of ${filteredJobsByTracks.at(0).AY} &amp; ${filteredJobsByTracks.at(-1).AY}:
-    </h3>
-    ${resize((width, height) => LollipopChart(width, height, top25States))}
-  </div>
-
-  <div class="card grid-colspan-1 grid-rowspan-3">
-   <h2>Top 25 job totals from <strong>${selectedPositionTrack}</strong> job types per <strong>City</strong></h2>
-    <h3>
-      <strong>${d3.format(",")(filteredJobsByTracks.length)}</strong> total jobs filtered by selected <em>track type</em> listed between the academic years of ${filteredJobsByTracks.at(0).AY} &amp; ${filteredJobsByTracks.at(-1).AY}:
-    </h3>
-    ${resize((width, height) => LollipopCityChart(width, height, resultsByTracksAndCities))}
- </div>
 </div>
 
 <!-- Risk bubble chart and year completed histogram -->
