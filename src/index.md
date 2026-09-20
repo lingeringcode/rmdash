@@ -56,10 +56,17 @@ const tidyCleanSorted = FileAttachment("data/tt-per-date-flat.csv").csv({typed: 
 ```
 
 ```js
-  const defaultStartEnd = [jobs.at(-52).datetimeObj, jobs.at(-1).datetimeObj]
-  const startEnd = Mutable(defaultStartEnd)
-  const setStartEnd = (se) => startEnd.value = (se ?? defaultStartEnd)
-  const getStartEnd = () => startEnd.value
+const jobsSorted = jobs.sort(
+  (a, b) => { return d3.ascending(a.datetimeObj, b.datetimeObj)}
+)
+const defaultStartEnd = [jobsSorted.at(-52).datetimeObj, jobsSorted.at(-1).datetimeObj]
+const startEnd = Mutable(defaultStartEnd)
+const setStartEnd = (se) => startEnd.value = (se ?? defaultStartEnd)
+const getStartEnd = () => startEnd.value
+```
+
+```js
+console.log(jobsSorted)
 ```
 
 ```js
@@ -71,6 +78,10 @@ let AYLast = uniqueAYS.slice(-1)[0]
 <!-- Text box with poor condition, high risk summary -->
 <p style="font-size: 1.5rem">
   <span style="color: var(--theme-foreground-muted)">Of <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.length)} academic jobs</span> included in the RhetMap data set,</span> <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "NTT").length)} are listed as Non-Tenure Track (NTT)</span><span style="color: var(--theme-foreground-muted)">, <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "TT").length)} are Tenure-Track (TT)</span><span style="color: var(--theme-foreground-muted)">, and <span style="color: var(--theme-foreground-alt)">${d3.format(",")(jobsOGSorted.filter(d => d.TrackType == "Unavailable").length)} were unavailable to verify</span>.
+</p>
+
+<p>
+  ${jobsSorted.at(-1).datetimeObj}
 </p>
 
 <!-- Filter jobs by tracktype -->
