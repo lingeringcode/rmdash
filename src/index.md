@@ -7,7 +7,7 @@
   <br/>
   Code Repo: <a href="https://github.com/lingeringcode/rmdash" target="_blank" rel="noreferrer noopenner">rmdash</a>
   <br/>
-  <strong>Note</strong>: Map currently limited to displaying U.S. only. Full data still includes all available countries.
+  <strong>Note</strong>: Map currently limited to displaying mostly North American jobs only. Full data are represented in all other charts.
 </p>
 
 <!-- IMPORTS -->
