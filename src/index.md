@@ -66,10 +66,6 @@ const getStartEnd = () => startEnd.value
 ```
 
 ```js
-console.log(jobsSorted)
-```
-
-```js
 const jobsOGSorted = sortedAscObjArrayDates(jobsOG, "DateAdded")
 let uniqueAYS = [...new Set(jobsOGSorted.map(post => post.AY))]
 let AYLast = uniqueAYS.slice(-1)[0]
@@ -81,7 +77,7 @@ let AYLast = uniqueAYS.slice(-1)[0]
 </p>
 
 <p>
-  ${jobsSorted.at(-1).datetimeObj}
+  <span style="color: var(--theme-foreground-alt)">Latest updated job posting:</span> ${(jobsOGSorted.at(-1).DateAdded)}
 </p>
 
 <!-- Filter jobs by tracktype -->
